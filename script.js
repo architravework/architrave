@@ -21,31 +21,35 @@
       }
 
       card.addEventListener("click", function () {
-        openModal(work.youtubeId, work.title);
+        openModal(work.youtubeId, work.title, work.description);
       });
 
       card.tabIndex = 0;
       card.setAttribute("role", "button");
       card.addEventListener("keydown", function (e) {
-        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(work.youtubeId, work.title); }
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(work.youtubeId, work.title, work.description); }
       });
 
       container.appendChild(card);
     });
   }
 
-  function openModal(youtubeId, title) {
+  function openModal(youtubeId, title, description) {
     const modal = document.getElementById("modal");
     const iframe = document.getElementById("modal-iframe");
+    const descriptionEl = document.getElementById("modal-description");
     iframe.src = "https://www.youtube.com/embed/" + youtubeId + "?autoplay=1";
     iframe.title = title;
+    descriptionEl.textContent = description || "";
     modal.classList.remove("hidden");
   }
 
   function closeModal() {
     const modal = document.getElementById("modal");
     const iframe = document.getElementById("modal-iframe");
+    const descriptionEl = document.getElementById("modal-description");
     iframe.src = "";
+    descriptionEl.textContent = "";
     modal.classList.add("hidden");
   }
 
