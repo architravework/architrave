@@ -82,6 +82,8 @@ a { color: inherit; }
 .modal-content {
   position: relative;
   width: min(90vw, 960px);
+  max-height: 90vh;
+  overflow-y: auto;
 }
 .video-wrap {
   position: relative;
@@ -96,13 +98,14 @@ a { color: inherit; }
 }
 .modal-close {
   position: absolute;
-  top: -40px;
-  right: 0;
+  top: 16px;
+  right: 16px;
   background: none;
   border: 0;
   color: #fff;
   font-size: 32px;
   cursor: pointer;
+  z-index: 1;
 }
 .modal-description {
   max-height: 30vh;
