@@ -20,7 +20,29 @@
     });
   }
 
-  document.addEventListener("DOMContentLoaded", renderGrid);
+  function openModal(youtubeId) {
+    const modal = document.getElementById("modal");
+    const iframe = document.getElementById("modal-iframe");
+    iframe.src = "https://www.youtube.com/embed/" + youtubeId + "?autoplay=1";
+    modal.classList.remove("hidden");
+  }
+
+  function closeModal() {
+    const modal = document.getElementById("modal");
+    const iframe = document.getElementById("modal-iframe");
+    iframe.src = "";
+    modal.classList.add("hidden");
+  }
+
+  function initModal() {
+    document.getElementById("modal-close").addEventListener("click", closeModal);
+    document.querySelector(".modal-backdrop").addEventListener("click", closeModal);
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    renderGrid();
+    initModal();
+  });
 
   window.renderGrid = renderGrid;
 })();
