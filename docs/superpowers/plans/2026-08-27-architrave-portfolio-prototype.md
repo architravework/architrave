@@ -468,25 +468,28 @@ Read the console messages for the page. Expected: no errors (warnings about YouT
 
 This task pushes code to a public remote and is **not** to be run automatically — confirm with the user before executing, per the standing rule that pushing code and creating remote resources needs explicit sign-off each time.
 
+Post-review revision: the final whole-branch review flagged that `docs/` (design spec + this plan) would be publicly browsable at `https://<owner>.github.io/architrave-portfolio/docs/...` if Pages served straight from `master`'s root. The user chose to keep `docs/` unpublished. Fix: an orphan `gh-pages` branch was created locally containing only the site files (`index.html`, `style.css`, `script.js`, `data.js`, `images/`, `.gitignore`) — no `docs/`. `master` keeps everything, including `docs/`, and is never the Pages source.
+
 - [ ] **Step 1: Confirm with the user** — repo name (`architrave-portfolio`, already agreed), and that they're ready to make it public on their GitHub account.
 
-- [ ] **Step 2: Create the GitHub repo and push** (only after confirmation)
+- [ ] **Step 2: Create the GitHub repo and push both branches** (only after confirmation)
 
 ```bash
 gh repo create architrave-portfolio --public --source=. --remote=origin --push
+git push origin gh-pages
 ```
 
-- [ ] **Step 3: Enable GitHub Pages**
+- [ ] **Step 3: Enable GitHub Pages from the `gh-pages` branch (not `master`)**
 
 ```bash
-gh api repos/{owner}/architrave-portfolio/pages -X POST -f "source[branch]=main" -f "source[path]=/"
+gh api repos/{owner}/architrave-portfolio/pages -X POST -f "source[branch]=gh-pages" -f "source[path]=/"
 ```
 
-(Replace `{owner}` with the account `gh` reports, or enable it via the repo's Settings → Pages tab in the browser if `gh api` access to Pages isn't available.)
+(Replace `{owner}` with the account `gh` reports, or enable it via the repo's Settings → Pages tab in the browser, selecting the `gh-pages` branch as the source, if `gh api` access to Pages isn't available.)
 
 - [ ] **Step 4: Verify the live site**
 
-Open `https://<owner>.github.io/architrave-portfolio/` in the browser and repeat the Task 6 checks against the live URL.
+Open `https://<owner>.github.io/architrave-portfolio/` in the browser and repeat the Task 6 checks against the live URL. Also confirm `https://<owner>.github.io/architrave-portfolio/docs/superpowers/plans/2026-08-27-architrave-portfolio-prototype.md` returns 404 — proof `docs/` isn't served.
 
 ---
 
