@@ -9,4 +9,3 @@ const works = [
   { title: "監督したアニメがファミマで見れます！", year: 2024, youtubeId: "4SJyfo-5izU", thumbnail: "images/08.jpg" },
   { title: "GRE4N BOYZ / 「星の詩」LYRIC VIDEO", year: 2025, youtubeId: "7lqJ-3v1k1A", thumbnail: "images/09.jpg" }
 ];
-global.works = works;
