@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARCHITRAVE WORK</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="#">HOME</a>
+    <a href="#">制作実績</a>
+    <a href="#">ご依頼について</a>
+    <a href="#">GALLERY</a>
+  </nav>
+  <div class="logo-wrap">
+    <div class="logo">ARCHITRAVE<br>WORK</div>
+  </div>
+</header>
+<main>
+  <div id="grid" class="grid"></div>
+</main>
+<div id="modal" class="modal hidden">
+  <div class="modal-backdrop"></div>
+  <div class="modal-content">
+    <button id="modal-close" class="modal-close" aria-label="閉じる">&times;</button>
+    <div class="video-wrap">
+      <iframe id="modal-iframe" src="" title="video player" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
