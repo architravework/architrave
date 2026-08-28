@@ -47,6 +47,23 @@ a { color: inherit; }
   transition: transform 0.3s ease;
 }
 .card:hover img { transform: scale(1.05); }
+.card-credit {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 12px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  pointer-events: none;
+}
+.card:hover .card-credit,
+.card:focus-visible .card-credit { opacity: 1; transform: translateY(0); }
 
 .modal {
   position: fixed;

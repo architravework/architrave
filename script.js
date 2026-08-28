@@ -13,6 +13,13 @@
       img.loading = "lazy";
       card.appendChild(img);
 
+      if (work.credit) {
+        const credit = document.createElement("div");
+        credit.className = "card-credit";
+        credit.textContent = work.credit;
+        card.appendChild(credit);
+      }
+
       card.addEventListener("click", function () {
         openModal(work.youtubeId, work.title);
       });
