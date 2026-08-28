@@ -29,7 +29,7 @@
 - Produces: `#grid` container element (empty `<div id="grid" class="grid">` in `index.html`) that Task 5 will populate.
 - Produces: `.site-header`, `.nav-container`, `.logo-wrap` CSS classes that later tasks build on without modifying.
 
-- [ ] **Step 1: Write `index.html` with header markup**
+- [x] **Step 1: Write `index.html` with header markup**
 
 ```html
 <!DOCTYPE html>
@@ -70,7 +70,7 @@
 </html>
 ```
 
-- [ ] **Step 2: Write `style.css` with base + header styles**
+- [x] **Step 2: Write `style.css` with base + header styles**
 
 ```css
 * { box-sizing: border-box; }
@@ -104,7 +104,7 @@ a { color: inherit; }
 }
 ```
 
-- [ ] **Step 3: Verify header layout in the browser**
+- [x] **Step 3: Verify header layout in the browser**
 
 Serve the folder and open it:
 
@@ -124,7 +124,7 @@ In the browser dev console on `http://localhost:8732`, run:
 
 Expected: `gap` is a small positive number (roughly 0–25), confirming the nav sits right next to the logo instead of pinned to the far left.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add index.html style.css
@@ -141,7 +141,7 @@ git commit -m "Add page scaffold with header nav positioned next to logo"
 **Interfaces:**
 - Produces: `images/0N.jpg` files that `data.js` (Task 3) references by exact path.
 
-- [ ] **Step 1: Download each image from the source CDN**
+- [x] **Step 1: Download each image from the source CDN**
 
 ```bash
 mkdir -p images
@@ -156,7 +156,7 @@ curl -sL "https://cdn.myportfolio.com/7099f2d6-ef2a-45f7-a612-1f59a18469fc/f59a4
 curl -sL "https://cdn.myportfolio.com/7099f2d6-ef2a-45f7-a612-1f59a18469fc/abd1ddbf-77e2-4329-836d-f17535ebd030_car_16x9.jpg?h=bee6cd2b325291babf4c5f66f0e147b2" -o images/09.jpg
 ```
 
-- [ ] **Step 2: Verify all 9 files downloaded and are non-empty**
+- [x] **Step 2: Verify all 9 files downloaded and are non-empty**
 
 ```bash
 ls -la images/
@@ -164,7 +164,7 @@ ls -la images/
 
 Expected: 9 files named `01.jpg`–`09.jpg`, each with a non-zero size (a few hundred KB is typical for a 16:9 thumbnail).
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add images/
@@ -182,7 +182,7 @@ git commit -m "Add downloaded thumbnail images for prototype works"
 - Consumes: `images/01.jpg`–`images/09.jpg` from Task 2.
 - Produces: global `const works` — an array of `{ title: string, year: number, youtubeId: string, thumbnail: string }` objects, in the exact order shown on the live site. Task 4 (`script.js`) reads this array by the name `works`.
 
-- [ ] **Step 1: Write `data.js`**
+- [x] **Step 1: Write `data.js`**
 
 ```js
 const works = [
@@ -198,7 +198,7 @@ const works = [
 ];
 ```
 
-- [ ] **Step 2: Verify syntax and content**
+- [x] **Step 2: Verify syntax and content**
 
 ```bash
 node --check data.js
@@ -207,7 +207,7 @@ node -e "eval(require('fs').readFileSync('data.js','utf8')); console.log(works.l
 
 Expected: no syntax error from `node --check`; the second command prints `9 fepw6wKU8D8`.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add data.js
@@ -226,7 +226,7 @@ git commit -m "Add work data for 9 prototype entries"
 - Consumes: `works` array from `data.js` (Task 3); `#grid` element from `index.html` (Task 1).
 - Produces: `renderGrid()` function and `.card` elements with a `data-youtube-id` attribute, which Task 5 (modal) reads via click handlers.
 
-- [ ] **Step 1: Append grid/card CSS to `style.css`**
+- [x] **Step 1: Append grid/card CSS to `style.css`**
 
 ```css
 .grid {
@@ -250,7 +250,7 @@ git commit -m "Add work data for 9 prototype entries"
 .card:hover img { transform: scale(1.05); }
 ```
 
-- [ ] **Step 2: Write `script.js` with `renderGrid()`**
+- [x] **Step 2: Write `script.js` with `renderGrid()`**
 
 ```js
 (function () {
@@ -283,7 +283,7 @@ git commit -m "Add work data for 9 prototype entries"
 
 Note: `openModal` is defined in Task 5 — this task will show a console error on click until Task 5 lands, which is expected and resolved by the next task.
 
-- [ ] **Step 3: Verify grid renders**
+- [x] **Step 3: Verify grid renders**
 
 Reload `http://localhost:8732` and run in the browser console:
 
@@ -299,7 +299,7 @@ document.querySelectorAll('#grid .card img')[0].getAttribute('alt')
 
 Expected: `"エンドロール - クワガタP feat. 重音テト"`.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add script.js style.css
@@ -318,7 +318,7 @@ git commit -m "Render work grid from data.js"
 - Consumes: `#modal`, `#modal-iframe`, `#modal-close`, `.modal-backdrop` elements from `index.html` (Task 1); click events from `.card` elements (Task 4).
 - Produces: `openModal(youtubeId: string)` and `closeModal()` functions, called by Task 4's card click handler and this task's own close/backdrop handlers.
 
-- [ ] **Step 1: Append modal CSS to `style.css`**
+- [x] **Step 1: Append modal CSS to `style.css`**
 
 ```css
 .modal {
@@ -362,7 +362,7 @@ git commit -m "Render work grid from data.js"
 }
 ```
 
-- [ ] **Step 2: Add `openModal`/`closeModal` to `script.js`**
+- [x] **Step 2: Add `openModal`/`closeModal` to `script.js`**
 
 Insert inside the existing IIFE in `script.js`, above the `document.addEventListener("DOMContentLoaded", renderGrid);` line:
 
@@ -396,7 +396,7 @@ And change the `DOMContentLoaded` listener to:
   });
 ```
 
-- [ ] **Step 3: Verify modal opens and closes**
+- [x] **Step 3: Verify modal opens and closes**
 
 Reload `http://localhost:8732` and run in the browser console:
 
@@ -426,7 +426,7 @@ document.getElementById('modal-iframe').src
 
 Expected: `""` (empty, confirming playback stopped).
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add script.js style.css
@@ -441,18 +441,18 @@ git commit -m "Add YouTube lightbox modal triggered by grid card clicks"
 
 **Interfaces:** none — this task exercises the complete page built by Tasks 1–5.
 
-- [ ] **Step 1: Reload the full page and take a screenshot**
+- [x] **Step 1: Reload the full page and take a screenshot**
 
 With the server from Task 1 still running at `http://localhost:8732`, load the page in the Browser pane, then capture a screenshot and confirm visually:
 - Header: nav links sit immediately to the left of the "ARCHITRAVE WORK" logo (no large gap)
 - Grid: 3 columns × 3 rows of thumbnails, no broken images
 - Clicking a thumbnail opens the modal with a playing YouTube video; the close button and backdrop click both close it
 
-- [ ] **Step 2: Check browser console for errors**
+- [x] **Step 2: Check browser console for errors**
 
 Read the console messages for the page. Expected: no errors (warnings about YouTube's own embedded scripts are fine and expected).
 
-- [ ] **Step 3: Stop the local server**
+- [x] **Step 3: Stop the local server**
 
 ```bash
 # stop the process started in Task 1 (Ctrl+C, or kill the background job)
