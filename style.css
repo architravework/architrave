@@ -104,3 +104,17 @@ a { color: inherit; }
   font-size: 32px;
   cursor: pointer;
 }
+.modal-description {
+  max-height: 30vh;
+  overflow-y: auto;
+  margin-top: 12px;
+  padding: 16px;
+  background: #1a1a1a;
+  color: #eee;
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border-radius: 4px;
+}
+.modal-description:empty { display: none; }
