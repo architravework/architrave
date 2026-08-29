@@ -9,17 +9,17 @@ a { color: inherit; }
 .site-header {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   gap: 20px;
   padding: 20px 40px;
   border-bottom: 1px solid #eee;
 }
-.nav-container { text-align: right; }
+.nav-container { text-align: left; }
 .nav-container a {
-  margin-left: 20px;
+  margin-right: 24px;
   text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 0.05em;
+  font-size: 22px;
+  font-weight: 400;
 }
 .logo {
   font-weight: 700;
