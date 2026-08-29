@@ -28,6 +28,15 @@ a { color: inherit; }
   letter-spacing: 0.05em;
 }
 
+.profile {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.profile p { margin: 0 0 20px; }
+
 .contact {
   max-width: 600px;
   margin: 0 auto;
