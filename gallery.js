@@ -13,13 +13,13 @@
       card.appendChild(img);
 
       card.addEventListener("click", function () {
-        openImageModal(work.image, work.title);
+        openImageModal(work.fullImage, work.title);
       });
 
       card.tabIndex = 0;
       card.setAttribute("role", "button");
       card.addEventListener("keydown", function (e) {
-        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openImageModal(work.image, work.title); }
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openImageModal(work.fullImage, work.title); }
       });
 
       container.appendChild(card);
