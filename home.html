@@ -38,6 +38,7 @@
     if (params.get('ga_optout') === '1') localStorage.setItem('ga_optout', '1');
     if (params.get('ga_optout') === '0') localStorage.removeItem('ga_optout');
     if (localStorage.getItem('ga_optout') === '1') window['ga-disable-G-EN5YTT3L33'] = true;
+    if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') window['ga-disable-G-EN5YTT3L33'] = true;
   })();
 </script>
 <!-- Google tag (gtag.js) -->
