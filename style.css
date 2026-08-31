@@ -6,6 +6,7 @@ body {
   color: #111;
 }
 a { color: inherit; }
+.nowrap { white-space: nowrap; }
 
 .site-footer {
   display: flex;
