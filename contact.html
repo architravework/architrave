@@ -15,6 +15,15 @@
 <meta property="og:image" content="https://architravework.github.io/architrave/home-banner.jpg">
 <meta property="og:url" content="https://architravework.github.io/architrave/contact.html">
 <meta name="twitter:card" content="summary_large_image">
+<!-- Analytics opt-out: visit this page with ?ga_optout=1 once to stop this browser being counted (?ga_optout=0 to re-enable) -->
+<script>
+  (function () {
+    var params = new URLSearchParams(location.search);
+    if (params.get('ga_optout') === '1') localStorage.setItem('ga_optout', '1');
+    if (params.get('ga_optout') === '0') localStorage.removeItem('ga_optout');
+    if (localStorage.getItem('ga_optout') === '1') window['ga-disable-G-EN5YTT3L33'] = true;
+  })();
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EN5YTT3L33"></script>
 <script>
