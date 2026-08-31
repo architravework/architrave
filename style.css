@@ -106,7 +106,16 @@ a { color: inherit; }
 .profile-text p {
   font-size: 14px;
   line-height: 1.9;
-  margin: 0;
+  margin: 0 0 20px;
+}
+.profile-text p:last-child { margin-bottom: 0; }
+.profile-tagline {
+  font-size: 16px;
+  font-weight: 500;
+}
+.profile-en {
+  font-size: 12px;
+  color: #888;
 }
 .profile-clients {
   max-width: 900px;
