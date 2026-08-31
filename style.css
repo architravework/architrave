@@ -17,6 +17,23 @@ a { color: inherit; }
 .site-footer a { color: #111; display: flex; }
 .site-footer svg { width: 22px; height: 22px; fill: currentColor; }
 
+.page-heading {
+  font-size: 13px;
+  font-weight: 400;
+  color: #999;
+  text-align: center;
+  margin: 16px 0 0;
+  padding: 0 20px;
+}
+.profile .page-heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+  text-align: left;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
 .site-header {
   display: flex;
   align-items: center;
