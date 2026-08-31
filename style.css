@@ -34,6 +34,26 @@ a { color: inherit; }
   padding: 0;
 }
 
+.cta-hero {
+  text-align: center;
+  padding: 40px 20px 24px;
+}
+.cta-hero-text {
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+.cta-button {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: 999px;
+  transition: opacity 0.2s ease;
+}
+.cta-button:hover { opacity: 0.8; }
+
 .site-header {
   display: flex;
   align-items: center;
@@ -87,6 +107,26 @@ a { color: inherit; }
 .contact h1 { font-size: 18px; margin-bottom: 24px; }
 .contact p { margin: 0 0 20px; }
 .contact a { text-decoration: underline; }
+.contact-subheading {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+  margin: 40px 0 12px;
+}
+.service-list {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.9;
+  margin: 0 0 16px;
+  padding-left: 20px;
+}
+.contact-note { font-size: 13px; color: #666; }
+.client-list {
+  text-align: left;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.8;
+}
 
 .grid {
   display: grid;
