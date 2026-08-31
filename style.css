@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "M PLUS Rounded 1c", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
   font-style: normal;
   color: #111;
 }
@@ -24,14 +24,6 @@ a { color: inherit; }
   text-align: center;
   margin: 16px 0 0;
   padding: 0 20px;
-}
-.profile .page-heading {
-  font-size: 22px;
-  font-weight: 700;
-  color: #111;
-  text-align: left;
-  margin: 0 0 20px;
-  padding: 0;
 }
 
 .cta-hero {
@@ -78,23 +70,55 @@ a { color: inherit; }
   letter-spacing: 0.05em;
 }
 
-.profile-banner {
-  display: block;
+.profile-hero {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  max-width: 900px;
+  margin: 60px auto 40px;
+  padding: 0 20px;
+}
+.profile-photo {
+  flex: 0 0 220px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-photo img {
   width: 100%;
-  max-width: 1400px;
-  height: auto;
-  margin: 0 auto;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
-.profile {
-  max-width: 850px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  font-size: 16px;
+.profile-text { flex: 1; min-width: 0; }
+.profile-name {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 0 0 20px;
+  line-height: 1.2;
+}
+.profile-name-sub {
+  font-size: 20px;
+  font-weight: 300;
+  color: #666;
+}
+.profile-text p {
+  font-size: 14px;
+  line-height: 1.9;
+  margin: 0;
+}
+.profile-clients {
+  max-width: 900px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+  font-size: 13px;
+  color: #666;
   line-height: 1.8;
-  text-align: left;
 }
-.profile p { margin: 0 0 20px; }
-.profile a { text-decoration: underline; }
+@media (max-width: 700px) {
+  .profile-hero { flex-direction: column; text-align: center; gap: 24px; }
+}
 
 .contact {
   max-width: 600px;
