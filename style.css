@@ -7,6 +7,16 @@ body {
 }
 a { color: inherit; }
 
+.site-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 32px 20px;
+}
+.site-footer a { color: #111; display: flex; }
+.site-footer svg { width: 22px; height: 22px; fill: currentColor; }
+
 .site-header {
   display: flex;
   align-items: center;
