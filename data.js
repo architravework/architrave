@@ -1,5 +1,25 @@
 const works = [
   {
+    title: "GRe4N BOYZ ショート動画「ピポ」",
+    year: 2026,
+    youtubeId: "SVLvcvREXCQ",
+    thumbnail: "images/77.jpg",
+    credit: "Movie: あーきとれーぶ",
+    description: `様々なアーティストなどへ楽曲提供をしてきた曲を
+GRe4N BOYZ自身が歌唱する
+9/18（金）配信リリース
+セルフカバーアルバム『#ウタウタイタイ』🗣️🎶
+
+収録曲の中から
+肉チョモランマさんへの楽曲提供曲
+「ピポ」をいち早く少しだけお届け！🙌
+
+配信予約はこちら💁‍♂️
+https://gre4nboyz.lnk.to/UTAU-TAITAI
+
+#GRe4NBOYZ`
+  },
+  {
     title: "エンドロール - クワガタP feat. 重音テト",
     year: 2026,
     youtubeId: "fepw6wKU8D8",
