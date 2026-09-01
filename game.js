@@ -47,7 +47,8 @@
   var BRICK_TOP = 45;
   var BRICK_WIDTH = (W - BRICK_PADDING * (BRICK_COLS + 1)) / BRICK_COLS;
   var BRICK_HEIGHT = 24;
-  var BRICK_COLOR = '#111111';
+  var BRICK_COLOR = '#ffffff';
+  var PADDLE_COLOR = '#111111';
   var ACCENT_COLOR = '#ea265c';
 
   var PADDLE_WIDTH = 120;
@@ -190,11 +191,12 @@
       ctx.fillRect(b.x, b.y, BRICK_WIDTH, BRICK_HEIGHT);
     });
 
-    ctx.fillStyle = ACCENT_COLOR;
+    ctx.fillStyle = PADDLE_COLOR;
     ctx.fillRect(paddle.x, paddle.y, PADDLE_WIDTH, PADDLE_HEIGHT);
 
     ctx.beginPath();
     ctx.arc(ball.x, ball.y, BALL_RADIUS, 0, Math.PI * 2);
+    ctx.fillStyle = ACCENT_COLOR;
     ctx.fill();
   }
 
