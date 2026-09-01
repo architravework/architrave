@@ -11,17 +11,48 @@
   var W = canvas.width;
   var H = canvas.height;
 
+  var videoQueue = ['nVs1prnygiE'].concat(
+    typeof works !== 'undefined' ? works.map(function (w) { return w.youtubeId; }) : []
+  );
+  var videoIndex = 0;
+  var ytPlayer = null;
+
+  function playNextVideo() {
+    videoIndex = (videoIndex + 1) % videoQueue.length;
+    ytPlayer.loadVideoById(videoQueue[videoIndex]);
+  }
+
+  function onPlayerStateChange(e) {
+    if (e.data === YT.PlayerState.ENDED) playNextVideo();
+  }
+
+  function initYouTubePlayer() {
+    ytPlayer = new YT.Player('game-bg-player', {
+      events: { onStateChange: onPlayerStateChange }
+    });
+  }
+
+  if (window.YT && window.YT.Player) {
+    initYouTubePlayer();
+  } else {
+    window.onYouTubeIframeAPIReady = initYouTubePlayer;
+    var ytScript = document.createElement('script');
+    ytScript.src = 'https://www.youtube.com/iframe_api';
+    document.head.appendChild(ytScript);
+  }
+
   var BRICK_ROWS = 10;
   var BRICK_COLS = 8;
-  var BRICK_PADDING = 4;
-  var BRICK_TOP = 30;
+  var BRICK_PADDING = 6;
+  var BRICK_TOP = 45;
   var BRICK_WIDTH = (W - BRICK_PADDING * (BRICK_COLS + 1)) / BRICK_COLS;
-  var BRICK_HEIGHT = 16;
+  var BRICK_HEIGHT = 24;
   var BRICK_COLOR = '#111111';
+  var ACCENT_COLOR = '#ea265c';
 
-  var PADDLE_WIDTH = 80;
-  var PADDLE_HEIGHT = 10;
-  var BALL_RADIUS = 6;
+  var PADDLE_WIDTH = 120;
+  var PADDLE_HEIGHT = 15;
+  var BALL_RADIUS = 9;
 
   var state = 'idle';
   var score = 0;
@@ -29,8 +60,8 @@
   var paddle, ball, bricks;
 
   function resetPaddleAndBall() {
-    paddle = { x: (W - PADDLE_WIDTH) / 2, y: H - 24 };
-    ball = { x: W / 2, y: H - 34, dx: 2.6, dy: -2.6 };
+    paddle = { x: (W - PADDLE_WIDTH) / 2, y: H - 36 };
+    ball = { x: W / 2, y: H - 51, dx: 3.9, dy: -3.9 };
   }
 
   function buildBricks() {
@@ -74,8 +105,8 @@
 
   document.addEventListener('keydown', function (e) {
     if (state !== 'playing') return;
-    if (e.key === 'ArrowLeft') paddle.x = Math.max(0, paddle.x - 24);
-    if (e.key === 'ArrowRight') paddle.x = Math.min(W - PADDLE_WIDTH, paddle.x + 24);
+    if (e.key === 'ArrowLeft') paddle.x = Math.max(0, paddle.x - 36);
+    if (e.key === 'ArrowRight') paddle.x = Math.min(W - PADDLE_WIDTH, paddle.x + 36);
   });
 
   function startGame() {
@@ -106,15 +137,15 @@
 
     if (
       ball.y + BALL_RADIUS > paddle.y &&
-      ball.y + BALL_RADIUS < paddle.y + PADDLE_HEIGHT + 6 &&
+      ball.y + BALL_RADIUS < paddle.y + PADDLE_HEIGHT + 9 &&
       ball.x > paddle.x &&
       ball.x < paddle.x + PADDLE_WIDTH &&
       ball.dy > 0
     ) {
       ball.dy *= -1;
       var hitPos = (ball.x - (paddle.x + PADDLE_WIDTH / 2)) / (PADDLE_WIDTH / 2);
-      var newDx = hitPos * 3.5;
-      if (Math.abs(newDx) < 1) newDx = newDx < 0 ? -1 : 1;
+      var newDx = hitPos * 5.25;
+      if (Math.abs(newDx) < 1.5) newDx = newDx < 0 ? -1.5 : 1.5;
       ball.dx = newDx;
     }
 
@@ -159,12 +190,11 @@
       ctx.fillRect(b.x, b.y, BRICK_WIDTH, BRICK_HEIGHT);
     });
 
-    ctx.fillStyle = '#111';
+    ctx.fillStyle = ACCENT_COLOR;
     ctx.fillRect(paddle.x, paddle.y, PADDLE_WIDTH, PADDLE_HEIGHT);
 
     ctx.beginPath();
     ctx.arc(ball.x, ball.y, BALL_RADIUS, 0, Math.PI * 2);
-    ctx.fillStyle = '#ea265c';
     ctx.fill();
   }
 
