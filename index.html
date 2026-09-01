@@ -90,6 +90,20 @@
     <a class="cta-button" href="contact.html">ご依頼はこちら →</a>
   </div>
   <div id="grid" class="grid"></div>
+  <div class="game-section">
+    <h2 class="contact-subheading">息抜きに、ブロック崩し。</h2>
+    <div class="game-wrap">
+      <canvas id="game-canvas" width="480" height="360"></canvas>
+      <div class="game-hud">
+        <span>SCORE: <span id="game-score">0</span></span>
+        <span>LIVES: <span id="game-lives">3</span></span>
+      </div>
+      <div id="game-overlay" class="game-overlay">
+        <p id="game-message">クリック / タップでスタート</p>
+        <button id="game-button" class="cta-button game-button">スタート</button>
+      </div>
+    </div>
+  </div>
 </main>
 <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
   <div class="modal-backdrop"></div>
@@ -114,5 +128,6 @@
 </footer>
 <script src="data.js"></script>
 <script src="script.js"></script>
+<script src="game.js"></script>
 </body>
 </html>
