@@ -131,9 +131,6 @@ a { color: inherit; }
   color: #666;
   line-height: 1.7;
 }
-@media (max-width: 700px) {
-  .profile-hero { flex-direction: column; text-align: center; gap: 16px; margin-top: 24px; }
-}
 
 .contact {
   max-width: 700px;
@@ -285,3 +282,22 @@ a { color: inherit; }
   border-radius: 4px;
 }
 .modal-description:empty { display: none; }
+
+@media (max-width: 700px) {
+  .site-header {
+    padding: 14px 16px;
+    gap: 8px;
+  }
+  .nav-container a {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+  .nav-container a[href="gallery.html"] { display: none; }
+  .logo { font-size: 13px; }
+  .profile-hero { flex-direction: column; text-align: center; gap: 16px; margin-top: 24px; }
+  .profile-name { font-size: 26px; }
+  .profile-text .profile-en { display: none; }
+  .contact { padding: 40px 16px; }
+  .contact h1 { font-size: 26px; }
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
