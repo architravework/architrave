@@ -17,7 +17,7 @@
   var BRICK_TOP = 30;
   var BRICK_WIDTH = (W - BRICK_PADDING * (BRICK_COLS + 1)) / BRICK_COLS;
   var BRICK_HEIGHT = 16;
-  var BRICK_COLORS = ['#ea265c', '#f06791', '#111111', '#555555', '#f06791'];
+  var BRICK_COLOR = '#111111';
 
   var PADDLE_WIDTH = 80;
   var PADDLE_HEIGHT = 10;
@@ -40,8 +40,7 @@
         bricks.push({
           x: BRICK_PADDING + c * (BRICK_WIDTH + BRICK_PADDING),
           y: BRICK_TOP + r * (BRICK_HEIGHT + BRICK_PADDING),
-          alive: true,
-          color: BRICK_COLORS[r % BRICK_COLORS.length]
+          alive: true
         });
       }
     }
@@ -163,9 +162,9 @@
       }
     }
 
+    ctx.fillStyle = BRICK_COLOR;
     bricks.forEach(function (b) {
       if (!b.alive) return;
-      ctx.fillStyle = b.color;
       ctx.fillRect(b.x, b.y, BRICK_WIDTH, BRICK_HEIGHT);
     });
 
