@@ -11,7 +11,7 @@
   var W = canvas.width;
   var H = canvas.height;
 
-  var BRICK_ROWS = 5;
+  var BRICK_ROWS = 10;
   var BRICK_COLS = 8;
   var BRICK_PADDING = 4;
   var BRICK_TOP = 30;
@@ -152,15 +152,6 @@
 
   function draw() {
     ctx.clearRect(0, 0, W, H);
-
-    ctx.fillStyle = '#eee';
-    for (var x = 0; x < W; x += 22) {
-      for (var y = 0; y < H; y += 22) {
-        ctx.beginPath();
-        ctx.arc(x, y, 1.2, 0, Math.PI * 2);
-        ctx.fill();
-      }
-    }
 
     ctx.fillStyle = BRICK_COLOR;
     bricks.forEach(function (b) {
