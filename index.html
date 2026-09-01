@@ -94,14 +94,17 @@
     <h2 class="contact-subheading">Take a Break.</h2>
     <p class="game-thanks">最後まで見てくれてありがとう。</p>
     <div class="game-wrap">
-      <canvas id="game-canvas" width="480" height="360"></canvas>
+      <div class="game-stage">
+        <iframe class="game-bg-video" src="https://www.youtube.com/embed/nVs1prnygiE?autoplay=1&mute=1&loop=1&playlist=nVs1prnygiE&controls=0&modestbranding=1&playsinline=1&rel=0" title="background video" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <canvas id="game-canvas" width="480" height="360"></canvas>
+        <div id="game-overlay" class="game-overlay">
+          <p id="game-message">クリック / タップでスタート</p>
+          <button id="game-button" class="cta-button game-button">スタート</button>
+        </div>
+      </div>
       <div class="game-hud">
         <span>SCORE: <span id="game-score">0</span></span>
         <span>LIVES: <span id="game-lives">3</span></span>
-      </div>
-      <div id="game-overlay" class="game-overlay">
-        <p id="game-message">クリック / タップでスタート</p>
-        <button id="game-button" class="cta-button game-button">スタート</button>
       </div>
     </div>
   </div>
