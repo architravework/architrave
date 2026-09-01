@@ -48,7 +48,7 @@
   var BRICK_WIDTH = (W - BRICK_PADDING * (BRICK_COLS + 1)) / BRICK_COLS;
   var BRICK_HEIGHT = 24;
   var BRICK_COLOR = '#ffffff';
-  var PADDLE_COLOR = '#111111';
+  var PADDLE_COLOR = '#ffffff';
   var ACCENT_COLOR = '#ea265c';
 
   var PADDLE_WIDTH = 120;
