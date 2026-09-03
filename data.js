@@ -748,6 +748,25 @@ MUSIC
 作詞・作曲：イセキユウト`
   },
   {
+    title: "GRe4N BOYZ ショート動画「グルグルブンブン」",
+    year: 2026,
+    youtubeId: "-6M2Trskix0",
+    thumbnail: "images/78.jpg",
+    credit: "Movie: あーきとれーぶ",
+    description: `様々なアーティストなどへ
+楽曲提供をしてきた曲を
+GRe4N BOYZ自身が歌唱する
+9/18（金）配信リリース
+セルフカバーアルバム『#ウタウタイタイ』🗣️🎵
+
+収録曲の中から
+NHK Eテレ「いないいないばあっ！」への楽曲提供曲
+「グルグルブンブン」をお届け🌀
+
+配信予約はこちら⬇️
+gre4nboyz.lnk.to/UTAU-TAITAI`
+  },
+  {
     title: "遊遊 - Lullaby [Music Video Full Ver.]",
     year: 2023,
     youtubeId: "Ha6c2yUMCJw",
