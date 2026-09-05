@@ -6,7 +6,6 @@
   var messageEl = document.getElementById('game-message');
   var buttonEl = document.getElementById('game-button');
   var scoreEl = document.getElementById('game-score');
-  var livesEl = document.getElementById('game-lives');
 
   var W = canvas.width;
   var H = canvas.height;
@@ -57,7 +56,6 @@
 
   var state = 'idle';
   var score = 0;
-  var lives = 3;
   var paddle, ball, bricks;
 
   function resetPaddleAndBall() {
@@ -80,9 +78,7 @@
 
   function resetGame() {
     score = 0;
-    lives = 3;
     scoreEl.textContent = score;
-    livesEl.textContent = lives;
     resetPaddleAndBall();
     buildBricks();
   }
@@ -116,15 +112,15 @@
     overlay.classList.add('hidden');
   }
 
-  function endGame(won) {
-    state = won ? 'won' : 'lost';
-    messageEl.textContent = won ? 'クリア！ 🎉' : 'ゲームオーバー';
+  function winGame() {
+    state = 'won';
+    messageEl.textContent = 'クリア！ 🎉';
     buttonEl.textContent = 'もう一度';
     overlay.classList.remove('hidden');
   }
 
   overlay.addEventListener('click', function (e) {
-    if (state === 'idle' || state === 'won' || state === 'lost') startGame();
+    if (state === 'idle' || state === 'won') startGame();
   });
 
   function update() {
@@ -151,12 +147,6 @@
     }
 
     if (ball.y - BALL_RADIUS > H) {
-      lives -= 1;
-      livesEl.textContent = lives;
-      if (lives <= 0) {
-        endGame(false);
-        return;
-      }
       resetPaddleAndBall();
     }
 
@@ -178,7 +168,7 @@
     }
 
     if (bricks.every(function (b) { return !b.alive; })) {
-      endGame(true);
+      winGame();
     }
   }
 
