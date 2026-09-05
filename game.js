@@ -51,14 +51,17 @@
   var PADDLE_WIDTH = 120;
   var PADDLE_HEIGHT = 15;
   var BALL_RADIUS = 9;
+  var BASE_SPEED = 3.9;
 
   var state = 'idle';
   var score = 0;
   var paddle, ball, bricks;
+  var prevPaddleX = null;
 
   function resetPaddleAndBall() {
     paddle = { x: (W - PADDLE_WIDTH) / 2, y: H - 36 };
-    ball = { x: W / 2, y: H - 51, dx: 3.9, dy: -3.9 };
+    ball = { x: W / 2, y: H - 51, dx: BASE_SPEED, dy: -BASE_SPEED };
+    prevPaddleX = null;
   }
 
   function buildBricks() {
@@ -117,6 +120,10 @@
   function update() {
     if (state !== 'playing') return;
 
+    if (prevPaddleX === null) prevPaddleX = paddle.x;
+    var paddleVelocity = paddle.x - prevPaddleX;
+    prevPaddleX = paddle.x;
+
     ball.x += ball.dx;
     ball.y += ball.dy;
 
@@ -130,11 +137,12 @@
       ball.x < paddle.x + PADDLE_WIDTH &&
       ball.dy > 0
     ) {
-      ball.dy *= -1;
       var hitPos = (ball.x - (paddle.x + PADDLE_WIDTH / 2)) / (PADDLE_WIDTH / 2);
       var newDx = hitPos * 5.25;
       if (Math.abs(newDx) < 1.5) newDx = newDx < 0 ? -1.5 : 1.5;
-      ball.dx = newDx;
+      var speedMultiplier = 1 + Math.min(Math.abs(paddleVelocity) / 20, 1.5);
+      ball.dx = newDx * speedMultiplier;
+      ball.dy = -BASE_SPEED * speedMultiplier;
     }
 
     if (ball.y - BALL_RADIUS > H) {
