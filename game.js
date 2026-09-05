@@ -3,8 +3,6 @@
   if (!canvas) return;
   var ctx = canvas.getContext('2d');
   var overlay = document.getElementById('game-overlay');
-  var messageEl = document.getElementById('game-message');
-  var buttonEl = document.getElementById('game-button');
   var scoreEl = document.getElementById('game-score');
 
   var W = canvas.width;
@@ -112,15 +110,8 @@
     overlay.classList.add('hidden');
   }
 
-  function winGame() {
-    state = 'won';
-    messageEl.textContent = 'クリア！ 🎉';
-    buttonEl.textContent = 'もう一度';
-    overlay.classList.remove('hidden');
-  }
-
   overlay.addEventListener('click', function (e) {
-    if (state === 'idle' || state === 'won') startGame();
+    if (state === 'idle') startGame();
   });
 
   function update() {
@@ -168,7 +159,7 @@
     }
 
     if (bricks.every(function (b) { return !b.alive; })) {
-      winGame();
+      buildBricks();
     }
   }
 
