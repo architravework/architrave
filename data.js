@@ -20,6 +20,106 @@ https://gre4nboyz.lnk.to/UTAU-TAITAI
 #GRe4NBOYZ`
   },
   {
+    title: "kiyu「ジュリエット」Official Music Video",
+    year: 2026,
+    youtubeId: "vo3qug1HFXs",
+    thumbnail: "images/79.jpg",
+    credit: "Artwork: 夕浪かもめ / Movie: あーきとれーぶ / Animation: 夕浪かもめ, あーきとれーぶ",
+    description: `最後に残るのは匂いらしい
+
+Streaming / Download
+https://orcd.co/kiyu_juliet
+
+Instrumental : Coming soon…
+
+
+「ジュリエット」
+
+ねぇ　どうしても
+使いきれないアトマイザー
+今日も香りの中で色褪せた
+記憶を数えど指が足りない
+
+こんなにも悲しい心
+永遠に離れて　宵に落ちた
+「もしも」とまぐれの夢が消えない
+雨音混じりの匂いに咽せながら
+溺れながら息を吸った
+
+100万回の愛を抱いて
+君に歌うよ　ジュリエット
+今さら二人になれたとしたら
+どんな話をしよう
+
+将来のこと　逢った日のこと
+どうでもいいような会話もしよう
+許されないなら　生まれ変わっていい？
+醒めないで　夜明け
+
+無駄に揃った本も映画も
+ハマったもんじゃない
+嗚呼　染まってる
+君の好きな色でいたかった
+
+それがこんなにも　虚しいことと思わず
+一人になって　惨めになって
+君を探してしまう
+
+100万回の愛を抱いて
+君に歌うよ　ジュリエット
+今から君を奪えたとしたら
+どんな二人でいよう
+
+傘を捨てて　雨に打たれ
+わざと　まぶたを濡らしたい
+「ずぶ濡れだ」ってさ　困り笑ってる
+君の顔は　滲んで見えやしない
+
+止まらないこの想いはきっと
+街を巡って　夜空を照らす
+虹をかけてよ　嗚呼
+七色　すべての
+
+100万回の愛を抱いて
+君に歌うよ　ジュリエット
+今さら二人になれたとしたら
+どんな話をしよう
+
+365日のこと
+どうでもいい話だけしよう
+許されないなら　生まれ変わっていい？
+醒めないで　夜明け
+
+ねぇ　どうしても
+使いきれないアトマイザー
+今日も君が選んだ匂いが消えないまま
+息を吸う
+
+──────────────────────
+
+[Credit]
+Lyric : kiyu / 岡田一成
+Music : kiyu
+Arrangement : 赤山コウ
+(Guitar, All Other instruments & Programming)
+Recording, Mix, Mastering : 村松和哉(WAVE RIDER)
+
+[Music Video]
+Artwork : 夕浪かもめ
+Movie : あーきとれーぶ
+Animation : 夕浪かもめ, あーきとれーぶ
+
+──────────────────────
+
+[Official SNS]
+Instagram : https://www.instagram.com/kiyuyuki_y/
+
+[MAIL]
+kiyu.yoroshiku@gmail.com
+
+#kiyu #ジュリエット`
+  },
+  {
     title: "エンドロール - クワガタP feat. 重音テト",
     year: 2026,
     youtubeId: "fepw6wKU8D8",
