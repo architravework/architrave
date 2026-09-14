@@ -114,11 +114,6 @@ a { color: inherit; }
   margin: 0 0 8px;
 }
 .profile-text p:last-child { margin-bottom: 0; }
-.profile-text .profile-tagline {
-  font-size: 14px;
-  font-weight: 500;
-  margin-bottom: 6px;
-}
 .profile-text .profile-en {
   font-size: 11px;
   line-height: 1.6;
