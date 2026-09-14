@@ -2110,6 +2110,146 @@ https://honemaru-p.booth.pm
 #VocaDuo2024vv`
   },
   {
+    title: "GRe4N BOYZ ショート動画「戀」",
+    year: 2026,
+    youtubeId: "8RkhEuTDSfA",
+    thumbnail: "images/82.jpg",
+    credit: "Movie: あーきとれーぶ",
+    description: `様々なアーティストなどへ
+楽曲提供をしてきた曲を
+GRe4N BOYZ自身が歌唱する
+9/18（金）配信リリース
+セルフカバーアルバム『#ウタウタイタイ』🎤
+
+収録曲の中から
+増田貴久さん (NEWS) への楽曲提供曲
+「戀」を少しだけお届け🌕
+
+配信予約はこちら⬇️
+https://gre4nboyz.lnk.to/UTAU-TAITAI
+
+#GRe4NBOYZ`
+  },
+  {
+    title: "GRe4N BOYZ ショート動画「劇伴」",
+    year: 2026,
+    youtubeId: "vmJ6Flv5600",
+    thumbnail: "images/83.jpg",
+    credit: "Movie: あーきとれーぶ",
+    description: `様々なアーティストなどへ
+楽曲提供をしてきた曲を
+GRe4N BOYZ自身が歌唱する
+9/18（金）配信リリース
+セルフカバーアルバム『#ウタウタイタイ』🎹
+
+収録曲の中から
+NEWSさんへの楽曲提供曲
+「劇伴」を少しだけお届け🔊
+
+配信予約はこちら⬇️
+https://gre4nboyz.lnk.to/UTAU-TAITAI
+
+#GRe4NBOYZ`
+  },
+  {
+    title: "GRe4N BOYZ ショート動画「SUPER DUPER」",
+    year: 2026,
+    youtubeId: "Kf7RWnQFIao",
+    thumbnail: "images/84.jpg",
+    credit: "Movie: あーきとれーぶ",
+    description: `様々なアーティストなどへ
+楽曲提供をしてきた曲を
+GRe4N BOYZ自身が歌唱する
+9/18（金）配信リリース
+セルフカバーアルバム『#ウタウタイタイ』🎶🎤
+
+収録曲の中から
+Hi-Fi Un!cornさんへの楽曲提供曲
+「SUPER DUPER」をお届け💫
+
+配信予約はこちら⬇️
+gre4nboyz.lnk.to/UTAU-TAITAI
+
+#GRe4NBOYZ`
+  },
+  {
+    title: "軌道外より | 骨丸 feat.重音テトSV2",
+    year: 2026,
+    youtubeId: "9n5ahEYr9fA",
+    thumbnail: "images/85.jpg",
+    credit: "Vocal: 重音テトSV2 / Music: 骨丸 / Movie: あーきとれーぶ",
+    description: `初めまして。出会ってくれてありがとうございます。
+骨丸と申します。
+21作品目の投稿です。
+
+逸れて、流れて、辿り着いた場所で。
+テトに出会って始めた音楽。
+ありがとうを込めて。
+
+ボカコレ2026夏TOP100ランキング参加曲です。
+見つけてくれてありがとう。
+
+ーーー
+揺らぎが生まれて 輝きを放って
+その"いつか"の途中で お揃いの今を繋げて
+
+銀河の呼吸と すり減る靴底
+迷い続けながら 手は離さないでいた
+
+今日までの日々 それと変わらず痛みは今の一秒先に
+それでも痕を見せ合えるなら 大袈裟じゃなく生きていられる
+閊えた言葉 ひしゃげた祈り 行方を失った想い
+その声で唄になったんだ だから
+
+砕けてしまった星の光が届く前に
+また朝が来る地上で 打ち上がる希望の軌跡を
+見上げるだけの君が握り締めた言葉を
+あの星よりもっと遠くへ 歌うためにいるんだ だから
+泣かなくていいのに 君はじつに馬鹿だな
+
+ーーー
+-Credit-
+Vocal ：重音テトSV2
+Music：骨丸：https://x.com/honemaru_p
+Movie：あーきとれーぶ：https://x.com/architrave123
+
+【offvocal、歌詞はこちら】
+https://drive.google.com/drive/u/0/folders/1Bid5WR9H2JHIIrgwPA5WfVuHIvCihTFg
+
+1st full album『Votum』配信中！
+https://lnk.to/Honemaru_Votum
+1st ep『Arecibo Message』発売中！
+https://honemaru-p.booth.pm
+
+#重音テト
+#vocaloid`
+  },
+  {
+    title: "白神真志朗 ”ココデハナイドコカヘ” Music Video",
+    year: 2026,
+    youtubeId: "6sII8g2d7Ag",
+    thumbnail: "images/86.jpg",
+    credit: "Words & Music: Mashiro Shirakami / Music Video: あーきとれーぶ",
+    description: `"somewhere not here" Mashiro Shirakami
+
+各種音楽配信サービスリンク：https://linkco.re/VmZC0mXN
+
+Words：Mashiro Shirakami
+Music：Mashiro Shirakami
+Music Video： あーきとれーぶ
+
+Advisor：KZ (Uchiwa label)
+　　　 　Jeong Gyuhyun (Uchiwa label)
+　　　 　Takaki Saito
+
+Produced by Mashiro Shirakami
+
+------------------------------------------------------------------
+Official website： http://www.thestellathinkers.com/
+X： https://twitter.com/TST_Mashiro
+Instagram： https://www.instagram.com/mashiro_shirakami/`
+  },
+  {
     title: "BASKETPROJECT Lock you na!!! - 【Official Music Video】",
     year: 2025,
     youtubeId: "2baicDA6lf4",
