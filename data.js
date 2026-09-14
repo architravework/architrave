@@ -459,6 +459,27 @@ X：  / atelierproject_
 #アトリエプロジェクト #masa #都鳥 #あーきとれーぶ`
   },
   {
+    title: "GRe4N BOYZ ショート動画「U R not alone」",
+    year: 2026,
+    youtubeId: "ZsBeMrJzw9E",
+    thumbnail: "images/81.jpg",
+    credit: "Movie: あーきとれーぶ",
+    description: `様々なアーティストなどへ
+楽曲提供をしてきた曲を
+GRe4N BOYZ自身が歌唱する
+9/18（金）配信リリース
+セルフカバーアルバム『#ウタウタイタイ』🎹
+
+収録曲の中から
+NEWSさんへの楽曲提供曲
+「U R not alone」を少しだけお届け🌏
+
+配信予約はこちら⬇️
+https://gre4nboyz.lnk.to/UTAU-TAITAI
+
+#GRe4NBOYZ`
+  },
+  {
     title: "宇宙パイロット「トワレ」OFFICIAL MUSIC VIDEO",
     year: 2026,
     youtubeId: "Rowmkcclsm0",
