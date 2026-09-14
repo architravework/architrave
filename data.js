@@ -701,6 +701,27 @@ Lyric Video
 あーきとれーぶ様`
   },
   {
+    title: "GRe4N BOYZ ショート動画「Ito」",
+    year: 2026,
+    youtubeId: "qFvlFUVgCXY",
+    thumbnail: "images/80.jpg",
+    credit: "Movie: あーきとれーぶ",
+    description: `様々なアーティストなどへ
+楽曲提供をしてきた曲を
+GRe4N BOYZ自身が歌唱する
+9/18（金）配信リリース
+セルフカバーアルバム『#ウタウタイタイ』🎶
+
+収録曲の中から
+TOMORROW X TOGETHERさんへの
+楽曲提供曲「Ito」を少しだけお届け🧵
+
+配信予約はこちら⬇️
+gre4nboyz.lnk.to/UTAU-TAITAI
+
+#GRe4NBOYZ`
+  },
+  {
     title: "ファントム - 重音テト×mai",
     year: 2024,
     youtubeId: "dlWKnTuP4oM",
