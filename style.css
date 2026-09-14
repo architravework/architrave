@@ -154,6 +154,7 @@ a { color: inherit; }
   gap: 8px;
 }
 .contact-mail svg { width: 20px; height: 20px; fill: currentColor; flex-shrink: 0; }
+.contact-mail a { cursor: default; }
 .contact-mail.contact-note {
   font-size: 18px;
   font-weight: 700;
