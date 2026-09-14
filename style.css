@@ -50,14 +50,6 @@ a { color: inherit; }
   transition: opacity 0.2s ease;
 }
 .cta-button:hover { opacity: 0.8; }
-.cta-button-secondary {
-  display: block;
-  width: fit-content;
-  margin: 12px auto 0;
-  background: transparent;
-  color: #ea265c;
-  border: 1px solid #ea265c;
-}
 
 .site-header {
   display: flex;
