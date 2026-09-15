@@ -25,7 +25,7 @@
       card.addEventListener("click", function (e) {
         if (!openCards.has(card)) {
           e.preventDefault();
-          openRow(groupOf(card));
+          openOnly(card);
           return;
         }
         openModal(work.youtubeId, work.title, work.description);
@@ -44,19 +44,13 @@
   }
 
   // Row 1 starts full-size (matching the previous always-full behavior).
-  // From then on, every row - including row 1 - shares one rule: only
-  // one ROW (all 3 of its cards together) is ever "open" (full size)
-  // at a time. Hovering/focusing any card in a row opens that whole
-  // row and closes whatever row was open before; leaving the grid,
-  // scrolling, or hovering a different row closes it again. Collapsed
-  // cards are a thin cropped strip (object-fit: cover naturally shows
-  // just the vertical center once the box is short).
+  // From then on, every card - including row 1 - shares one rule: only
+  // one card is ever "open" (full size) at a time. Hovering/focusing a
+  // card opens it and closes whatever was open before; leaving it,
+  // scrolling, or hovering elsewhere closes it again. Collapsed cards
+  // are a thin cropped strip (object-fit: cover naturally shows just
+  // the vertical center once the box is short).
   var openCards = new Set();
-  var rows = [];
-
-  function groupOf(card) {
-    return rows.filter(function (row) { return row.indexOf(card) !== -1; })[0] || [card];
-  }
 
   function sizeCard(card) {
     var fullH = card.getBoundingClientRect().width * 9 / 16;
@@ -71,33 +65,31 @@
     openCards.clear();
   }
 
-  function openRow(row) {
-    if (row.every(function (c) { return openCards.has(c); }) && openCards.size === row.length) return;
+  function openOnly(card) {
+    if (openCards.has(card) && openCards.size === 1) return;
     closeAll();
-    row.forEach(function (c) {
-      c.classList.add("open");
-      openCards.add(c);
-    });
+    card.classList.add("open");
+    openCards.add(card);
   }
 
   function initStackedCards(container, row1Count) {
     var cards = Array.prototype.slice.call(container.querySelectorAll(".card"));
     cards.forEach(sizeCard);
 
-    for (var i = 0; i < cards.length; i += row1Count) {
-      rows.push(cards.slice(i, i + row1Count));
-    }
-
-    openRow(rows[0]);
-
-    cards.forEach(function (card) {
-      card.addEventListener("mouseenter", function () { openRow(groupOf(card)); });
-      card.addEventListener("focus", function () { openRow(groupOf(card)); });
+    cards.slice(0, row1Count).forEach(function (card) {
+      card.classList.add("open");
+      openCards.add(card);
     });
 
-    container.addEventListener("mouseleave", closeAll);
-    container.addEventListener("focusout", function (e) {
-      if (!container.contains(e.relatedTarget)) closeAll();
+    cards.forEach(function (card) {
+      card.addEventListener("mouseenter", function () { openOnly(card); });
+      card.addEventListener("focus", function () { openOnly(card); });
+      card.addEventListener("mouseleave", function () {
+        if (openCards.has(card) && openCards.size === 1) closeAll();
+      });
+      card.addEventListener("blur", function () {
+        if (openCards.has(card) && openCards.size === 1) closeAll();
+      });
     });
 
     window.addEventListener("scroll", closeAll, { passive: true });
