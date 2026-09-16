@@ -743,6 +743,27 @@ gre4nboyz.lnk.to/UTAU-TAITAI
 #GRe4NBOYZ`
   },
   {
+    title: "GRe4N BOYZ ショート動画「碧し」",
+    year: 2026,
+    youtubeId: "i9aVfWZ9UJQ",
+    thumbnail: "images/87.jpg",
+    credit: "Movie: あーきとれーぶ",
+    description: `様々なアーティストなどへ
+楽曲提供をしてきた曲を
+GRe4N BOYZ自身が歌唱する
+9/18（金）配信リリース
+セルフカバーアルバム『#ウタウタイタイ』🎹
+
+収録曲の中から
+氷川きよしさんへの楽曲提供曲
+「碧し」を少しだけお届け🌃
+
+配信予約はこちら⬇️
+https://gre4nboyz.lnk.to/UTAU-TAITAI
+
+#GRe4NBOYZ`
+  },
+  {
     title: "ファントム - 重音テト×mai",
     year: 2024,
     youtubeId: "dlWKnTuP4oM",
