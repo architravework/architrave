@@ -20,6 +20,30 @@ https://gre4nboyz.lnk.to/UTAU-TAITAI
 #GRe4NBOYZ`
   },
   {
+    title: "ヤマモトガク「天国の作り方」MV",
+    year: 2026,
+    youtubeId: "mZpzs8-xoxM",
+    thumbnail: "images/88.jpg",
+    credit: "Music & Vocal: ヤマモトガク／Peg / Illustration: 環田考 / Movie: あーきとれーぶ",
+    description: `生きたい
+
+音楽・歌：ヤマモトガク
+　Instagram:https://www.instagram.com/peeeeg555
+　X:https://twitter.com/Peeeeg_444
+
+絵：環田考
+　X:https://x.com/kanda_kou
+
+映像：あーきとれーぶ
+　X:https://twitter.com/architrave123
+
+ベース:歌川シキ
+　X: https://x.com/hozro_music
+
+ミックス:片山博文
+　X:https://x.com/hirohu69_vgs`
+  },
+  {
     title: "kiyu「ジュリエット」Official Music Video",
     year: 2026,
     youtubeId: "vo3qug1HFXs",
