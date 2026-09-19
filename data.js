@@ -1,21 +1,28 @@
 const works = [
   {
-    title: "GRe4N BOYZ ショート動画「ピポ」",
+    title: "GRe4N BOYZ「ウタウタイタイ」Album Sampler",
     year: 2026,
-    youtubeId: "SVLvcvREXCQ",
-    thumbnail: "images/77.jpg",
+    youtubeId: "Z-R-cDwceGc",
+    thumbnail: "images/89.jpg",
     credit: "Movie: あーきとれーぶ",
-    description: `様々なアーティストなどへ楽曲提供をしてきた曲を
-GRe4N BOYZ自身が歌唱する
-9/18（金）配信リリース
-セルフカバーアルバム『#ウタウタイタイ』🗣️🎶
+    description: `これまで様々なアーティストなどへ楽曲提供をしてきた曲を
+GRe4N BOYZ自身が歌唱するセルフカバーアルバム
+『ウタウタイタイ』2026年9月18日リリース 絶賛配信中！🎼🎁
 
-収録曲の中から
-肉チョモランマさんへの楽曲提供曲
-「ピポ」をいち早く少しだけお届け！🙌
-
-配信予約はこちら💁‍♂️
+配信サイトはこちら⬇️
 https://gre4nboyz.lnk.to/UTAU-TAITAI
+
+🎶『ウタウタイタイ』収録曲🎶
+M1. 虹（AAA）
+M2. ピポ（肉チョモランマ）
+M3. グルグルブンブン（いないいないばあっ！）
+M4. SUPER DUPER（Hi-Fi Un!corn）
+M5. 劇伴（NEWS）
+M6. 戀（増田貴久）
+M7. Ito（TOMORROW X TOGETHER）
+M8. U R not alone（NEWS）
+M9. 碧し（氷川きよし）
+M10. ウタウタイ（MIGOPPER!）
 
 #GRe4NBOYZ`
   },
@@ -337,6 +344,26 @@ Instagram→  /   / nerrlu.zzz
 
 #おすすめ #オリジナル曲 #高二 #伸びろ
 #ねむ #当たり前の終止符 #オリジナル曲`
+  },
+  {
+    title: "GRe4N BOYZ ショート動画「ピポ」",
+    year: 2026,
+    youtubeId: "SVLvcvREXCQ",
+    thumbnail: "images/77.jpg",
+    credit: "Movie: あーきとれーぶ",
+    description: `様々なアーティストなどへ楽曲提供をしてきた曲を
+GRe4N BOYZ自身が歌唱する
+9/18（金）配信リリース
+セルフカバーアルバム『#ウタウタイタイ』🗣️🎶
+
+収録曲の中から
+肉チョモランマさんへの楽曲提供曲
+「ピポ」をいち早く少しだけお届け！🙌
+
+配信予約はこちら💁‍♂️
+https://gre4nboyz.lnk.to/UTAU-TAITAI
+
+#GRe4NBOYZ`
   },
   {
     title: "メタリックセイメイ「夏のカレンダー」Music Video",
