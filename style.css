@@ -22,7 +22,7 @@ a { color: inherit; }
 .page-heading {
   font-size: 13px;
   font-weight: 400;
-  color: #999;
+  color: #767676;
   text-align: center;
   margin: 16px 0 0;
   padding: 0 20px;
@@ -109,21 +109,21 @@ a { color: inherit; }
   color: #666;
 }
 .profile-text p {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.7;
   margin: 0 0 8px;
 }
 .profile-text p:last-child { margin-bottom: 0; }
 .profile-text .profile-en {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.6;
-  color: #888;
+  color: #6b6b6b;
 }
 .profile-clients {
   max-width: 900px;
   margin: 0 auto 20px;
   padding: 0 20px;
-  font-size: 12px;
+  font-size: 13px;
   color: #666;
   line-height: 1.7;
 }
@@ -226,7 +226,9 @@ a { color: inherit; }
 }
 .modal-content {
   position: relative;
-  width: min(90vw, 960px);
+  /* Shrink the video on short screens so the prev/next row and "up next" stay in view */
+  width: min(90vw, 960px, (90vh - 230px) * 16 / 9);
+  min-width: min(90vw, 480px);
   max-height: 90vh;
   overflow-y: auto;
   scrollbar-width: thin;
@@ -277,13 +279,82 @@ a { color: inherit; }
   padding: 16px;
   background: #1a1a1a;
   color: #eee;
-  font-size: 13px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.7;
   white-space: pre-wrap;
   word-break: break-word;
   border-radius: 4px;
 }
 .modal-description:empty { display: none; }
+.modal-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  color: #fff;
+}
+.modal-heading { flex: 1; min-width: 0; text-align: center; }
+.modal-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.modal-position {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #999;
+}
+.modal-nav-button {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  background: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.modal-nav-button:hover { background: rgba(255, 255, 255, 0.15); }
+.modal-up-next { margin-top: 14px; }
+.modal-up-next-label {
+  margin: 0 0 6px;
+  font-size: 12px;
+  color: #999;
+  letter-spacing: 0.1em;
+}
+.modal-up-next-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.up-next-item {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #ddd;
+  text-align: left;
+  cursor: pointer;
+}
+.up-next-item img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.2s ease;
+}
+.up-next-item:hover img { opacity: 0.75; }
+.up-next-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 1.4;
+}
 
 .game-section {
   max-width: 1000px;
@@ -368,4 +439,46 @@ a { color: inherit; }
   .contact { padding: 40px 16px; }
   .contact h1 { font-size: 26px; }
   .grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.role-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  padding: 0 16px 16px;
+}
+.role-filter-button {
+  padding: 5px 14px;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  background: #fff;
+  color: #555;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.role-filter-button:hover { border-color: #111; color: #111; }
+.role-filter-button[aria-pressed="true"] { background: #111; border-color: #111; color: #fff; }
+.card img { transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease; }
+.card.is-dimmed img { opacity: 0.15; filter: grayscale(1); }
+.card.is-dimmed:hover img { opacity: 0.6; }
+.modal-roles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  margin: 8px 0 0;
+}
+.modal-roles:empty { display: none; }
+.role-badge {
+  padding: 2px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 999px;
+  font-size: 12px;
+  color: #ddd;
+}
+@media (max-width: 700px) {
+  .modal-title { font-size: 16px; }
 }

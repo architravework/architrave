@@ -5,6 +5,7 @@ const works = [
     youtubeId: "Z-R-cDwceGc",
     thumbnail: "images/89.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `これまで様々なアーティストなどへ楽曲提供をしてきた曲を
 GRe4N BOYZ自身が歌唱するセルフカバーアルバム
 『ウタウタイタイ』2026年9月18日リリース 絶賛配信中！🎼🎁
@@ -32,6 +33,7 @@ M10. ウタウタイ（MIGOPPER!）
     youtubeId: "mZpzs8-xoxM",
     thumbnail: "images/88.jpg",
     credit: "Music & Vocal: ヤマモトガク／Peg / Illustration: 環田考 / Movie: あーきとれーぶ",
+    roles: ["director", "editing"],
     description: `生きたい
 
 音楽・歌：ヤマモトガク
@@ -56,6 +58,7 @@ M10. ウタウタイ（MIGOPPER!）
     youtubeId: "vo3qug1HFXs",
     thumbnail: "images/79.jpg",
     credit: "Artwork: 夕浪かもめ / Movie: あーきとれーぶ / Animation: 夕浪かもめ, あーきとれーぶ",
+    roles: ["editing"],
     description: `最後に残るのは匂いらしい
 
 Streaming / Download
@@ -156,6 +159,7 @@ kiyu.yoroshiku@gmail.com
     youtubeId: "fepw6wKU8D8",
     thumbnail: "images/01.jpg",
     credit: "Music & Lyrics: クワガタP / Movie & Illustration: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `Download & streaming: https://nodee.net/a/5hj5mj1ff7xz
 
 11年ぶりの新曲です！よろしくお願いします！
@@ -222,6 +226,7 @@ Official Website: https://kuwagatower.com/
     youtubeId: "XFhPR9i27eQ",
     thumbnail: "images/02.jpg",
     credit: "Vocal, Lyrics & Music: ねむ / Arrangement: 河田一真 / Illustration: 中辻作太朗 / Movie & Animation: あーきとれーぶ",
+    roles: ["animation", "editing"],
     description: `懐かしんで笑おう
 
 ねむ『当たり前の終止符』Streaming & Download
@@ -351,6 +356,7 @@ Instagram→  /   / nerrlu.zzz
     youtubeId: "SVLvcvREXCQ",
     thumbnail: "images/77.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `様々なアーティストなどへ楽曲提供をしてきた曲を
 GRe4N BOYZ自身が歌唱する
 9/18（金）配信リリース
@@ -371,6 +377,7 @@ https://gre4nboyz.lnk.to/UTAU-TAITAI
     youtubeId: "nVs1prnygiE",
     thumbnail: "images/03.jpg",
     credit: "Music & Lyrics: ユウジロウ / Arranged by: メタリックセイメイ / Illustration & Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `メタリックセイメイ「夏のカレンダー」Music Video
 
 ────────────────────
@@ -449,6 +456,7 @@ https://x.com/metallicseimei
     youtubeId: "QJsTcvAufng",
     thumbnail: "images/04.jpg",
     credit: "Illustration & Animation: 都鳥-totori- / Movie: あーきとれーぶ / Music: masa",
+    roles: ["director", "editing"],
     description: `masa - まいっちゃう
 DL & Streaming : https://orcd.co/maicchau
 
@@ -515,6 +523,7 @@ X：  / atelierproject_
     youtubeId: "ZsBeMrJzw9E",
     thumbnail: "images/81.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `様々なアーティストなどへ
 楽曲提供をしてきた曲を
 GRe4N BOYZ自身が歌唱する
@@ -536,6 +545,7 @@ https://gre4nboyz.lnk.to/UTAU-TAITAI
     youtubeId: "Rowmkcclsm0",
     thumbnail: "images/05.jpg",
     credit: "Music & Lyric: Chinozo / Vocal: Yoru / Illust & Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `Streaming & Download：https://orcd.co/toilette
 Uchu Pilot / Toilette
 
@@ -629,6 +639,7 @@ Spotify：https://open.spotify.com/intl-ja/arti...
     youtubeId: "q23YpekQmYQ",
     thumbnail: "images/06.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `#GReeeeN #キセキ #shorts
 Movie あーきとれーぶ   / architrave123`
   },
@@ -638,6 +649,7 @@ Movie あーきとれーぶ   / architrave123`
     youtubeId: "7v4eX-Q8k34",
     thumbnail: "images/07.jpg",
     credit: "Movie Editing: あーきとれーぶ / Animation: cacaotane",
+    roles: ["editing"],
     description: `ファミリーマートビジョンで3月に放映された映像です！
 
 かっこいい映像編集
@@ -661,6 +673,7 @@ TikTok　https://www.tiktok.com/@cacaotane?_t=...
     youtubeId: "4SJyfo-5izU",
     thumbnail: "images/08.jpg",
     credit: "Movie Editing: あーきとれーぶ / Animation: cacaotane",
+    roles: ["director", "editing"],
     description: `ファミリーマートビジョンで1月に放映された映像です！
 
 映像編集
@@ -685,6 +698,7 @@ TikTok　https://www.tiktok.com/@cacaotane?_t=...
     youtubeId: "7lqJ-3v1k1A",
     thumbnail: "images/09.jpg",
     credit: "Lyric Video: あーきとれーぶ",
+    roles: ["director", "editing"],
     description: `#GLAY の #TERU さん歌唱参加！
 #gre4nboyz  #星の詩
 
@@ -778,6 +792,7 @@ Lyric Video
     youtubeId: "qFvlFUVgCXY",
     thumbnail: "images/80.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `様々なアーティストなどへ
 楽曲提供をしてきた曲を
 GRe4N BOYZ自身が歌唱する
@@ -799,6 +814,7 @@ gre4nboyz.lnk.to/UTAU-TAITAI
     youtubeId: "i9aVfWZ9UJQ",
     thumbnail: "images/87.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `様々なアーティストなどへ
 楽曲提供をしてきた曲を
 GRe4N BOYZ自身が歌唱する
@@ -820,6 +836,7 @@ https://gre4nboyz.lnk.to/UTAU-TAITAI
     youtubeId: "dlWKnTuP4oM",
     thumbnail: "images/10.jpg",
     credit: "Music: こめだわら / Illustration: ミツ蜂 / Mix & Mastering: さぶろう / Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `【お知らせ】
 2024年に投稿した楽曲を各配信サイトで配信中
 https://linkco.re/hd7Ha8fX
@@ -852,6 +869,7 @@ https://www.dropbox.com/scl/fi/41dae2...
     youtubeId: "waNKLU4Gyhc",
     thumbnail: "images/11.jpg",
     credit: "Vocal: 眉村ちあき / Music: meiyo / Artwork & Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `初めて眉村ちあきを聞いてくださった方、そしていつも応援してくださる皆様ありがとうございます！是非コメントで感想聞かせてください！
 ＿＿＿＿
 
@@ -932,6 +950,7 @@ https://mayumura.lnk.to/AMPLANDPLAN_AL
     youtubeId: "pjTdLOlXcsI",
     thumbnail: "images/12.jpg",
     credit: "Illustration & Animation: ハツミノ / Movie: あーきとれーぶ / Music: szri",
+    roles: ["director", "editing"],
     description: `アトリエプロジェクト・オリジナルコラボMV。
 ボカロPのszri（Puzzle Project）、イラストレーターのハツミノ、
 映像クリエイターのあーきとれーぶ、三名によるアトリエオリジナルコラボ作品です！
@@ -950,6 +969,7 @@ MUSIC
     youtubeId: "LDPutBJ8Oec",
     thumbnail: "images/13.jpg",
     credit: "Illustration & Animation: cacaotane / Movie: あーきとれーぶ / Music: イセキユウト・RIP DISHONOR",
+    roles: ["director", "editing"],
     description: `アトリエプロジェクト・オリジナルコラボMV。
 大阪を拠点に活動する4ピースバンドRIP DISHONOR、イラストレーターのcacaotane、映像クリエイターのあーきとれーぶ、三組によるアトリエオリジナルコラボ作品です！
 
@@ -967,6 +987,7 @@ MUSIC
     youtubeId: "-6M2Trskix0",
     thumbnail: "images/78.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `様々なアーティストなどへ
 楽曲提供をしてきた曲を
 GRe4N BOYZ自身が歌唱する
@@ -986,6 +1007,7 @@ gre4nboyz.lnk.to/UTAU-TAITAI`
     youtubeId: "Ha6c2yUMCJw",
     thumbnail: "images/14.jpg",
     credit: "Movie Editing: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `[2023.11.22 Now On Sale]
 CD Single「fam/Lullaby」
 https://www.jvcmusic.co.jp/flyingdog/...
@@ -1092,6 +1114,7 @@ Instagram:https://www.instagram.com/yuyu_offici...
     youtubeId: "1taUzHhtEu0",
     thumbnail: "images/15.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `GReeeeNはGRe4N BOYZになりました
 今年も全国ツアー開催します！ファンクラブも新たにオープンします
 
@@ -1111,6 +1134,7 @@ Instagram：  / gre4nboyz_official
     youtubeId: "tU-m0vRODQE",
     thumbnail: "images/16.jpg",
     credit: "Music: こめだわら / Mix & Mastering: かごめP / Illustration: 砂漠 / Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `【お知らせ】
 2024年に投稿した楽曲を各配信サイトで配信中
 https://linkco.re/hd7Ha8fX
@@ -1148,6 +1172,7 @@ https://www.dropbox.com/scl/fi/17u1de...
     youtubeId: "69g2dU6h1dE",
     thumbnail: "images/17.jpg",
     credit: "Lyric Video: あーきとれーぶ",
+    roles: ["editing"],
     description: `【新曲】 TVアニメ「ワンピース」OP主題歌
 GRe4N BOYZ「天使と悪魔」好評配信中
 https://GRe4NBOYZ.lnk.to/Angel-and-Devil
@@ -1203,6 +1228,7 @@ Official TikTok：   / gre4n.boyz.info
     youtubeId: "OecXXSsm5kA",
     thumbnail: "images/18.jpg",
     credit: "Vocal: kayto / Lyrics & Music: 藤永龍太郎(Elements Garden) / MV: あーきとれーぶ",
+    roles: ["editing"],
     description: `#ReEnd #TheOver #ウルズハント
 
 『機動戦士ガンダム 鉄血のオルフェンズ ウルズハント』主題歌
@@ -1283,6 +1309,7 @@ Re:End(  / reend_official  )
     youtubeId: "qZ-pTHuUFQQ",
     thumbnail: "images/19.jpg",
     credit: "Vocal: aoru / Music, Lyrics & Arrangement: A4。 / Video: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `今はそっと爪隠す様に。。。
 
 ダウンロード・ストリーミング配信→ https://aoru.lnk.to/Wolf
@@ -1397,6 +1424,7 @@ Twitter→  / aoru_2525
     youtubeId: "Bu7Zysr2uKw",
     thumbnail: "images/20.jpg",
     credit: "Music & Vocal: ヤマモトガク / Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `蛙の子は蛙
 
 offvocal:https://drive.google.com/drive/folder...
@@ -1470,6 +1498,7 @@ offvocal:https://drive.google.com/drive/folder...
     youtubeId: "VuVzLhwjKy8",
     thumbnail: "images/21.jpg",
     credit: "Music, Lyrics, Arrangement & Vocal: kiyu / Arrangement, Mix & Mastering: Fumito Iwai / Illustration: 夕浪かもめ / Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `ST / DL
 https://orcd.co/kiyu_circus
 
@@ -1578,6 +1607,7 @@ Contact (お仕事/ご連絡） ⇨ kiyu.yoroshiku@gmail.com`
     youtubeId: "LKnFxnu0xGc",
     thumbnail: "images/22.jpg",
     credit: "Artwork: あーきとれーぶ",
+    roles: ["editing", "illustration"],
     description: `どうも、温泉同好会です。
 今回は『時間』をテーマにゲストを招いての新作第二弾です。
 
@@ -1648,6 +1678,7 @@ Presented by 温泉同好会
     youtubeId: "trQQv_5enC8",
     thumbnail: "images/23.jpg",
     credit: "Illustration & Animation: 都鳥-totori- / Movie: 都鳥-totori-, あーきとれーぶ / Lyrics & Music: PON",
+    roles: ["editing"],
     description: `明日もまた、この場所で
 
 
@@ -1686,6 +1717,7 @@ https://www.anycolor.co.jp/notice-for...`
     youtubeId: "hzgSLc8G9WA",
     thumbnail: "images/24.jpg",
     credit: "Produce, Arrangement & Music: Mashoe / Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `Crazy In The Rain (Official Music Video) 
 Mashoe
 SINGLE | 2025.10.22 Release
@@ -1790,6 +1822,7 @@ Mashoe / マシュー
     youtubeId: "wbTt7oJsKpc",
     thumbnail: "images/25.jpg",
     credit: "Vocal, Lyrics & Music: ねむ / Illustration & Storyboard: ゆのさん / Editing: あーきとれーぶ",
+    roles: ["editing"],
     description: `今は亡き貴方へ
 
 ねむ『スターチス』Streaming & Download
@@ -1869,6 +1902,7 @@ Instagram→  / nerrlu.zzz
     youtubeId: "Yu7YXJbm9TQ",
     thumbnail: "images/26.jpg",
     credit: "Music: ユウキシロ / Arranged by: 杳 / Director: あーきとれーぶ / Animation: しば瀞",
+    roles: ["director", "editing"],
     description: `Streaming & DL (https://linkco.re/FA7F1dC6)
 Inst & lyric (https://piapro.jp/t/lU7z)
 
@@ -1893,6 +1927,7 @@ Mail (KIBAKOfromTENTOWN@gmail.com)
     youtubeId: "8UZ8J26oLKc",
     thumbnail: "images/27.jpg",
     credit: "Artwork: あーきとれーぶ",
+    roles: ["editing", "illustration"],
     description: `どうも、温泉同好会です。
 今回は『時間』をテーマにゲストを招いての新作です。
 
@@ -1952,6 +1987,7 @@ Presented by 温泉同好会
     youtubeId: "enpB9Ajb67Q",
     thumbnail: "images/28.jpg",
     credit: "Lyric & Music: kiyu / Artwork: 夕浪かもめ / Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `2025.10.29 Release「妄想劣等症(笑)」
 Streaming / DL : https://orcd.co/mousou_rettousyou
 
@@ -1981,6 +2017,7 @@ kiyu.yoroshiku@gmail.com
     youtubeId: "HHWhxL_XbZo",
     thumbnail: "images/29.jpg",
     credit: "Vocal, Lyrics & Music: ねむ / Illustration & Storyboard: 中辻作太朗 / Animation: あーきとれーぶ",
+    roles: ["editing"],
     description: `もう十分頑張っている貴方は天才
 
 ねむ『きばる』Streaming & Download
@@ -2091,6 +2128,7 @@ Instagram→  /   / nerrlu.zzz
     youtubeId: "z2OHjH3M3iQ",
     thumbnail: "images/30.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `#GReeeeN #勝ちドキ #shorts 
 Movie あーきとれーぶ   / architrave123  `
   },
@@ -2100,6 +2138,7 @@ Movie あーきとれーぶ   / architrave123  `
     youtubeId: "NsCRtvp-SH4",
     thumbnail: "images/31.jpg",
     credit: "Music: 骨丸 / Illustration: mawi / Movie: あーきとれーぶ",
+    roles: ["director", "editing"],
     description: `初めまして。出会ってくれてありがとうございます。
 骨丸と申します。7作品目の投稿です。
 
@@ -2187,6 +2226,7 @@ https://honemaru-p.booth.pm
     youtubeId: "8RkhEuTDSfA",
     thumbnail: "images/82.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `様々なアーティストなどへ
 楽曲提供をしてきた曲を
 GRe4N BOYZ自身が歌唱する
@@ -2208,6 +2248,7 @@ https://gre4nboyz.lnk.to/UTAU-TAITAI
     youtubeId: "vmJ6Flv5600",
     thumbnail: "images/83.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `様々なアーティストなどへ
 楽曲提供をしてきた曲を
 GRe4N BOYZ自身が歌唱する
@@ -2229,6 +2270,7 @@ https://gre4nboyz.lnk.to/UTAU-TAITAI
     youtubeId: "Kf7RWnQFIao",
     thumbnail: "images/84.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `様々なアーティストなどへ
 楽曲提供をしてきた曲を
 GRe4N BOYZ自身が歌唱する
@@ -2250,6 +2292,7 @@ gre4nboyz.lnk.to/UTAU-TAITAI
     youtubeId: "9n5ahEYr9fA",
     thumbnail: "images/85.jpg",
     credit: "Vocal: 重音テトSV2 / Music: 骨丸 / Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `初めまして。出会ってくれてありがとうございます。
 骨丸と申します。
 21作品目の投稿です。
@@ -2302,6 +2345,7 @@ https://honemaru-p.booth.pm
     youtubeId: "6sII8g2d7Ag",
     thumbnail: "images/86.jpg",
     credit: "Words & Music: Mashiro Shirakami / Music Video: あーきとれーぶ",
+    roles: ["editing"],
     description: `"somewhere not here" Mashiro Shirakami
 
 各種音楽配信サービスリンク：https://linkco.re/VmZC0mXN
@@ -2327,6 +2371,7 @@ Instagram： https://www.instagram.com/mashiro_shirakami/`
     youtubeId: "2baicDA6lf4",
     thumbnail: "images/32.jpg",
     credit: "Vocal: Kaofang, Meedee, Oei (BASKETPROJECT) / Music: ふるーり / Illustration: こまむ / Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `🎧 Streaming & Download → https://orcd.co/lock-you-na
 
 ■ Vocal / Kaofang, Meedee, Oei (from BASKETPROJECT)
@@ -2385,6 +2430,7 @@ X: https://x.com/komammm`
     youtubeId: "Xw0bd7fKQnU",
     thumbnail: "images/33.jpg",
     credit: "Produce, Arrangement & Music: Mashoe / Illustration: SUPER POP / Movie compositor: architrave",
+    roles: ["editing"],
     description: `All I Need (Official Music Video) 
 Mashoe
 SINGLE | 2025.07.09 Release
@@ -2484,6 +2530,7 @@ R&B、ソウル、ヒップホップ、ファンク、ジャズなどのブラ�
     youtubeId: "VsWeil6t-rw",
     thumbnail: "images/34.jpg",
     credit: "Music: 東雲ヨル / Animation: じぇねらる / Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `こんにちは、東雲ヨルです。初音ミク ✕ スニーカー をテーマとしたアクティブでエネルギッシュな曲を製作しました！人生初のアニメMVを公開できてとても嬉しいです！
 
 ▽アニメーション：じぇねらる
@@ -2579,6 +2626,7 @@ Web：https://architrave.myportfolio.com/
     youtubeId: "-hKfR-nyK50",
     thumbnail: "images/35.jpg",
     credit: "Lyrics, Music, Arrangement, Guitar & Mix: kdo-10°C / Video: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `──　この歌に取り消し線がつく日を、僕は探している。
 
 「音楽なんてやらなきゃよかった」
@@ -2672,6 +2720,7 @@ https://drive.google.com/drive/folder...
     youtubeId: "9OKcrZXUU0Y",
     thumbnail: "images/36.jpg",
     credit: "Sung: Yuki Hori / Lyrics: Masato Funahashi / Music: Hikaru Ikeda & Ryo Hata / Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `女声ver→   • 平尾菜沙「ハーデンベルギア (Female ver.)」[ORIGINAL MUSI...  
 各種配信サービスにて配信中→https://lnk.to/AMG-8120
 【Credit】
@@ -2688,6 +2737,7 @@ Movie : あーきとれーぶ`
     youtubeId: "L0YumXLrp-0",
     thumbnail: "images/37.jpg",
     credit: "Vocal: 仲田陽太 & 近坂のい / Lyrics & Music: 大山桂佑 / Illustration: 大鶴音佳 / Movie: あーきとれーぶ",
+    roles: ["director", "editing"],
     description: `↓女子×女子バージョン↓
    • 【オリジナルMV】Re-versible (F×F Ver)  
 各種配信リンク：https://lnk.to/AMG-8118
@@ -2718,6 +2768,7 @@ X：https://x.com/amg_music_news`
     youtubeId: "24bCKFoIOh4",
     thumbnail: "images/38.jpg",
     credit: "Lyrics: 佐倉なる / Music: Arata / Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `Offshore 5th Single「Caprice」
 2025年2月26日(水) リリース
 https://pci.lnk.to/Caprice
@@ -2829,6 +2880,7 @@ https://x.gd/fWfaK
     youtubeId: "NllYjAYwbak",
     thumbnail: "images/39.jpg",
     credit: "Artwork: あーきとれーぶ",
+    roles: ["editing", "illustration"],
     description: `どうも、温泉同好会です。
 『相生/相剋』から早一年、ボカロP温泉同好会から春のお知らせです。
 
@@ -2900,6 +2952,7 @@ Presented by 温泉同好会
     youtubeId: "yI_WQo8OAu8",
     thumbnail: "images/40.jpg",
     credit: "Music, Lyrics, Arrangement, Mix & Mastering: shukapi / Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `作詞作編曲Mix/Mastering：shukapi　https://x.com/shukapipi_
 
 動画：あーきとれーぶ   / architrave123`
@@ -2910,6 +2963,7 @@ Presented by 温泉同好会
     youtubeId: "iEBUk_-jOhE",
     thumbnail: "images/41.jpg",
     credit: "Vocal: ふろた / Music: 桶屋-Okeya / Illustration: 透依 / Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `「ささくれ」という曲です。
 ゆっくり浸かっていってください。
 
@@ -2979,6 +3033,7 @@ Movie : あーきとれーぶ
     youtubeId: "wk1eDBapjK8",
     thumbnail: "images/42.jpg",
     credit: "Movie Editing: あーきとれーぶ",
+    roles: ["editing"],
     description: `▼Release Information
 2025.1.22(Wed) 3rd EP「アナザーダイバーシティ」Release
 https://lnk.to/retroriron_adc
@@ -3043,6 +3098,7 @@ https://retroriron.com/`
     youtubeId: "JbMowYoN00k",
     thumbnail: "images/43.jpg",
     credit: "Vocal: 蛯名愛月 / Lyrics: 舟橋雅人 / Music & Arrangement: 長代憲治 / Illustration & Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `「まいっか」
 Vocal／蛯名愛月
 Lyrics／舟橋雅人
@@ -3065,6 +3121,7 @@ X：https://x.com/amg_music_news`
     youtubeId: "5IaQdeqEpeY",
     thumbnail: "images/44.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `#GReeeeN #遠くの空指さすんだ #shorts 
 Movie あーきとれーぶ   / architrave123  `
   },
@@ -3074,6 +3131,7 @@ Movie あーきとれーぶ   / architrave123  `
     youtubeId: "ma6i-iLcF58",
     thumbnail: "images/45.jpg",
     credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
     description: `#GReeeeN #刹那 #shorts 
 Movie あーきとれーぶ   / architrave123  `
   },
@@ -3083,6 +3141,7 @@ Movie あーきとれーぶ   / architrave123  `
     youtubeId: "7UX3oWiD6M4",
     thumbnail: "images/46.jpg",
     credit: "Movie Editing: あーきとれーぶ",
+    roles: ["editing"],
     description: `▼Release Information
 2025.1.22 3rd EP「アナザーダイバーシティ」Release
 https://lnk.to/retroriron_adc
@@ -3146,6 +3205,7 @@ https://retroriron.com/`
     youtubeId: "EoJaL2HTQPk",
     thumbnail: "images/47.jpg",
     credit: "Artwork: あーきとれーぶ",
+    roles: ["editing", "illustration"],
     description: `こんにちは、温泉同好会です。
 冬もやります、足湯。
 秋？はて……
@@ -3196,6 +3256,7 @@ Presented by 温泉同好会
     youtubeId: "OtRtMBing4o",
     thumbnail: "images/48.jpg",
     credit: "Vocal: 日月とこ / Music: kake / MV: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `心の雨に傘をさしてくれる人じゃなくて
 晴れにしてくれる人
 
@@ -3272,6 +3333,7 @@ https://linkco.re/9HMt4vU4
     youtubeId: "l5EXERhgiiI",
     thumbnail: "images/49.jpg",
     credit: "Vocal: kayto / Lyrics & Music: 藤永龍太郎(Elements Garden) / MV: あーきとれーぶ",
+    roles: ["director", "editing"],
     description: `#ReEnd #心なんて
 
 Re:End「心なんて」
@@ -3359,6 +3421,7 @@ Re:End(  / reend_official  )
     youtubeId: "GneADMY9PFU",
     thumbnail: "images/50.jpg",
     credit: "Music & Vocal: Tomy / Animation: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `Tomy/想痛い【Music Video】
 " 想痛い " 2022 10.26  Release
 【Listen＆DL】https://linkco.re/xbM7r3cz
@@ -3417,6 +3480,7 @@ twitter→  / architrave123
     youtubeId: "FT-HG-UAICk",
     thumbnail: "images/51.jpg",
     credit: "Music, Lyrics & Arrange: 亥上(ikami) / Illustration & Movie: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `こんばんは、亥上(ikami)です。
 ＃無色透名祭2 に投稿した楽曲のリメイクです。
 
@@ -3480,6 +3544,7 @@ twitter→  / architrave123
     youtubeId: "vF3Umn5tesw",
     thumbnail: "images/52.jpg",
     credit: "Artwork: あーきとれーぶ",
+    roles: ["editing", "illustration"],
     description: `2024/04/27(土),28(日) 開催
 ニコニコ超会議2024内
 THE VOC@LOiD 超 M@STER５５にて頒布
@@ -3531,6 +3596,7 @@ Presented by 温泉同好会
     youtubeId: "LnDRUiWmFXk",
     thumbnail: "images/53.jpg",
     credit: "Lyrics & Music: 灯遠 / Tuning: 傘村トータ / Illustration: カトレア / Movie: あーきとれーぶ",
+    roles: ["director", "editing"],
     description: `「生まれ変われ怪物よ」 
 
 作詞曲:灯遠(https://x.com/nico_Twilight)
@@ -3593,6 +3659,7 @@ Presented by 温泉同好会
     youtubeId: "e77L95ziaz4",
     thumbnail: "images/54.jpg",
     credit: "Illustration: nonopace / Movie: あーきとれーぶ / Vocal: kodani asuka",
+    roles: ["editing"],
     description: `□■
 
 ⋆՜ original：アメリカ民謡研究会
@@ -3630,6 +3697,7 @@ https://lit.link/majiresuyamena`
     youtubeId: "YwXOhJMCSNY",
     thumbnail: "images/55.jpg",
     credit: "Illustration: 北澤ゆうり / Movie: あーきとれーぶ / Vocal: 小谷あすか",
+    roles: ["editing"],
     description: `□■
 
 ⚘ original
@@ -3672,6 +3740,7 @@ https://lit.link/majiresuyamena`
     youtubeId: "mYgI52TmgYE",
     thumbnail: "images/56.jpg",
     credit: "Music: 九七. / Vocal: それ故 / Artwork: nedoco / Movie: あーきとれーぶ",
+    roles: ["director", "editing"],
     description: `#ボカデュオ2024 #vocaduo2024 #KinoLatin
 
 教科書の捨て方
@@ -3753,6 +3822,7 @@ X(Twitter)
     youtubeId: "hViR5-biXyE",
     thumbnail: "images/57.jpg",
     credit: "Music: ヤマモトガク / Movie: あーきとれーぶ / Jacket Illustration: 井上カワズ",
+    roles: ["editing"],
     description: `配信リンク：https://nex-tone.link/A00129368
 
 音楽：ヤマモトガク
@@ -3777,6 +3847,7 @@ Tr.8 key:ゆきち（  / kimasirawa）
     youtubeId: "P_anMdcCKC8",
     thumbnail: "images/58.jpg",
     credit: "Lyrics & Music: seeeeecun / Vocal: seeeeecun, suisa, Shino / Illustration & Movie: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `MECRE(メクル)は昨日初めて作品を発表した人も、
 1000万回再生動画を持つクリエイターも、
 フラットに出逢い、新しい創作活動ができる場所。
@@ -3866,6 +3937,7 @@ https://www.ryomanakamura.com/
     youtubeId: "33qbbkvZrjI",
     thumbnail: "images/59.jpg",
     credit: "Lyrics, Music & Arrangement: SEE / Arrangement: 桜餅ルナ / Vocal: 雨のち雨 / Movie: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `#VocaDuo2022
   / vocaduo_  
 
@@ -3903,6 +3975,7 @@ inst: https://drive.google.com/file/d/1Qgse...
     youtubeId: "BGZD5TUARhw",
     thumbnail: "images/60.jpg",
     credit: "Music, Lyrics, Arrangement, Mix & Mastering: shukapi / Movie: あーきとれーぶ",
+    roles: ["director", "editing"],
     description: `作詞作編曲Mix/Mastering：shukapi　https://x.com/shukapipi_
 
 動画：あーきとれーぶ   / architrave123  
@@ -3916,6 +3989,7 @@ inst :https://piapro.jp/shukapi
     youtubeId: "0pwFpOvB-sw",
     thumbnail: "images/61.jpg",
     credit: "Artwork: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `こんにちは、温泉同好会です。
 最高の夏にしよう2024
 ということで夏らしい涼しげな足湯をお届けします。
@@ -3964,6 +4038,7 @@ Presented by 温泉同好会
     youtubeId: "g90jVFmwcVo",
     thumbnail: "images/62.jpg",
     credit: "Music & Lyrics: Sohbana / Vocal: 吉乃 / Illustration & Movie: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `王子様じゃない、白馬のほう。
 
 可不ver.(ニコニコ動画)→https://www.nicovideo.jp/watch/sm3966...
@@ -4049,6 +4124,7 @@ Twitter　  / ngtgdgd
     youtubeId: "v-ZB4Bz_Hfw",
     thumbnail: "images/63.jpg",
     credit: "Music, Lyrics, Arrangement, Mix & Mastering: shukapi / Movie: あーきとれーぶ",
+    roles: ["director", "editing"],
     description: `はじめまして
 作詞作編曲Mix/Mastering：shukapi　https://x.com/shukapipi_
 
@@ -4063,6 +4139,7 @@ inst :https://piapro.jp/shukapi
     youtubeId: "Ed0sqQS0r3E",
     thumbnail: "images/64.jpg",
     credit: "Director: あーきとれーぶ (atelier project) / Story: Hato Asano / Music: Fuyuko Shioiri (FINLANDS)",
+    roles: ["director", "editing", "illustration"],
     description: `monogatary.comコラボコンテスト『よるのあとのあと』大賞作品「ハレーション・ホロウ」アートムービー
 
 VIDEO CREDIT 
@@ -4166,6 +4243,7 @@ Twitter：  / atelierproject_  `
     youtubeId: "JbeciZEwtxY",
     thumbnail: "images/65.jpg",
     credit: "Animation & Movie: あーきとれーぶ",
+    roles: ["director", "editing"],
     description: `天草市ではゲーム・アニメなどのコンテンツ産業の創出を目指す「デジタルアートの島創造事業」に取り組んでいます。そこで、都市部のコンテンツ産業向け、クリエイター向けにアニメーションムービーを制作しました。ぜひご覧ください。
 
 ＊作者（あーきとれいぶ様）の想い
@@ -4183,6 +4261,7 @@ Twitter：  / atelierproject_  `
     youtubeId: "sHxJnuv7Uls",
     thumbnail: "images/66.jpg",
     credit: "Movie: あーきとれーぶ / Music: 消灯ライダー",
+    roles: ["director", "animation", "editing"],
     description: `お久しぶりです
 
 よろしくお願いします
@@ -4199,6 +4278,7 @@ Twitter：  / atelierproject_  `
     youtubeId: "8_CTPGW40Fo",
     thumbnail: "images/67.jpg",
     credit: "Vocal: 詩歩 / Lyrics & Music: Mr.Morick+ / Movie: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `各サブスクにて配信中！
 https://linkco.re/v5rbv9Ef
 
@@ -4284,6 +4364,7 @@ Facebook:   / shiho.alfml
     youtubeId: "slV5xXwHWlg",
     thumbnail: "images/68.jpg",
     credit: "Vocal & Guitar: 琥珀 / Bass: Mino / Drums: 櫻庭裕都 / Illust & Movie: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `Unreleased DEMO Project 
 第一弾『人魚』公開
 
@@ -4313,6 +4394,7 @@ https://twitter.com/architrave123?s=2...
     youtubeId: "belWq2spzno",
     thumbnail: "images/69.jpg",
     credit: "Illustration: 北澤ゆうり / Movie: あーきとれーぶ / Vocal: 小谷あすか",
+    roles: ["director", "editing"],
     description: `□■
 
 ⚘ original
@@ -4363,6 +4445,7 @@ https://lit.link/majiresuyamena`
     youtubeId: "T0Nk7zSPMBo",
     thumbnail: "images/70.jpg",
     credit: "Music: hieta.C / Illustration & Movie: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `ご視聴ありがとうございます。
 オリジナル曲１１曲目です。
 
@@ -4418,6 +4501,7 @@ https://www.nicovideo.jp/my/mylist/68...
     youtubeId: "GoZvLE9yBcM",
     thumbnail: "images/71.jpg",
     credit: "Music, Lyrics, Arrangement, Mix & Mastering: shukapi / Movie: あーきとれーぶ",
+    roles: ["director", "editing"],
     description: `作詞作編曲Mix/Mastering：shukapi　https://x.com/shukapipi_
 
 動画：あーきとれーぶ   / architrave123  
@@ -4431,6 +4515,7 @@ inst :https://piapro.jp/shukapi
     youtubeId: "FHSHSWJZ8Mo",
     thumbnail: "images/72.jpg",
     credit: "Vocal & Guitar: 琥珀 / Bass: Mino / Drums: 櫻庭裕都 / Illust & Movie: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `Unreleased DEMO Project 
 第三弾・新曲『SHINKIROU』
 
@@ -4460,6 +4545,7 @@ https://twitter.com/architrave123?s=2...
     youtubeId: "xFZAFBBdl_A",
     thumbnail: "images/73.jpg",
     credit: "Music & Lyrics: Milo / Movie: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `オリジナルボーカロイド曲の５作目です。
 Twitter : (@watanabe_milo)   / watanabe_milo  
 ニコニコ動画 : https://www.nicovideo.jp/watch/sm3822...
@@ -4508,6 +4594,7 @@ Hatsune Miku NT © Crypton Future Media, INC. www.piapro.net`
     youtubeId: "amWGokWp50E",
     thumbnail: "images/74.jpg",
     credit: "Music: Milo / Lyrics: Milo & あーきとれーぶ / Movie: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `オリジナルボーカロイド曲の６作目です。
 Twitter : (@watanabe_milo)   / watanabe_milo  
 ニコニコ動画 : https://www.nicovideo.jp/watch/sm3858...
@@ -4563,6 +4650,7 @@ Hatsune Miku NT © Crypton Future Media, INC. www.piapro.net`
     youtubeId: "_VoqP4GSjCc",
     thumbnail: "images/75.jpg",
     credit: "Song & Written by: Samuel Goldenberg / Movie: あーきとれーぶ",
+    roles: ["director", "editing", "illustration"],
     description: `Machine gun - Samuel Goldenberg
 
 不安と期待のロックンロール
@@ -4643,6 +4731,7 @@ Dance floorの、壇上に
     youtubeId: "3DYJTLj8yPs",
     thumbnail: "images/76.jpg",
     credit: "Movie: あーきとれーぶ / Music: 消灯ライダー",
+    roles: ["director", "animation", "editing", "illustration"],
     description: `五作目
 よろしくお願いします
 
