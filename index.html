@@ -87,6 +87,7 @@
   <div class="cta-hero">
     <a class="cta-button" href="contact.html">ご依頼はこちら →</a>
   </div>
+  <div id="role-filter" class="role-filter" role="group" aria-label="担当で絞り込む"></div>
   <div id="grid" class="grid"></div>
   <div id="game-section" class="game-section">
     <p class="game-thanks">Thanks for sticking around.</p>
@@ -112,7 +113,20 @@
     <div class="video-wrap">
       <iframe id="modal-iframe" src="" title="video player" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
+    <div class="modal-nav">
+      <button id="modal-prev" class="modal-nav-button" aria-label="前の作品">&larr;</button>
+      <div class="modal-heading">
+        <p id="modal-title" class="modal-title"></p>
+        <p id="modal-roles" class="modal-roles"></p>
+        <p id="modal-position" class="modal-position"></p>
+      </div>
+      <button id="modal-next" class="modal-nav-button" aria-label="次の作品">&rarr;</button>
+    </div>
     <div id="modal-description" class="modal-description"></div>
+    <div class="modal-up-next">
+      <p class="modal-up-next-label">次に見る</p>
+      <div id="modal-up-next-list" class="modal-up-next-list"></div>
+    </div>
   </div>
 </div>
 <footer class="site-footer">
