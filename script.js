@@ -19,7 +19,6 @@
 (function () {
   const UP_NEXT_COUNT = 5;
   const AUTOPLAY_SECONDS = 5;
-  const CONTACT_EMAIL = "architrave12345@gmail.com";
   const HASH_PREFIX = "#work-";
   const ROLE_LABELS = {
     editing: "編集",
@@ -161,10 +160,8 @@
     const kind = editingOnly ? "映像編集" : "映像制作";
     const link = document.getElementById("modal-contact");
     link.textContent = "この作品のような" + kind + "を相談する";
-    const subject = "【ご相談】" + kind + "（参考：" + work.title + "）";
-    const body = "参考作品：" + work.title + "\n" + workUrl(work) + "\n\n" +
-      "ご依頼内容：\n納期：\nご予算：\n";
-    link.href = "mailto:" + CONTACT_EMAIL + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    // The request page shows this work as the reference and pre-fills the mail with it
+    link.href = "contact?ref=" + encodeURIComponent(work.youtubeId);
   }
 
   function renderDescription(work) {

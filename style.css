@@ -167,6 +167,87 @@ a { color: inherit; }
   padding-left: 20px;
 }
 .contact-note { font-size: 13px; color: #666; }
+.contact-ref { margin: 0; scroll-margin-top: 24px; }
+.contact-ref[hidden] { display: none; }
+.contact .contact-ref-jump {
+  display: inline-block;
+  margin: 4px 0 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+.contact-ref-jump[hidden] { display: none !important; }
+.contact.has-ref .contact-mail,
+.contact.has-ref .contact-mail + .contact-note { display: none; }
+.contact-ref-label {
+  margin: 0 0 8px !important;
+  font-size: 12px;
+  color: #666;
+  letter-spacing: 0.1em;
+}
+.contact .contact-ref-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: border-color 0.2s ease;
+}
+.contact-ref-card:hover { border-color: #111; }
+.contact-ref-card img {
+  flex: none;
+  width: 160px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 3px;
+  display: block;
+}
+.contact-ref-title { font-size: 14px; font-weight: 700; line-height: 1.5; }
+.contact-ref-note { margin: 8px 0 0 !important; font-size: 13px; color: #666; }
+.contact-draft-label { display: block; margin-top: 16px !important; }
+.contact-draft {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.7;
+  resize: vertical;
+}
+.contact-draft:focus { outline: 2px solid #111; outline-offset: 1px; border-color: #111; }
+.contact-draft-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.contact .contact-draft-button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 18px;
+  border: 1px solid #111;
+  border-radius: 999px;
+  background: #fff;
+  color: #111;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.contact .contact-draft-button-primary { background: #111; color: #fff; }
+.contact-draft-button:hover { opacity: 0.75; }
+@media (max-width: 700px) {
+  .contact .contact-ref-card { gap: 12px; }
+  .contact-ref-card img { width: 120px; }
+}
 .client-list {
   font-size: 13px;
   color: #666;
