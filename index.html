@@ -108,12 +108,27 @@
     </div>
   </div>
 </main>
-<div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
   <div class="modal-backdrop"></div>
   <button id="modal-close" class="modal-close" aria-label="閉じる">&times;</button>
   <div class="modal-content">
     <div class="video-wrap">
-      <iframe id="modal-iframe" src="" title="video player" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe id="modal-iframe" src="" title="video player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+      <div id="autoplay-next" class="autoplay-next" hidden>
+        <img id="autoplay-thumb" class="autoplay-thumb" src="" alt="">
+        <div class="autoplay-body">
+          <p class="autoplay-label">次の作品</p>
+          <p id="autoplay-title" class="autoplay-title"></p>
+          <div class="autoplay-ring">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21"></circle><circle class="autoplay-ring-progress" cx="24" cy="24" r="21"></circle></svg>
+            <span id="autoplay-count" class="autoplay-count"></span>
+          </div>
+          <div class="autoplay-buttons">
+            <button id="autoplay-now" class="autoplay-button autoplay-button-primary">今すぐ再生</button>
+            <button id="autoplay-cancel" class="autoplay-button">キャンセル</button>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="modal-nav">
       <button id="modal-prev" class="modal-nav-button" aria-label="前の作品">&larr;</button>
@@ -124,7 +139,14 @@
       </div>
       <button id="modal-next" class="modal-nav-button" aria-label="次の作品">&rarr;</button>
     </div>
-    <div id="modal-description" class="modal-description"></div>
+    <div class="modal-actions">
+      <a id="modal-contact" class="modal-contact" href="contact.html"></a>
+      <button id="modal-share" class="modal-share" type="button" aria-label="リンクをコピー"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.5-3.5a3 3 0 1 1 4.2 4.2l-2 2a1 1 0 1 1-1.4-1.4l2-2a1 1 0 1 0-1.4-1.4l-3.5 3.5a1 1 0 0 1-1.4 0zm2.8-2.8a1 1 0 0 1 0 1.4l-3.5 3.5a3 3 0 1 1-4.2-4.2l2-2a1 1 0 0 1 1.4 1.4l-2 2a1 1 0 1 0 1.4 1.4l3.5-3.5a1 1 0 0 1 1.4 0z"/></svg><span id="modal-share-label" class="modal-share-label"></span></button>
+    </div>
+    <div class="modal-description-wrap">
+      <div id="modal-description" class="modal-description"></div>
+      <button id="modal-description-toggle" class="modal-description-toggle" type="button" aria-controls="modal-description" hidden></button>
+    </div>
     <div class="modal-up-next">
       <p class="modal-up-next-label">次に見る</p>
       <div id="modal-up-next-list" class="modal-up-next-list"></div>
