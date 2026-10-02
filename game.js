@@ -29,14 +29,7 @@
     });
   }
 
-  if (window.YT && window.YT.Player) {
-    initYouTubePlayer();
-  } else {
-    window.onYouTubeIframeAPIReady = initYouTubePlayer;
-    var ytScript = document.createElement('script');
-    ytScript.src = 'https://www.youtube.com/iframe_api';
-    document.head.appendChild(ytScript);
-  }
+  window.whenYouTubeReady(initYouTubePlayer);
 
   var BRICK_ROWS = 10;
   var BRICK_COLS = 8;
