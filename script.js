@@ -66,14 +66,28 @@
       img.src = work.thumbnail;
       img.alt = work.title;
       img.loading = "lazy";
+      card.classList.add("is-loading");
+      const loaded = function () { card.classList.remove("is-loading"); };
+      img.addEventListener("load", loaded);
+      img.addEventListener("error", loaded);
       card.appendChild(img);
 
-      if (work.credit) {
-        const credit = document.createElement("div");
-        credit.className = "card-credit";
-        credit.textContent = work.credit;
-        card.appendChild(credit);
+      // Hover/focus overlay: what the work is and what was done on it
+      const info = document.createElement("div");
+      info.className = "card-info";
+      info.setAttribute("aria-hidden", "true"); // the img alt already names the work
+      const title = document.createElement("span");
+      title.className = "card-title";
+      title.textContent = work.title;
+      info.appendChild(title);
+      const roles = ROLE_ORDER.filter(function (role) { return hasRole(work, role); });
+      if (roles.length) {
+        const roleText = document.createElement("span");
+        roleText.className = "card-roles";
+        roleText.textContent = roles.map(function (role) { return ROLE_LABELS[role]; }).join(" / ");
+        info.appendChild(roleText);
       }
+      card.appendChild(info);
 
       card.addEventListener("click", function (e) {
         if (e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return; // open-in-new-tab goes to the work page
