@@ -49,15 +49,17 @@
   }
 
   function workUrl(work) {
-    return location.origin + location.pathname + HASH_PREFIX + work.youtubeId;
+    // The work page carries per-work OGP/SEO data, so sharing it previews correctly
+    return new URL("work/" + work.youtubeId + "/", location.href).href;
   }
 
   function renderGrid() {
     const container = document.getElementById("grid");
     container.innerHTML = "";
     works.forEach(function (work, index) {
-      const card = document.createElement("div");
+      const card = document.createElement("a");
       card.className = "card";
+      card.href = "work/" + work.youtubeId + "/";
       card.dataset.youtubeId = work.youtubeId;
 
       const img = document.createElement("img");
@@ -73,14 +75,10 @@
         card.appendChild(credit);
       }
 
-      card.addEventListener("click", function () {
+      card.addEventListener("click", function (e) {
+        if (e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return; // open-in-new-tab goes to the work page
+        e.preventDefault();
         openModal(order.indexOf(index));
-      });
-
-      card.tabIndex = 0;
-      card.setAttribute("role", "button");
-      card.addEventListener("keydown", function (e) {
-        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(order.indexOf(index)); }
       });
 
       cards.push(card);

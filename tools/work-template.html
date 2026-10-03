@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../../favicon-180.png">
+<title>%%PAGE_TITLE%%</title>
+<meta name="description" content="%%META_DESCRIPTION%%">
+<link rel="canonical" href="%%PAGE_URL%%">
+<meta property="og:type" content="video.other">
+<meta property="og:site_name" content="ARCHITRAVE WORK">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="%%OG_TITLE%%">
+<meta property="og:description" content="%%META_DESCRIPTION%%">
+<meta property="og:image" content="%%OG_IMAGE_URL%%">
+<meta property="og:image:width" content="%%OG_IMAGE_W%%">
+<meta property="og:image:height" content="%%OG_IMAGE_H%%">
+<meta property="og:url" content="%%PAGE_URL%%">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+%%JSON_LD%%
+</script>
+<!-- Analytics opt-out: visit this page with ?ga_optout=1 once to stop this browser being counted (?ga_optout=0 to re-enable) -->
+<script>
+  (function () {
+    var params = new URLSearchParams(location.search);
+    if (params.get('ga_optout') === '1') localStorage.setItem('ga_optout', '1');
+    if (params.get('ga_optout') === '0') localStorage.removeItem('ga_optout');
+    if (localStorage.getItem('ga_optout') === '1') window['ga-disable-G-EN5YTT3L33'] = true;
+    if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') window['ga-disable-G-EN5YTT3L33'] = true;
+  })();
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EN5YTT3L33"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-EN5YTT3L33');
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body class="work-page">
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="../../index.html">HOME</a>
+    <a href="../../contact.html">ご依頼について</a>
+    <a href="../../gallery.html">GALLERY</a>
+  </nav>
+  <div class="logo-wrap">
+    <div class="logo">ARCHITRAVE<br>WORK</div>
+  </div>
+</header>
+
+<main class="work-detail">
+  <nav class="work-breadcrumb" aria-label="パンくず"><a href="../../">HOME</a> › <span>%%TITLE%%</span></nav>
+  <div class="work-video">
+    <iframe src="https://www.youtube.com/embed/%%YOUTUBE_ID%%" title="%%TITLE%%"
+      allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <h1 class="work-title">%%TITLE%%</h1>
+  <p class="work-meta"><span class="work-year">%%YEAR%%</span> %%ROLE_BADGES%%</p>
+  %%CREDIT_HTML%%
+  <div class="work-actions">
+    <a class="work-button" href="https://www.youtube.com/watch?v=%%YOUTUBE_ID%%" target="_blank" rel="noopener">YouTubeで見る</a>
+    <a class="work-button work-button-primary" href="../../contact?ref=%%YOUTUBE_ID%%">%%CONTACT_LABEL%%</a>
+  </div>
+  <section class="work-description">
+    <h2>概要</h2>
+    <p>%%DESCRIPTION_HTML%%</p>
+  </section>
+  <nav class="work-pager">%%PREV_LINK%% <a href="../../#work-%%YOUTUBE_ID%%">作品一覧</a> %%NEXT_LINK%%</nav>
+  <section class="work-related">
+    <h2>その他の作品</h2>
+    <ul class="work-related-list">%%RELATED_HTML%%</ul>
+  </section>
+</main>
+<footer class="site-footer">
+  <a href="https://x.com/architrave123" target="_blank" rel="noopener" aria-label="X">
+    <svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7.5 8.6L23 22h-6.9l-5.4-6.9L4.4 22H1.3l8-9.2L1 2h7.1l4.9 6.3L18.9 2zm-1.2 18h1.9L7.4 3.9H5.3L17.7 20z"/></svg>
+  </a>
+  <a href="https://www.tiktok.com/@architrave123" target="_blank" rel="noopener" aria-label="TikTok">
+    <svg viewBox="0 0 24 24"><path d="M16.6 2h-3.2v13.7a3 3 0 1 1-2.4-2.9V9.4a6.2 6.2 0 1 0 5.6 6.2V8.6a8.2 8.2 0 0 0 4.9 1.6V7a5 5 0 0 1-4.9-5z"/></svg>
+  </a>
+  <a href="https://www.youtube.com/@architrave123" target="_blank" rel="noopener" aria-label="YouTube">
+    <svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.5V8.5L15.8 12z"/></svg>
+  </a>
+</footer>
+</body>
+</html>
