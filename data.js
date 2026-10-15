@@ -518,6 +518,29 @@ X：  / atelierproject_
 #アトリエプロジェクト #masa #都鳥 #あーきとれーぶ`
   },
   {
+    title: "blend house - すだち (Prod. edbl) [Animated Music Video]",
+    year: 2026,
+    youtubeId: "Zvj9CDngUWY",
+    thumbnail: "images/90.jpg",
+    credit: "Animation, Background & Editing: あーきとれーぶ / Animation: Haruka Shimizu, Emi Morikawa",
+    roles: ["animation", "editing"],
+    description: `Music Video for "すだち” by blend house
+https://bio.to/blendhouse
+
+Music&Lyric：HiROKI / Ryoma Takamura
+Sound Produce : edbl
+Recording Engineer : Takeaki Oshima
+Mastering : 森崎雅人(ARTISANS MASTERING)
+Animation: architrave / Haruka Shimizu / Emi Morikawa
+Video Concept & Production: NihyakuWIND
+Label：P-VINE
+
+Follow blend house
+Instagram：   / blendhouse_jp  
+Official Site：https://blendhouse-jp.com/
+Management：https://bio.to/NihyakuWIND`
+  },
+  {
     title: "GRe4N BOYZ ショート動画「U R not alone」",
     year: 2026,
     youtubeId: "ZsBeMrJzw9E",
