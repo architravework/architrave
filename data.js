@@ -518,26 +518,27 @@ X：  / atelierproject_
 #アトリエプロジェクト #masa #都鳥 #あーきとれーぶ`
   },
   {
-    title: "GRe4N BOYZ ショート動画「U R not alone」",
+    title: "blend house - すだち (Prod. edbl) [Animated Music Video]",
     year: 2026,
-    youtubeId: "ZsBeMrJzw9E",
-    thumbnail: "images/81.jpg",
-    credit: "Movie: あーきとれーぶ",
-    roles: ["editing"],
-    description: `様々なアーティストなどへ
-楽曲提供をしてきた曲を
-GRe4N BOYZ自身が歌唱する
-9/18（金）配信リリース
-セルフカバーアルバム『#ウタウタイタイ』🎹
+    youtubeId: "Zvj9CDngUWY",
+    thumbnail: "images/90.jpg",
+    credit: "Animation, Background & Editing: あーきとれーぶ / Animation: Haruka Shimizu, Emi Morikawa",
+    roles: ["animation", "editing"],
+    description: `Music Video for "すだち” by blend house
+https://bio.to/blendhouse
 
-収録曲の中から
-NEWSさんへの楽曲提供曲
-「U R not alone」を少しだけお届け🌏
+Music&Lyric：HiROKI / Ryoma Takamura
+Sound Produce : edbl
+Recording Engineer : Takeaki Oshima
+Mastering : 森崎雅人(ARTISANS MASTERING)
+Animation: architrave / Haruka Shimizu / Emi Morikawa
+Video Concept & Production: NihyakuWIND
+Label：P-VINE
 
-配信予約はこちら⬇️
-https://gre4nboyz.lnk.to/UTAU-TAITAI
-
-#GRe4NBOYZ`
+Follow blend house
+Instagram：   / blendhouse_jp  
+Official Site：https://blendhouse-jp.com/
+Management：https://bio.to/NihyakuWIND`
   },
   {
     title: "宇宙パイロット「トワレ」OFFICIAL MUSIC VIDEO",
@@ -644,29 +645,6 @@ Spotify：https://open.spotify.com/intl-ja/arti...
 Movie あーきとれーぶ   / architrave123`
   },
   {
-    title: "blend house - すだち (Prod. edbl) [Animated Music Video]",
-    year: 2026,
-    youtubeId: "Zvj9CDngUWY",
-    thumbnail: "images/90.jpg",
-    credit: "Animation, Background & Editing: あーきとれーぶ / Animation: Haruka Shimizu, Emi Morikawa",
-    roles: ["animation", "editing"],
-    description: `Music Video for "すだち” by blend house
-https://bio.to/blendhouse
-
-Music&Lyric：HiROKI / Ryoma Takamura
-Sound Produce : edbl
-Recording Engineer : Takeaki Oshima
-Mastering : 森崎雅人(ARTISANS MASTERING)
-Animation: architrave / Haruka Shimizu / Emi Morikawa
-Video Concept & Production: NihyakuWIND
-Label：P-VINE
-
-Follow blend house
-Instagram：   / blendhouse_jp  
-Official Site：https://blendhouse-jp.com/
-Management：https://bio.to/NihyakuWIND`
-  },
-  {
     title: "FMV３クスッギフト　3月配信映像　【ディレクション】",
     year: 2025,
     youtubeId: "7v4eX-Q8k34",
@@ -689,6 +667,28 @@ TikTok　https://www.tiktok.com/@cacaotane?_t=...
 ＃FamilyMartVison
 ＃ファミリーマート
 ＃アトリエプロジェクト　#animation`
+  },
+  {
+    title: "GRe4N BOYZ ショート動画「U R not alone」",
+    year: 2026,
+    youtubeId: "ZsBeMrJzw9E",
+    thumbnail: "images/81.jpg",
+    credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `様々なアーティストなどへ
+楽曲提供をしてきた曲を
+GRe4N BOYZ自身が歌唱する
+9/18（金）配信リリース
+セルフカバーアルバム『#ウタウタイタイ』🎹
+
+収録曲の中から
+NEWSさんへの楽曲提供曲
+「U R not alone」を少しだけお届け🌏
+
+配信予約はこちら⬇️
+https://gre4nboyz.lnk.to/UTAU-TAITAI
+
+#GRe4NBOYZ`
   },
   {
     title: "監督したアニメがファミマで見れます！",
