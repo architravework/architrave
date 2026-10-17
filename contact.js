@@ -2,13 +2,21 @@
 // with a ready-to-send message draft that goes out by mail app, Gmail, or copy
 (function () {
   const EMAIL = "architrave12345@gmail.com";
+
+  // The plain address is the way in for visitors who didn't come from a work, so count it too
+  document.querySelectorAll('.contact-mail a[href^="mailto:"]').forEach(function (link) {
+    link.addEventListener("click", function () {
+      if (typeof window.gtag === "function") window.gtag("event", "contact_send_mail", { link_location: "address" });
+    });
+  });
+
   const id = new URLSearchParams(location.search).get("ref");
   if (!id || typeof works === "undefined") return;
   const work = works.find(function (w) { return w.youtubeId === id; });
   if (!work) return;
 
   function track(name) {
-    if (typeof window.gtag === "function") window.gtag("event", name, { work_title: work.title });
+    if (typeof window.gtag === "function") window.gtag("event", name, { work_title: work.title, link_location: "draft" });
   }
 
   const workPath = "index.html#work-" + work.youtubeId;

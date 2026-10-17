@@ -331,7 +331,7 @@
     document.getElementById("autoplay-cancel").addEventListener("click", cancelAutoplay);
     document.getElementById("modal-share").addEventListener("click", copyShareLink);
     document.getElementById("modal-contact").addEventListener("click", function () {
-      track("contact_click", { work_title: works[order[currentPos]].title });
+      track("contact_click", { work_title: works[order[currentPos]].title, link_location: "modal" });
     });
     document.getElementById("modal-description-toggle").addEventListener("click", function () {
       const descriptionEl = document.getElementById("modal-description");
