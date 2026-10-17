@@ -37,3 +37,25 @@
   // Keyboard users tabbing into the nav should always see it
   header.addEventListener("focusin", function () { header.classList.remove("is-hidden"); });
 })();
+
+// Counts every way into the request page as contact_click, tagged with where it was pressed.
+// The video modal's button is counted in script.js, where the current work is known.
+(function () {
+  if (/\/contact(\.html)?$/.test(location.pathname)) return;
+
+  document.addEventListener("click", function (e) {
+    const link = e.target.closest("a[href]");
+    if (!link || link.id === "modal-contact") return;
+    if (!/\/contact(\.html)?$/.test(new URL(link.href, location.href).pathname)) return;
+    if (typeof window.gtag !== "function") return;
+
+    let where = "other";
+    if (link.closest(".site-header")) where = "nav";
+    else if (link.classList.contains("cta-button")) where = "cta";
+    else if (link.classList.contains("work-button-primary")) where = "work_page";
+    const params = { link_location: where };
+    const title = document.querySelector(".work-title");
+    if (title) params.work_title = title.textContent;
+    window.gtag("event", "contact_click", params);
+  });
+})();
