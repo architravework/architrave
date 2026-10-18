@@ -837,6 +837,29 @@ body.modal-open { overflow: hidden; }
   .profile-text p { grid-column: 1 / -1; margin: 0; }
   .profile-clients { margin-bottom: 12px; font-size: 12px; line-height: 1.6; }
   .cta-hero { padding: 12px 20px 14px; }
+  /* Fold the bio and client list to two lines each, so works start higher on the first screen (most visitors arrive from SNS apps) */
+  main:not(.is-profile-open) .profile-text p:not(.profile-en),
+  main:not(.is-profile-open) .profile-clients {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  .profile-clients { margin-bottom: 0; }
+  .profile-more {
+    display: block;
+    margin: 0 20px 4px auto;
+    padding: 8px 4px;
+    border: 0;
+    background: none;
+    color: #767676;
+    font: inherit;
+    font-size: 12px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 701px) {
+  .profile-more { display: none; }
 }
 
 /* ===== Work detail page ===== */
