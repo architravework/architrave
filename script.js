@@ -348,8 +348,19 @@
     window.addEventListener("hashchange", openFromHash);
   }
 
+  function initProfileToggle() {
+    const button = document.getElementById("profile-more");
+    if (!button) return;
+    button.addEventListener("click", function () {
+      const open = button.closest("main").classList.toggle("is-profile-open");
+      button.textContent = open ? "閉じる" : "もっと見る";
+      button.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     renderGrid();
+    initProfileToggle();
     renderRoleFilter();
     initModal();
     openFromHash();
