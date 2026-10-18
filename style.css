@@ -808,7 +808,99 @@ body.modal-open { overflow: hidden; }
   }
 }
 
+/* Next-work preview in the player's lower right, shown shortly before the video ends.
+   Sits above YouTube's control bar, like YouTube's own end-screen cards. */
+.up-next-preview {
+  position: absolute;
+  right: 12px;
+  bottom: 56px;
+  display: flex;
+  align-items: stretch;
+  max-width: min(340px, calc(100% - 24px));
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.78);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  color: #fff;
+  animation: up-next-preview-in 0.3s ease;
+}
+.up-next-preview[hidden] { display: none; }
+@keyframes up-next-preview-in { from { opacity: 0; transform: translateX(12px); } to { opacity: 1; transform: none; } }
+.up-next-preview-open {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 8px 4px 8px 8px;
+  border: 0;
+  border-radius: 8px 0 0 8px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.up-next-preview-open:hover { background: rgba(255, 255, 255, 0.1); }
+.up-next-preview-thumb {
+  flex: none;
+  width: 96px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.up-next-preview-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.up-next-preview-label { font-size: 12px; color: #ccc; letter-spacing: 0.1em; }
+.up-next-preview-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.up-next-preview-close {
+  flex: none;
+  width: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 0 8px 8px 0;
+  background: none;
+  color: #ccc;
+  font-size: 18px;
+  cursor: pointer;
+}
+.up-next-preview-close:hover { color: #fff; background: rgba(255, 255, 255, 0.1); }
+
+/* The work that plays next carries a small label in both layouts */
+.up-next-text { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.up-next-first-label { font-size: 12px; color: #ccc; letter-spacing: 0.1em; }
+.up-next-item:first-child .up-next-title { color: #fff; }
+
+/* Stacked layout: the next work gets a full-width row, the other two share the row below */
+@media (max-width: 999px) {
+  .modal-up-next { margin-top: 12px; }
+  .modal-up-next-list { grid-template-columns: repeat(2, 1fr); }
+  .up-next-item:first-child {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: minmax(0, 46%) 1fr;
+    gap: 12px;
+    align-items: center;
+  }
+  .up-next-item:first-child .up-next-title {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-line-clamp: 3;
+  }
+}
+
 @media (max-width: 700px) {
+  .up-next-preview { right: 8px; bottom: 44px; max-width: calc(100% - 16px); }
+  .up-next-preview-open { gap: 8px; padding: 6px 2px 6px 6px; }
+  .up-next-preview-thumb { width: 64px; }
+  .up-next-preview-title { font-size: 12px; -webkit-line-clamp: 1; }
+  .up-next-preview-close { width: 30px; }
   .autoplay-title { font-size: 14px; margin-bottom: 8px; }
   .autoplay-ring { width: 36px; height: 36px; margin-bottom: 8px; }
   .autoplay-count { font-size: 13px; }
@@ -897,4 +989,5 @@ body.modal-open { overflow: hidden; }
   html { scroll-behavior: auto; }
   .site-header, .card img, .card-info, .nav-container a::after { transition: none; }
   .card:hover img, .grid .card:hover img { transform: none; }
+  .up-next-preview, .autoplay-next { animation: none; }
 }

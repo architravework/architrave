@@ -19,6 +19,10 @@
 (function () {
   const UP_NEXT_COUNT = 5;
   const AUTOPLAY_SECONDS = 5;
+  // The next work is previewed over the player this many seconds before the video ends
+  const PREVIEW_SECONDS = 10;
+  // Shorter clips skip the preview, since it would cover most of the video
+  const PREVIEW_MIN_DURATION = 30;
   const HASH_PREFIX = "#work-";
   const ROLE_LABELS = {
     editing: "編集",
@@ -39,6 +43,9 @@
   let player = null;
   let playerReady = false;
   let autoplayTimer = null;
+  let previewTimer = null;
+  let previewDismissed = false;
+  let previewTracked = false;
 
   function track(name, params) {
     if (typeof window.gtag === "function") window.gtag("event", name, params || {});
@@ -156,7 +163,19 @@
       const title = document.createElement("span");
       title.className = "up-next-title";
       title.textContent = work.title;
-      item.appendChild(title);
+      if (i === 1) {
+        // The first item is the work that plays next; the stacked layout shows it larger
+        const label = document.createElement("span");
+        label.className = "up-next-first-label";
+        label.textContent = "次の作品";
+        const text = document.createElement("span");
+        text.className = "up-next-text";
+        text.appendChild(label);
+        text.appendChild(title);
+        item.appendChild(text);
+      } else {
+        item.appendChild(title);
+      }
 
       item.addEventListener("click", function () {
         track("up_next_click", { work_title: work.title });
@@ -212,12 +231,59 @@
   function onPlayerStateChange(e) {
     if (currentPos < 0) return;
     if (e.data === YT.PlayerState.ENDED) startAutoplay();
-    if (e.data === YT.PlayerState.PLAYING) cancelAutoplay();
+    if (e.data === YT.PlayerState.PLAYING) {
+      cancelAutoplay();
+      watchPreview();
+    } else {
+      clearInterval(previewTimer);
+      previewTimer = null;
+    }
+  }
+
+  // Shows the next work in the corner of the player near the end, so it reaches people who stop before the end
+  function watchPreview() {
+    clearInterval(previewTimer);
+    previewTimer = setInterval(updatePreview, 500);
+    updatePreview();
+  }
+
+  function updatePreview() {
+    if (!player || !playerReady || currentPos < 0) return;
+    const duration = player.getDuration();
+    const remaining = duration - player.getCurrentTime();
+    const show = !previewDismissed && duration >= PREVIEW_MIN_DURATION && remaining <= PREVIEW_SECONDS;
+    if (show) showPreview();
+    else if (remaining > PREVIEW_SECONDS) hidePreview();
+  }
+
+  function showPreview() {
+    const box = document.getElementById("up-next-preview");
+    if (!box.hidden) return;
+    const next = works[order[wrapPos(currentPos + 1)]];
+    document.getElementById("up-next-preview-thumb").src = next.thumbnail;
+    document.getElementById("up-next-preview-title").textContent = next.title;
+    box.hidden = false;
+    // Count each video's preview once, even if seeking back shows it again
+    if (!previewTracked) track("up_next_preview_show", { work_title: next.title });
+    previewTracked = true;
+  }
+
+  function hidePreview() {
+    document.getElementById("up-next-preview").hidden = true;
+  }
+
+  function resetPreview() {
+    clearInterval(previewTimer);
+    previewTimer = null;
+    previewDismissed = false;
+    previewTracked = false;
+    hidePreview();
   }
 
   // After a video ends, show the next work over the player and play it after a short countdown
   function startAutoplay() {
     cancelAutoplay();
+    hidePreview();
     const next = works[order[wrapPos(currentPos + 1)]];
     const box = document.getElementById("autoplay-next");
     document.getElementById("autoplay-thumb").src = next.thumbnail;
@@ -251,6 +317,7 @@
 
   function openModal(pos) {
     cancelAutoplay();
+    resetPreview();
     currentPos = wrapPos(pos);
     const work = works[order[currentPos]];
     const modal = document.getElementById("modal");
@@ -282,6 +349,7 @@
 
   function closeModal() {
     cancelAutoplay();
+    resetPreview();
     const modal = document.getElementById("modal");
     if (player && playerReady) player.stopVideo();
     else document.getElementById("modal-iframe").src = "";
@@ -329,6 +397,14 @@
       openModal(currentPos + 1);
     });
     document.getElementById("autoplay-cancel").addEventListener("click", cancelAutoplay);
+    document.getElementById("up-next-preview-open").addEventListener("click", function () {
+      track("up_next_preview_click", { work_title: works[order[wrapPos(currentPos + 1)]].title });
+      openModal(currentPos + 1);
+    });
+    document.getElementById("up-next-preview-close").addEventListener("click", function () {
+      previewDismissed = true;
+      hidePreview();
+    });
     document.getElementById("modal-share").addEventListener("click", copyShareLink);
     document.getElementById("modal-contact").addEventListener("click", function () {
       track("contact_click", { work_title: works[order[currentPos]].title, link_location: "modal" });
