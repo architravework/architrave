@@ -131,6 +131,16 @@
           </div>
         </div>
       </div>
+      <div id="up-next-preview" class="up-next-preview" hidden>
+        <button id="up-next-preview-open" class="up-next-preview-open" type="button">
+          <img id="up-next-preview-thumb" class="up-next-preview-thumb" src="" alt="">
+          <span class="up-next-preview-text">
+            <span class="up-next-preview-label">次の作品</span>
+            <span id="up-next-preview-title" class="up-next-preview-title"></span>
+          </span>
+        </button>
+        <button id="up-next-preview-close" class="up-next-preview-close" type="button" aria-label="予告を閉じる">&times;</button>
+      </div>
     </div>
     <div class="modal-nav">
       <button id="modal-prev" class="modal-nav-button" aria-label="前の作品">&larr;</button>
@@ -145,13 +155,13 @@
       <a id="modal-contact" class="modal-contact" href="contact.html"></a>
       <button id="modal-share" class="modal-share" type="button" aria-label="リンクをコピー"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.5-3.5a3 3 0 1 1 4.2 4.2l-2 2a1 1 0 1 1-1.4-1.4l2-2a1 1 0 1 0-1.4-1.4l-3.5 3.5a1 1 0 0 1-1.4 0zm2.8-2.8a1 1 0 0 1 0 1.4l-3.5 3.5a3 3 0 1 1-4.2-4.2l2-2a1 1 0 0 1 1.4 1.4l-2 2a1 1 0 1 0 1.4 1.4l3.5-3.5a1 1 0 0 1 1.4 0z"/></svg><span id="modal-share-label" class="modal-share-label"></span></button>
     </div>
-    <div class="modal-description-wrap">
-      <div id="modal-description" class="modal-description"></div>
-      <button id="modal-description-toggle" class="modal-description-toggle" type="button" aria-controls="modal-description" hidden></button>
-    </div>
     <div class="modal-up-next">
       <p class="modal-up-next-label">次に見る</p>
       <div id="modal-up-next-list" class="modal-up-next-list"></div>
+    </div>
+    <div class="modal-description-wrap">
+      <div id="modal-description" class="modal-description"></div>
+      <button id="modal-description-toggle" class="modal-description-toggle" type="button" aria-controls="modal-description" hidden></button>
     </div>
   </div>
 </div>
