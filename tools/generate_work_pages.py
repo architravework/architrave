@@ -152,3 +152,18 @@ sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.si
            + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n")
 Path("sitemap.xml").write_text(sitemap, encoding="utf-8", newline="\n")
 print(f"Generated {n} work pages, sitemap.xml ({len(urls)} urls); uploadDate fallback: {fallback}")
+
+# Static copy of the home grid, so crawlers find every work page without running script.js (renderGrid replaces it)
+cards_html = "".join(
+    f'    <a class="card" href="work/{w["youtubeId"]}/"><img src="{esc(w["thumbnail"])}" alt="{esc(w["title"])}" loading="lazy">'
+    f'<div class="card-info" aria-hidden="true"><span class="card-title">{esc(w["title"])}</span>'
+    + (f'<span class="card-roles">{" / ".join(ROLE_LABELS[r] for r in ROLE_ORDER if r in w["roles"])}</span>' if w["roles"] else "")
+    + "</div></a>\n" for w in works)
+index_path = Path("index.html")
+index = index_path.read_bytes().decode("utf-8").replace("\r\n", "\n")
+index = index.replace('<div id="grid" class="grid"></div>',
+                      '<div id="grid" class="grid"><!-- static-grid:start --><!-- static-grid:end --></div>')
+index = re.sub(r"<!-- static-grid:start -->.*?<!-- static-grid:end -->",
+               lambda m: "<!-- static-grid:start -->\n" + cards_html + "  <!-- static-grid:end -->", index, flags=re.S)
+index_path.write_bytes(index.replace("\n", "\r\n").encode("utf-8"))
+print(f"index.html: static grid with {n} cards")
