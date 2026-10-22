@@ -497,6 +497,45 @@ a { color: inherit; }
   line-height: 1.4;
 }
 
+.other-works {
+  max-width: 900px;
+  margin: 40px auto 0;
+  padding: 0 20px;
+  font-size: 13px;
+  color: var(--ink-sub);
+  line-height: 1.7;
+}
+.other-works-title,
+.gallery-title {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink);
+}
+/* Gallery page: one headed grid per category */
+.gallery-title {
+  padding: 0 20px;
+}
+.gallery-section + .gallery-section {
+  margin-top: 40px;
+}
+.gallery-section:first-child .gallery-title {
+  margin-top: 20px;
+}
+.other-works-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.other-works-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--line);
+}
+.other-works-role {
+  margin-left: 0.8em;
+  font-size: 12px;
+  color: var(--ink-sub);
+}
 .game-section {
   max-width: 1000px;
   margin: 20px auto 60px;

@@ -716,6 +716,20 @@ TikTok　https://www.tiktok.com/@cacaotane?_t=...
 ＃成人式　＃振袖　＃みかん　#animation`
   },
   {
+    title: "ファミマでアニメが流れました！　2025年1月FMV作品",
+    year: 2025,
+    youtubeId: "Ve62KlTmwdg",
+    thumbnail: "images/92.jpg",
+    credit: "Director & Movie: あーきとれーぶ / Illustration: カトレア",
+    roles: ["director", "editing"],
+    description: `ファミリーマートのFamilyMartVision にて監督した作品が放映中です！（期間は4月中）
+
+映像
+https://twitter.com/architrave123
+イラスト
+https://x.com/katorea_0139`
+  },
+  {
     title: "GRE4N BOYZ / 「星の詩」LYRIC VIDEO",
     year: 2025,
     youtubeId: "7lqJ-3v1k1A",
@@ -966,6 +980,15 @@ https://mayumura.lnk.to/AMPLANDPLAN_AL
 #眉村ちあき #THEスーパーグルグルフィジカルジンジャーエール #AMPLANDPLAN
 
 「THEスーパーグルグルフィジカルジンジャーエール」 Artwork＆Music Video：あーきとれーぶ`
+  },
+  {
+    title: "原因は自分にある。4th SINGLE「パラノイドランデブー」ティザー映像",
+    year: 2025,
+    youtubeId: "lc-mklK2HW8",
+    thumbnail: "images/91.jpg",
+    credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: ""
   },
   {
     title: "「不協和音」szri×ハツミノ×あーきとれーぶ（アトリエプロジェクト）",

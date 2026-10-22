@@ -1,8 +1,33 @@
 (function () {
+  const CATEGORIES = [
+    { key: "work", label: "お仕事イラスト" },
+    { key: "practice", label: "イラスト練習" }
+  ];
+
   function renderGallery() {
-    const container = document.getElementById("grid");
-    container.innerHTML = "";
-    galleryWorks.forEach(function (work) {
+    const root = document.getElementById("gallery");
+    root.innerHTML = "";
+    CATEGORIES.forEach(function (cat) {
+      const works = galleryWorks.filter(function (w) { return w.category === cat.key; });
+      if (!works.length) return;
+      const section = document.createElement("section");
+      section.className = "gallery-section";
+      section.setAttribute("aria-labelledby", "gallery-title-" + cat.key);
+      const heading = document.createElement("h2");
+      heading.id = "gallery-title-" + cat.key;
+      heading.className = "gallery-title";
+      heading.textContent = cat.label;
+      const grid = document.createElement("div");
+      grid.className = "grid";
+      section.appendChild(heading);
+      section.appendChild(grid);
+      root.appendChild(section);
+      renderGrid(grid, works);
+    });
+  }
+
+  function renderGrid(container, works) {
+    works.forEach(function (work) {
       const card = document.createElement("div");
       card.className = "card";
 
