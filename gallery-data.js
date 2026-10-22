@@ -1,10 +1,10 @@
 const galleryWorks = [
   { title: "SMA声優オーディション アニストテレスvol.10 イラスト", category: "work", year: 2024, image: "gallery-images/27.jpg", fullImage: "gallery-images-full/27.jpg" },
-  { title: "ヤンデレアンソロ 千羽稲穂 表紙イラスト", category: "work", year: 2024, image: "gallery-images/28.jpg", fullImage: "gallery-images-full/28.jpg" },
-  { title: "ヤンデレアンソロ 千羽稲穂 表紙イラスト", category: "work", year: 2024, image: "gallery-images/29.jpg", fullImage: "gallery-images-full/29.jpg" },
   { title: "足湯 Vol.3〜豊穣〜 ジャケットイラスト", category: "work", year: 2024, image: "gallery-images/30.jpg", fullImage: "gallery-images-full/30.jpg" },
   { title: "。明日はきっと雨 グッズイラスト", category: "work", year: 2024, image: "gallery-images/31.jpg", fullImage: "gallery-images-full/31.jpg" },
   { title: "【温泉同好会】足湯 Vol.2～納涼～ ジャケットイラスト", category: "work", year: 2024, image: "gallery-images/32.jpg", fullImage: "gallery-images-full/32.jpg" },
+  { title: "ヤンデレアンソロ 千羽稲穂 表紙イラスト", category: "work", year: 2024, image: "gallery-images/28.jpg", fullImage: "gallery-images-full/28.jpg" },
+  { title: "ヤンデレアンソロ 千羽稲穂 表紙イラスト", category: "work", year: 2024, image: "gallery-images/29.jpg", fullImage: "gallery-images-full/29.jpg" },
   { title: "イラスト練習", category: "practice", year: 2026, image: "gallery-images/01.jpg", fullImage: "gallery-images-full/01.jpg" },
   { title: "イラスト練習", category: "practice", year: 2026, image: "gallery-images/03.jpg", fullImage: "gallery-images-full/03.jpg" },
   { title: "イラスト練習", category: "practice", year: 2026, image: "gallery-images/04.jpg", fullImage: "gallery-images-full/04.jpg" },
