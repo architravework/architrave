@@ -2778,7 +2778,7 @@ Recording & Mixing Engineer : Tatsuru Tozawa
 Movie : あーきとれーぶ`
   },
   {
-    title: "【オリジナルMV】Re-versible (F×F Ver)",
+    title: "【オリジナルMV】Re-versible (M×F Ver)",
     year: 2025,
     youtubeId: "L0YumXLrp-0",
     thumbnail: "images/37.jpg",
@@ -4677,7 +4677,7 @@ movie あーきとれーぶ様　https://x.com/architrave123`
     youtubeId: "L30WbwinPKE",
     thumbnail: "images/96.jpg",
     credit: "Lyrics: alen, Sayou, Nuz / Music & Arrangement: Nuz / Illustration: mis / Animation: あーきとれーぶ",
-    roles: ["editing"],
+    roles: ["animation", "editing"],
     description: `アトリエプロジェクト・オリジナル作品
 
 配信リンク：https://orcd.co/hypnist-girl
