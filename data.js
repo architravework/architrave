@@ -716,6 +716,20 @@ TikTok　https://www.tiktok.com/@cacaotane?_t=...
 ＃成人式　＃振袖　＃みかん　#animation`
   },
   {
+    title: "ファミマでアニメが流れました！　2025年1月FMV作品",
+    year: 2025,
+    youtubeId: "Ve62KlTmwdg",
+    thumbnail: "images/92.jpg",
+    credit: "Director & Movie: あーきとれーぶ / Illustration: カトレア",
+    roles: ["director", "editing"],
+    description: `ファミリーマートのFamilyMartVision にて監督した作品が放映中です！（期間は4月中）
+
+映像
+https://twitter.com/architrave123
+イラスト
+https://x.com/katorea_0139`
+  },
+  {
     title: "GRE4N BOYZ / 「星の詩」LYRIC VIDEO",
     year: 2025,
     youtubeId: "7lqJ-3v1k1A",
@@ -966,6 +980,15 @@ https://mayumura.lnk.to/AMPLANDPLAN_AL
 #眉村ちあき #THEスーパーグルグルフィジカルジンジャーエール #AMPLANDPLAN
 
 「THEスーパーグルグルフィジカルジンジャーエール」 Artwork＆Music Video：あーきとれーぶ`
+  },
+  {
+    title: "原因は自分にある。4th SINGLE「パラノイドランデブー」ティザー映像",
+    year: 2025,
+    youtubeId: "lc-mklK2HW8",
+    thumbnail: "images/91.jpg",
+    credit: "Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: ""
   },
   {
     title: "「不協和音」szri×ハツミノ×あーきとれーぶ（アトリエプロジェクト）",
@@ -2755,7 +2778,7 @@ Recording & Mixing Engineer : Tatsuru Tozawa
 Movie : あーきとれーぶ`
   },
   {
-    title: "【オリジナルMV】Re-versible (F×F Ver)",
+    title: "【オリジナルMV】Re-versible (M×F Ver)",
     year: 2025,
     youtubeId: "L0YumXLrp-0",
     thumbnail: "images/37.jpg",
@@ -4531,6 +4554,1754 @@ https://www.nicovideo.jp/my/mylist/68...
 
 inst :https://piapro.jp/shukapi
 配信サイト：https://linkco.re/ft7GTxRY`
+  },
+  {
+    title: "【APPLE CANDYS】 1000％少年featキャベ椿",
+    year: 2026,
+    youtubeId: "Hh7T1ThFCzQ",
+    thumbnail: "images/93.jpg",
+    credit: "Vocal: キャベ椿 / Music & Lyrics: AH-KUN / Illustration & Movie: あーきとれーぶ",
+    roles: ["animation", "editing", "illustration"],
+    description: `Vo：キャベ椿
+
+Music & Lyrics ：AH-KUN
+  
+Illust＆Movie：あーきとれーぶ   
+
+Mix：DAISUKE　MORIWAKI`
+  },
+  {
+    title: "うたを編む",
+    year: 2026,
+    youtubeId: "miZ7xGxdOsw",
+    thumbnail: "images/94.jpg",
+    credit: "Music: 天海ちはま / Lyrics & Vocal: マツリカ* / Illustration: 052 / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `うたえ　凛と伸ばした言葉を　絡みあわせて
+
+----------------------------------------
+NEW ALBUM「うたを編む」
+2026年4月26日
+M3春2026にて発売！！
+
+特設サイト
+https://www.maturicca.com/utawoamu
+----------------------------------------
+【credit】
+Compose :
+ 天海ちはま
+@天海ちはま 
+
+lyric＆vocal:
+マツリカ*
+
+Illust:
+052
+https://lit.link/o052
+
+movie:
+あーきとれーぶ
+https://architrave.myportfolio.com/
+----------------------------------------
+誰かが落とした指輪を拾った
+何度も 何度も握って
+くすんだ光よ
+
+真夜中と夜明けの
+夢と現の
+諦めと勇気の
+境界線は どこにあるんだろう?
+
+うた編め
+うずくまる衝動が呑み込んだ声で
+軋み揺れるこの嵐をまっすぐ紡げ
+
+凛と張った 言の葉また
+少しだけゆるめ 柔く引いた
+絶え間ない祈りが凪ぐように
+
+心に居座る悪魔が
+視界を遮った
+
+均衡が崩れて　 闇を踏み抜いた
+逆さにのぼる世界
+遠く堕ちる 息が止まる
+
+うた編め
+泡をたてる焦燥が 縋る誓いを
+それを愚かと嘲笑う 火傷の痕を
+
+濁さないで 隠さないで
+引き裂かれそうな時間さえも
+絡み合う ひとつの線なんだ
+
+見えぬ視線が渦を巻く
+星の数ほどの正しさが
+綺麗な図形 敷き詰める
+どの軌道にも立てない
+
+気付いているんだろう
+夢と現の
+諦めと勇気の
+境界線は 僕が引くんだ
+
+うた編め
+立ち尽くすこの場所は
+果てぬ涙は
+
+夢を見る夢を選んだ
+僕の覚悟だ
+
+息を長く 吸って吐いて
+目の前の音に 注げもっと
+やるせない 揺らぎを抱くように`
+  },
+  {
+    title: "SHUTA NAKAJI - 迷子ステーション - (Official Video)",
+    year: 2026,
+    youtubeId: "TOPIX8VUFnU",
+    thumbnail: "images/95.jpg",
+    credit: "Lyrics & Vocal: SHUTA NAKAJI / Prod.: ショコちゃん.dog.studio / Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
+    description: `『迷子のご案内です。』
+
+mix mastering lyric vocal by  SHUTA NAKAJI　
+
+prod.ショコちゃん.dog.studio　https://x.com/aun_una
+
+movie あーきとれーぶ様　https://x.com/architrave123`
+  },
+  {
+    title: "｢ハイプニストガール｣ by alen×Sayou×Nuz×あーきとれーぶ×mis（アトリエプロジェクト）",
+    year: 2026,
+    youtubeId: "L30WbwinPKE",
+    thumbnail: "images/96.jpg",
+    credit: "Lyrics: alen, Sayou, Nuz / Music & Arrangement: Nuz / Illustration: mis / Animation: あーきとれーぶ",
+    roles: ["animation", "editing"],
+    description: `アトリエプロジェクト・オリジナル作品
+
+配信リンク：https://orcd.co/hypnist-girl
+
+作詞：alen,Sayou,Nuz
+作曲・編曲：Nuz
+歌唱：alen,Sayou,Nuz
+
+イラスト：mis
+アニメーション：あーきとれーぶ
+
+製作
+アトリエプロジェクト
+
+alen
+@alen-q9g 
+https://x.com/rena_ry_7
+
+Sayou
+@sayou_uta 
+https://lit.link/sayouofficial
+
+Nuz
+@nuz4570 
+https://x.com/Nuz__purple
+
+mis
+https://x.com/3i3a___m
+
+あーきとれーぶ
+https://x.com/architrave123
+
+-------------------
+
+【アトリエプロジェクト】とは…
+才能が集い、作品を生む。
+アトリエプロジェクトは、TikTokとソニーミュージックがともに立ち上げたプロジェクト。
+
+さまざまなクリエイティブにチャレンジしている方々がコラボレーションするためのコミュニティ「アトリエ」を結成し、その活動をサポート。
+
+音楽やアニメーション、映像制作、イラストなど幅広く集まる才能たちで、アトリエメンバーの創作活動を始め、クリエイティブの制作、コラボレーションなど、世の中をワクワクさせるモノを生み出すことを目指す。
+
+アトリエプロジェクト
+HP：https://atelierproject.net/
+TikTok：  / atelierproject  
+X：  / atelierproject_`
+  },
+  {
+    title: "ヤドカリの唄／flower",
+    year: 2025,
+    youtubeId: "1odaQ1qrfMQ",
+    thumbnail: "images/97.jpg",
+    credit: "Music: hieta.C / Illustration & Movie: あーきとれーぶ",
+    roles: ["editing", "illustration"],
+    description: `ご視聴ありがとうございます。
+オリジナル曲１７曲目です。
+
+音楽　hieta.C【Twitter　@hieta_chahan】
+
+イラスト／動画　あーきとれーぶ 様【Twitter　@architrave123】
+
+ニコニコ動画へも投稿しております。
+https://www.nicovideo.jp/watch/sm45322251
+
+=============================================================
+【ニコニコ動画マイリスト】
+https://www.nicovideo.jp/my/mylist/68648258
+
+【X（旧Twitter）】
+https://twitter.com/hieta_chahan
+
+=============================================================
+【歌詞】
+
+夏が過ぎ去ってゆく
+暑さはまだまだ厳しさを残したままで
+日差しを吸い込んだ砂浜が白く煌めいてる
+
+岩陰に佇む姿　身を隠す様に　明るさを避ける様に
+逆光と目に入る汗　あなたの姿が遠くなる
+
+夏が過ぎ去ってゆく
+身体も心も思い出も置き去りのまま
+貝殻に詰め込んだ未熟な自分がポツンと立ってる
+
+白波が押し寄せる度　大事なものがまた攫われない様に
+掌で塞いでしまおう　僅かな隙間すら許さず　
+
+透き通ったまま綺麗に残り続ける日々
+あなたを思い出す
+鮮やかな後ろ影は水平線の向こう側へ
+
+カモメの様にその先に飛んでゆけたら良かったのに
+叶わない夢こそ夢と呼ぶのだろう
+足早な季節の中　殻に籠る
+
+夏が過ぎ去ってゆく
+明るい時間が遠慮がちに短くなる
+貝殻がそろそろ小さく感じて息が詰まる
+
+変わらずにいられないこと
+突きつけられて　頬を張り飛ばされて
+望むとか望まないとか　心の動きに関わらず
+
+色褪せながら輝きを増し続ける日々
+あなたを思い出す
+それはきっと後ろ髪を引かれる思いの足跡
+
+夏と一緒に大事だったものが終わるから
+辛いけど居心地の良過ぎたこの貝殻を出てゆくよ
+いつか会える
+
+夏が過ぎ去ってく
+いつか会える
+夏が過ぎ去ってく
+いつかどこかで`
+  },
+  {
+    title: "kodani asuka - Sugar lace",
+    year: 2025,
+    youtubeId: "kpSCCQT6XpQ",
+    thumbnail: "images/98.jpg",
+    credit: "Music: kodani asuka / Arrangement: MEA / Illustration: 鮨田わさび / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `□■
+
+⚝ download & streaming
+https://linkco.re/VVd93uEd
+
+かわいいに全振りしてみたょ〜 ˖ ࣪⊹ ִֶָ ˖ ꣑୧ ˖ ݁𖥔 ݁˖
+
+⋆∙˚┈┈┈┈┈┈┈┈┈┈┈┈˚∙⋆
+
+⋆՜ music：kodani asuka
+https://instagram.com/majiresuyamena
+
+⋆՜ arrange：MEA
+https://twitter.com/meaichl
+https://youtube.com/@meaichl
+
+⋆՜ mix：@Nichimaru
+https://twitter.com/NichimaruSS
+
+⋆՜ illust：鮨田わさび
+https://twitter.com/0sabi0
+
+⋆՜ movie：あーきとれーぶ
+https://twitter.com/architrave123
+
+⋆∙˚┈┈┈┈┈┈┈┈┈┈┈┈˚∙⋆
+
+⚝ lyrics
+
+パステルカラーのリボンほどいて
+あまい夢を見よう
+アイスが溶けちゃう前に
+ぼくを救って
+ショートケーキの苺みたい
+キラキラ きみが眩しくて
+視線 逸らしちゃうの
+
+ぼくの心 見透かしたよう
+きみの紡ぐやわい言葉
+魔法が使えたらなんて、
+柄でもないな
+
+紅茶に浮かべた 
+シュガーレース 溶けていく
+ピンクのフリルをまとって
+眠りにつくの
+
+パステルカラーのリボンほどいて
+あまい夢を見よう
+アイスが溶けちゃう前に
+ぼくを救って
+ショートケーキの苺みたい
+キラキラ きみが眩しくて
+視線 逸らしちゃうの
+
+祈ったら届くかな
+きみみたいになりたいの
+叶わなくてもいいから
+繋がっていたいの
+
+白昼夢 浮かんでは消える
+飛ばすぼくの気持ち
+まやかしはいらないの
+真意だけがほしいから
+
+⋆∙˚┈┈┈┈┈┈┈┈┈┈┈┈˚∙⋆
+
+⿻*.· twitter
+https://twitter.com/majiresuyamena
+
+⿻*.· original
+https://youtube.com/playlist?list=PL1dss7jNGpmJoftXRmg2axb1IVDwaxZSm
+
+⿻*.· feat.
+https://youtube.com/playlist?list=PL1dss7jNGpmLW_aL6CkKoJb2Yyqj9eybE
+
+⿻*.· 歌のリスト
+https://youtube.com/playlist?list=PL1dss7jNGpmK2n8t63832mtY6H36AK2mY
+
+⿻*.· 参加
+https://youtube.com/playlist?list=PL1dss7jNGpmKuOWnlfOBmC95kMnvPXrcL
+
+⿻*.· lit.link
+https://lit.link/majiresuyamena
+
+⋆∙˚┈┈┈┈┈┈┈┈┈┈┈┈˚∙⋆
+
+#Sugar_lace
+#original
+#kodani_asuka`
+  },
+  {
+    title: "ベビドラ - たとえば今日 (Lyric ver.)",
+    year: 2025,
+    youtubeId: "XbDM0tFuwv8",
+    thumbnail: "images/99.jpg",
+    credit: "Vocal: ベビドラ / Movie Editing: あーきとれーぶ",
+    roles: ["editing"],
+    description: `ベビドラです。歌を歌っています。
+Hi I'm Bevidora I sing.
+
+2025年4月のパラマウントベッド株式会社のCM楽曲を担当させて頂きました！
+今回このプロジェクトの一部になれたことをとても嬉しく思います。
+「たとえば今日」という楽曲を通して、私の想いがあなたにとってのWELL-BEINGに繋がっていきますように！
+
+動画編集→あーきとれーぶ​⁠@architrave123 
+
+■「たとえば今日」音楽配信サイト
+https://Bevidora.lnk.to/Tatoeba_Kyou
+
+ベビドラOfficial Site→ https://bevidora.com/
+ベビドラXアカウント→ https://x.com/bevidorazzz
+ベビドラInstagramアカウント→https://www.instagram.com/bevidorazzz/
+ベビドラTikTokアカウント→ https://www.tiktok.com/@bevidorazzz
+ベビドラGmailアカウント→ bevidora@gmail.com
+
+＃ベビドラ #Bevidora ＃たとえば今日 ＃パラマウントベッド #Paramountbed`
+  },
+  {
+    title: "嘲ロウシャ弄/初音ミク",
+    year: 2025,
+    youtubeId: "1uGRJn30pFk",
+    thumbnail: "images/100.jpg",
+    credit: "Vocal: 初音ミク / Lyrics & Music: 日吉一等賞 / Illustration: mawi / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `10作目です。
+チョウロウシャロウ
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+歌詞
+
+また無駄に日々を
+溶かしてしまった
+怠惰をエモとし、
+自己を愛した
+
+錯綜していく感情連日連夜
+連続した難読漢字症候群
+
+差を恐れ正を一つに絞り
+狭い視界で自由を感じた
+
+目の肥えた音楽愛好家
+理解不能言語連打
+
+存在証明存在証明うるせぇな
+模倣しか出来ない 低脳
+
+なんだね！
+君は
+自分が無いんだね！
+
+「官能的で扇情的だった」
+「感情的で暴力的だった」
+超難解を謳った気になった
+薄い性行為の歌
+
+感傷に浸る為の代償を
+簡単に支払っちゃうバカ
+そんな歌ばっかじゃないか
+つまんねぇな ここは
+
+添削して偏向して直した本心
+先生手形付き完成系
+考察班フィルター越しの音楽
+とりあえず風刺風刺風刺
+
+そこまでしなきゃ
+楽しめないんですか？
+
+激情触媒制作楽曲限定好評人間は一体なんなんですか？
+「おまえのたましいをこめたきょくをききたいんだ」
+
+誰も魂の姿かたちを
+知るやつなんて居ないんだ
+
+「つまんねぇ歌ばっかじゃないか」
+停滞した大脳切り裂いた
+真実的な顔で歌ってんだ
+薄い人生故にな
+
+感傷に浸るための材料に
+簡単になってしまうんだ
+どんな歌謳ったとしても
+エモの餌だ
+
+汚れた自分自身を
+音に昇華して価値にする
+為だけに存在してる
+薄い性行為の歌
+
+万象を穿って見ている
+気になって見下している
+そんな自分もバカなんじゃないか？
+つまんねぇな
+ここは
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+
+歌唱：初音ミク
+https://sonicwire.com/product/virtualsinger/special/mikunt
+
+作詞作曲：日吉一等賞
+https://x.com/hiyoshi_sanno?s=21&t=BEkKyaE2b5e1CRk1Uz-mpw
+
+絵：mawi
+https://x.com/mawinnc?s=21&t=BEkKyaE2b5e1CRk1Uz-mpw
+
+映像：あーきとれーぷ
+https://x.com/architrave123?s=21&t=BEkKyaE2b5e1CRk1Uz-mpw
+
+リリースされてます
+https://n0.com/a/zrug943q
+
+他の曲
+https://youtube.com/playlist?list=PLDUAcBmo8851X_OJ_KgYphDpu-SS2AbC2&si=FZGdiwKPjvFu_BvQ
+
+初音ミクNT使用
+
+#オリジナルmv #vocaloid #初音ミクnt #hatsunemiku #ボカロ`
+  },
+  {
+    title: "惨月譚 | 月の子供たち【ボカデュオ2024】",
+    year: 2024,
+    youtubeId: "QkIyMi_3Nrw",
+    thumbnail: "images/101.jpg",
+    credit: "Vocal: mito / Illustration: mawi / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `#VocaDuo2024 
+
+2024/7/1 - 2024/7/7に開催の【ボカデュオ2024】参加作品となります。
+
+"月の子供たち"
+
+Vocal : mito
+   / https://x.com/00mitomito00
+
+illustration : mawi
+   / https://x.com/mawinnc
+
+Movie : あーきとれーぶ
+   / https://x.com/architrave123
+
+Bass : 自炊
+   / https://x.com/yukidarumazugai
+
+P : 骨丸
+   / https://x.com/honemaru_p
+
+Mix : 骨壺屋
+
+---
+惨月譚
+
+捲れた夜の残り香が 喘ぐ程に香っている
+血の流れる音がする 沈黙 薄明を騒ぐ
+
+心で唸る獣を今も 飼い慣らせずに今日まで生きた
+幸せばかりを喰い尽くして 身体には苦痛だけが残った
+君の肉から骨まで 切り裂き千切った言葉が
+呪いのように まだ悲鳴となって 鼓膜を震わせる
+
+君のためには生きられないでいた
+きっと ずっと 一生
+
+嘘つきで卑怯者で 君よりずっと痛がり屋で
+それなのに今も砕け散ってしまった愛を
+片付けられないでいる
+触れれば当然 傷付くから 動けないままで
+命が使い果たされるのを
+ただ じっと ずっと 待ち続けている
+
+酷く馴れ馴れしい孤独に唆され
+自分のためにばかり泣いている
+その涙を啜った獣が吠える
+剥き出しの牙がてらてら光る
+
+花のように咲いた血液には気付かないで
+君の腕の中でただ 呼吸をしていた
+僕は僕のために泣いた 君は僕のために泣いた
+そんな僕に言えるわけなんてなかった ただ
+
+そばにいてほしかった
+
+嘘つきで卑怯者で 君よりずっと痛がり屋で
+それなのに今も砕け散ってしまった愛を
+片付けられないんだ
+それでも愛をくれたから さよならを言わなかったから
+耳を塞いで聞いている 命の音を聞いている
+他に何も聞かないでいいように
+ただ じっと ずっと 朝を待つ
+
+捲れた夜の残り香が 陽に灼かれ揮発していく
+街の息衝く音がする 静寂は止み
+今 ひとりになる`
+  },
+  {
+    title: "かわるまわる / ふろた Official Music Video",
+    year: 2024,
+    youtubeId: "EU_2JPSIJVQ",
+    thumbnail: "images/102.jpg",
+    credit: "Vocal, Music & Lyrics: ふろた / Arrangement: オクチカ / Illustration: Onji. / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `ふろたです🛁
+「かわるまわる」という曲をリメイクしました！
+ゆっくり浸かっていってください。
+
+I'm furota🛁
+This is a remake of the song "Kawaru Mawaru".
+Please take your time and soak it in.
+
+
+「かわるまわる」
+Vocal/Music/Lyrics : ふろた
+https://twitter.com/furota1610
+
+Arrange : オクチカ 
+https://twitter.com/okuchika_p
+
+Mix : さぶろう
+https://twitter.com/saburousan3263
+
+Illustration : Onji.
+https://twitter.com/Oj_0624
+
+Movie : あーきとれーぶ
+https://twitter.com/architrave123
+
+「歌詞」
+こどものころは見えていたものが
+大人になって見えなくなりました
+こどものころは見えなかったものが
+大人になって見えるようになりました
+
+変わらないものと変わっていくものを
+並べて比べて捨てていくような
+そんな日々を繰り返していたら
+大事なものが見えなくなりました
+
+自分の中の〇と×
+どっちがどっちでなにが正しいか
+そんなのきっと決まりもないし
+きっと答えも出ないんだし
+ああもうわかんないよって
+
+いつまでもきっと　変わらない　ものなんて
+ないのかもね　なら　今一番かがやくものを
+胸にしまって　ちゃんと鍵かけて
+壊れないように　生きてけば良いんだよ
+
+変わっていくものと変わらないものが
+回って回ってまた元通り
+でも自分自身だけは
+見失わないようにしなきゃって
+
+いつまでもきっと　変わらない　ものなんて
+ないのかもね　なら　今一番輝くものを　
+胸にしまって　ちゃんと鍵かけて
+壊れないように　生きてけば良いんだよ
+
+いつまでもきっと　変わらない　ものなんて
+ないのかもね　でも　今が嘘になるわけじゃない
+「変わる」を恐れて　立ち止まらないで　
+回り行く今　確かに歩いて行こう
+
+
+#ふろた　#かわるまわる #作詞作曲 #オリジナル曲`
+  },
+  {
+    title: "Nolzy - 匿名奇謀 [Official Lyric Video]",
+    year: 2024,
+    youtubeId: "deWoOCjFkaE",
+    thumbnail: "images/103.jpg",
+    credit: "Lyrics, Music & Arrangement: Nolzy / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `Nolzy 「匿名奇謀」（映画「BLOODY ESCAPE -地獄の逃走劇-」主題歌）
+〈ストリーミング・DLはこちら〉　https://atsukitaketomo.lnk.to/tokumei-kibou
+
+＜Song＞
+Lyrics / Music / Arrangement 　Nolzy 
+
+Produce Nolzy  / 白石経
+Vocal, Chorus, & Programming  Nolzy 
+Guitar　　   小野武正  (KEYTALK)
+Bass　　 　あきらかにあきら（THE ORAL CIGARETTES）　
+Drums      　高橋武（フレデリック）
+Recording & Mixing 白石経
+Mixing（Dolby Atmos）古賀健一
+Mastering    吉良武男
+
+＜Video＞
+Jacket Design Yoshimi Okumura
+Movie  あーきとれーぶ
+
+
+Nolzy 「匿名奇謀」
+
+気が付いたら腐ってた
+愛に虫が集ってた
+現実は地獄だった
+
+いらないと意地を張ってた
+ありきたりな正義が
+今さら羨ましかった
+
+Who are you?
+お前は誰だって問われても
+Who are you?
+何者かを示す切り札ないから
+
+Who are you?
+誰よりも俺が俺に問いたいのさ
+"何処に行けば答えがある"
+
+ぶっ放して 全部 ぶっ放して
+血塗れの心を晒して
+ぶっ壊して いっそ ぶっ壊して
+型に嵌められた常識で
+歪んだ未来を取り戻せ
+
+失ったもの数えては
+見えない星に願ってた
+現実は孤独だった
+
+I lose myself
+鏡の中 画面の中 
+誰かの瞳の中 この世の中
+こと細かな個と個の言葉の中
+
+ぶっ放して 全部 ぶっ放して
+匿された疑惑を暴いて
+ぶっ壊して いっそ ぶっ壊して
+型遅れの価値観なんて
+今すぐ捨て去って
+
+行き交う人波のその最中
+抗うこともなく流された
+やり場のない 耐えきれない
+痛みさえ飛沫となりかき消された
+
+限られた命の美しさ
+散り際に望みを託すのさ
+まだ見てない 果てしのない世界へと
+いつだって脱け出せるんだ
+
+ぶっ放して 全部 ぶっ放して
+血塗れの心で立ち上がれ
+もっとぶっ壊して いっそ ぶっ壊して
+型に嵌められた常識で
+騙されないで 惑わされないで
+
+信じた未来を突き進め
+
+We gonna let it burn!
+後悔を燃やして
+闇の中で光生み出して
+
+We gonna let it burn!
+絶望を燃やして
+灰の中で希望を掴んで
+
+
+■Nolzy  SNS
+〈Official HP〉https://nolzy.fanpla.jp
+〈Official Instagram〉https://www.instagram.com/nolzy_nostalgram
+〈Official TikTok〉 https://www.tiktok.com/@nolzy_music
+〈 Official X 〉https://x.com/nolzy_tweet
+
+■映画「BLOODY ESCAPE -地獄の逃走劇-」HP
+https://bloody-escape.com/
+
+#Nolzy
+#ブラッディエスケープ`
+  },
+  {
+    title: "うそつき / ふろた Official Music Video",
+    year: 2023,
+    youtubeId: "BteHDOGzfpk",
+    thumbnail: "images/104.jpg",
+    credit: "Vocal, Music & Lyrics: ふろた / Arrangement & Mix: オカチカ / Illustration: sheki-sheki / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `ふろたです🛁
+「うそつき」という曲です。
+ゆっくり浸かっていってください。
+
+I'm Furota 🛁
+This song is called "Usotsuki."
+Please soak in slowly.
+
+ダウンロード / ストリーミング配信 : 
+https://orcd.co/furota_usotsuki
+
+「うそつき」
+Vocal/Music/Lyrics : ふろた
+https://twitter.com/furota1610  
+
+Arrange/Mix : オカチカ
+https://twitter.com/okuchika_p  
+
+Illustration : sheki-sheki
+https://twitter.com/shekisheki15
+
+Movie : あーきとれーぶ
+https://twitter.com/architrave123
+
+「歌詞」
+剥がれないの　
+この張り付いた笑顔がね
+本当はもうわからないの
+私の本音の気持ちだって
+優しさ撒いて居場所を探した
+勝手にわかった気になっていた
+知ろうとしないで終わらせた
+気付いた私は1人だった　
+
+剥き出しの悪意　睨まれながら　
+口無しの私は受け止めて　
+足並み揃え周りに合わせて
+勘違い幸せ明日に祈る
+募った想いも誰に訊かせるでもなく
+気取ったふりして濁る心に
+蓋をしてしまった
+気付いた痛いな軋んだ
+心だけ死んだ
+
+簡単に距離を推し測れるのなら　
+名前のある関係はいらない？
+
+流れないの
+枯れた涙の跡を辿った
+本当はもうわからないの
+私の涙意味はあった？
+悲しさ撒いて居場所を探した
+勝手に終わった気になっていた
+知ろうとしないで困らせた
+気付いた私は1人だった
+
+心の棲家を踏み荒らすのは
+許された行為じゃないのに
+受け入れてばかりでもう
+黒く染まっていく
+
+愛せないよ
+咲いた孤独に蝕まれた
+今度はもう戻らないの
+私の本当の心だけ
+優しさ撒いて悲しさ撒いて
+見つからなかった居場所を想って
+いつか本当の私をどうか
+生きられますように
+
+剥がれないの　
+この張り付いた笑顔がね
+本当はもうわからないの
+私の本音の気持ちだって
+優しさ撒いて居場所を探した
+勝手にわかった気になっていた
+知ろうとしないで終わらせた
+気付いた私は1人だった
+
+#ふろた #うそつき  #music`
+  },
+  {
+    title: "KIBAKO - NEO 【Official Music Video】",
+    year: 2023,
+    youtubeId: "VgKpE1X9phQ",
+    thumbnail: "images/105.jpg",
+    credit: "Music: KIBAKO / Vocal & Illustration: ユウキシロ / Arranged by: 杳 / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `Streaming & DL (https://linkco.re/2HHR9mT8)
+⋆┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⋆
+Movie : あーきとれーぶ(https://twitter.com/architrave123)
+Illustration : ユウキシロ 
+⋆┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⋆
+NEO
+music : KIBAKO(https://x.com/kibako_tw)
+vocal：ユウキシロ(https://x.com/5uki26_tw)
+arrange : 杳(https://x.com/1rra0)
+
+嗚呼何も無い夜だ
+厚着 感覚今研ぎ澄まして
+もう味覚無いっすてくらい
+口の中溢れだしている
+
+賛美歌がない夜は
+遊びたいから街に繰り出して
+正直もう退屈さ
+居心地午後散らしている
+
+微かに感じられた
+風の谷の夢みた
+迫り来る瘴気が
+いつになくなんだか
+悲しい目をしてた気がした
+今何見てた
+ラジオから聞こえてきたのは
+「走れ 走れ」
+私もどうかしてる
+
+踊り明かせ　大人も引力も
+届かない電波に乗って
+人工の瞳が　君の愛を映した
+埃だらけの音符もいいところ
+くだらない映画に沿って
+機械仕掛けの僕たちはまだ
+夢をみてる
+
+【再開】
+ま、シンプルさ。
+隠し事秘め事は常習的
+ゴーグル外して グッナイ
+口元 緩み出している
+
+嗚呼何も無い夜だ
+厚着 感覚今研ぎ澄まして
+もう味覚無いっす、ってこれ...
+あれ？どれ？それ？
+いやなんだっけ
+
+確かに感じていた
+祭囃子の夢見た
+思い出せそう...
+まだ人々は曼荼羅
+あんぐり開いた口の中から
+ナニカ見ていた
+後ろから聞こえてきたのは
+「忘れてない」
+今までがどうかしてた
+
+思い出そうか　残りの運命を
+街ごと眠る金曜日
+人工の瞳が　君の影を映した
+埃払って　悪いけどいいところ
+一時停止ボタン押して
+機械仕掛けの僕たちは今
+夢から覚める
+　
+さぁ、夢から覚めた気分はどう
+祭　浴衣の椿が卑しい
+悲しいほど分からされているのは
+君がいない 見渡す限り
+
+嗚呼、心焦がしていた桃源郷
+打ち付ける雨の音が五月蝿い
+電脳世界でしか咲かないあなたを
+また夢にみる性
+
+踊り明かせ　大人も引力も
+届かない電波に乗って
+人工の瞳が　君の愛を映した
+埃だらけの音符もいいところ
+くだらない映画に沿って
+機械仕掛けの僕たちはまだ
+夢を見てる
+⋆┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⋆
+Inst & lyric (https://piapro.jp/t/FlsA)`
+  },
+  {
+    title: "Re:End「トワイライトレンダー」",
+    year: 2023,
+    youtubeId: "qwx6J12VlrU",
+    thumbnail: "images/106.jpg",
+    credit: "Vocal: kayto / Lyrics & Music: 藤永龍太郎(Elements Garden) / MV Director: あーきとれーぶ",
+    roles: ["editing"],
+    description: `Re:End「トワイライトレンダー」
+
+Vocal : kayto
+Lyrics & Music : 藤永龍太郎(Elements Garden)
+
+Guitar & Bass : 藤永龍太郎
+
+Mix : 白井康裕
+Mastering : 吉良武男(TEMAS)
+MV Director : あーきとれーぶ
+
+各配信サイト＆サブスクリプションにて配信中
+https://linkco.re/1AmS7Nne
+
+Official Site
+https://ageha-promotion.com/artist/reend/
+
+Twitter
+Re:End(https://twitter.com/reend_official)
+藤永龍太郎(https://twitter.com/RyutaroFujinaga)
+
+
+歌詞
+
+トワイライトレンダー 
+
+懐かしい匂いがする
+遠い夏に交わした約束
+たぶんこの先ずっと
+解けない魔法
+
+誰もいない二人だけの空
+数え切れないほど通った道
+疑いもしない毎日が 
+ずっと続いていくんだと思っていた
+
+終わりを告げる鐘の音が響いて 
+じゃあ またねって手を振り合ったよ
+そう それが最後だったっけ 
+滲んだ色で夕焼けを描いてた
+
+ねえ、君は元気でやってるかい？
+もう声も思い出せないけど
+僕らは変わらないさ
+きっと きっと きっと
+あの日のまま
+
+突然の夕立で
+びしょ濡れになった花火大会
+喉に残るサイダーで
+浅く呼吸をした
+
+嬉しいこと
+悲しかったことも
+その全部を知りたかったな
+もう二度と戻れはしないからきっと
+だからこそ大切なんだろう
+
+終わりを告げる鐘の音が響いて 
+じゃあ またねって手を振り合ったよ
+そう それが最後だったんだ
+滲んだ色で夕焼けを描いてた
+　
+ねえ、君は元気でやってるかい？
+もう顔も思い出せないけど
+あの夏の光景は
+ずっと ずっと ずっと
+鮮やかで
+
+雨上がりの匂い
+緩い風が吹く
+乾いた雲が空に浮かぶ
+　
+微かな虫の声
+お辞儀した向日葵
+少しだけ肌寒い風が吹く
+
+季節は巡り また夏が来る
+気づけば僕も随分大人になったなあ
+あと何回、あと何十回
+きっとまだ覚えている
+
+今はもう声も顔も思い出せない
+そう 夏に描く僕らの残像
+僕らは変わらないさ
+たとえ全てが変わってしまっても
+
+ねえ、僕は元気でやってるよ 
+もう君のいない空の下で
+いつか笑い合えるように
+ずっと ずっと ずっと
+忘れないよ
+
+いつか いつか
+会える日まで
+
+#ReEnd #トワイライトレンダー`
+  },
+  {
+    title: "『夜の観覧車』/。明日はきっと雨",
+    year: 2023,
+    youtubeId: "L78eVlyChMQ",
+    thumbnail: "images/107.jpg",
+    credit: "Vocal: 日月とこ / Music: kake / MV: あーきとれーぶ",
+    roles: ["editing", "illustration"],
+    description: `夜の観覧車
+
+vocal 日月とこ
+https://twitter.com/tillykapi5
+
+music kake
+https://twitter.com/asuame_kake
+https://www.tiktok.com/@asuame
+
+MV あーきとれーぶ https://twitter.com/architrave123
+
+--------------------------------------------------------
+夜の観覧車
+　　　　　　　　　
+夢、夢と
+遊べば
+ゆらりゆら回ってくる
+でもね
+目が覚めれば
+記憶にはないお話
+
+しわくちゃな
+選択肢を
+［やり直し］ができたら
+もう思い描く
+姿形になれたかな
+
+夜の匂いに誘われて
+暗い街に灯りを燈すの
+
+夢、夢と
+遊べば
+ゆらゆらと
+夜を運んでゆく
+
+一番上から
+見ても
+届かない
+不思議なことなの
+
+明日がもう来ないとしても
+一息ついてちょっと
+理想と現実の中にいる
+私は誰なの
+
+ああもうたくさん
+嫌なことはなしで
+初めから
+
+夢、夢と
+遊べば
+ゆらりゆら回ってくる
+でもね
+目が覚めれば
+記憶にはないお話
+--------------------------------------------------------
+
+＃明日はきっと雨 ＃夜の観覧車`
+  },
+  {
+    title: "act - shukapi",
+    year: 2023,
+    youtubeId: "aSZ-m2JqzE8",
+    thumbnail: "images/108.jpg",
+    credit: "Music, Lyrics, Arrangement, Mix & Mastering: shukapi / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `作詞作編曲Mix/Mastering：shukapi　https://x.com/shukapipi_
+
+動画：あーきとれーぶ https://twitter.com/architrave123
+
+inst :https://piapro.jp/shukapi
+配信サイト:https://linkco.re/hVrecgmb`
+  },
+  {
+    title: "片道 / ふろた Official Music Video",
+    year: 2023,
+    youtubeId: "YuGCwIEbru4",
+    thumbnail: "images/109.jpg",
+    credit: "Vocal, Music & Lyrics: ふろた / Arrangement: Kyiku / Illustration: Onji. / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `ふろたです🛁
+「片道」という曲です。
+ゆっくり浸かっていってください。
+
+I'm Furota 🛁
+This song is called "Katahotori."
+Please soak in slowly.
+
+「片道」
+Vocal/Music/Lyrics : ふろた
+https://twitter.com/furota1610
+
+Arrange : Kyiku
+https://twitter.com/Ky1ku_
+
+Mix/Mastering : さぶろう
+https://twitter.com/saburousan3263
+
+Illustration : Onji.
+https://twitter.com/Oj_0624
+
+Movie : あーきとれーぶ
+https://twitter.com/architrave123
+
+「歌詞」
+窓の外を眺める　
+暮夜けた心は
+晴れることを知らない
+呼吸をやめた街並みが
+流れて行く
+ただ流れて行く
+
+心の叫びが雨になって
+瞼を満たしたあの夜にも
+たしかな意味はあった
+伝えられない想いが
+街の光と溶けていく
+
+この心は貴方のものだよ
+片道の愛が
+帰ることのない想いが
+近付いて染まってしまった
+私の気持ちは頬を伝った
+
+想いを紡いだ言の葉も
+日の目を浴びることはなく
+夜に咲いた後悔だけが
+私の心に残った
+
+この心は貴方のものだよ
+片道の愛が
+帰ることのない想いが
+近付いて染まってしまった
+私の気持ちは頬を伝った
+
+この心は私のものだよ
+そう言い聞かせた
+変わることのない想いに
+近付いて染まってしまった
+私の気持ちに
+別れを告げよう
+
+窓の外を眺める　
+暮夜けた心は
+晴れることを知らない
+呼吸をやめた街並みが
+流れてゆく
+ただ　流れてゆく
+
+#ふろた #片道`
+  },
+  {
+    title: "色魔/琴葉茜　MV",
+    year: 2023,
+    youtubeId: "_muGd352MBU",
+    thumbnail: "images/110.jpg",
+    credit: "Music: Peg / Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
+    description: `生きてたってしょうがないし
+
+offvocal:https://drive.google.com/file/d/1t-v6_mMyvuaNN_8FlTv55hNZA9S38UYj/view?usp=sharing
+
+:音楽：Peg
+
+　Twitter:https://twitter.com/Peeeeg_444
+
+　Instagram:https://www.instagram.com/peeeeg555
+
+
+
+映像：あーきとれーぶ
+
+　　Twitter:https://twitter.com/architrave123`
+  },
+  {
+    title: "【ニト。】正月さばゐばる feat.初音ミク",
+    year: 2022,
+    youtubeId: "SA2MOnFoauM",
+    thumbnail: "images/111.jpg",
+    credit: "Music & Lyrics: ニト。 / MV: あーきとれーぶ(アトリエプロジェクト) / Bass: ちゃんつー",
+    roles: ["director", "animation", "editing", "illustration"],
+    description: `どうも、ニト。です
+
+「お年玉くれ」
+
+DL&Streaming：https://orcd.co/newyear_survival
+
+Music&Lyric：ニト。
+MV：あーきとれーぶ(アトリエプロジェクト)
+https://twitter.com/architrave123?s=20&t=1rsoSJpzANgNr1SwoCM1FQ
+Bass：ちゃんつー
+https://twitter.com/tyantu_bass?s=20&t=3x9xxKENR1O1lLGOYOUWzg
+
+Twitter　https://twitter.com/nito_umbrella
+インスタ　https://www.instagram.com/cor_umbrella/
+ピアプロ　https://piapro.jp/nito_umbrella
+note　http://note.com/210umbrella
+
+取り出せ取り合え
+もうどうなったって仕様が無い
+引き出せ掻き出せ
+そうなんてったって正月
+
+此処らで始めようか
+満身創痍になっても
+
+表で踊ろうぜ
+一斉の声
+
+
+
+ひらひら揺れる花は散りゆく
+
+幾度に重なる思いは爆ぜる
+
+今宵この手に余る程に
+咲かせ咲かせよ花束
+
+今まさに戦場に尋常に勝負しな
+春爛漫に限界を貫いて
+さぁ盛大に満開に咲き乱れ
+
+ほら御免遊ばせお年玉
+
+又ゆらり揺めく
+永久に酔い痴れる
+偏に指折る儘
+ふと頬を叩いてみしゃんせとあらば
+
+
+
+取り合え奪い合え
+もうどうなったって仕様が無い
+
+引き出せ掻き出せ
+そうなんてったって正月
+此処らで始めようか
+満身創痍になっても
+
+表で踊ろうぜ
+一二三四
+
+
+
+燦々と色付くが儘に
+さんざめく蕾が春を攫う
+貴方の事も
+何時しか忘れて仕舞うか
+
+
+なら目を開け誇りも捨てて
+出会えや出会え旗を掲げて
+
+この瞬きを心に刻め
+果てゆく迄
+
+
+
+今まさに戦場に尋常に勝負しな
+春爛漫に限界を貫いて
+さぁ盛大に満開に咲き乱れ
+ほら千代に八千代に飛び散って
+
+
+天井に轟かせ
+いざ爛々と花吹雪け
+ただ鮮明に舞い踊れ
+ほら御免遊ばせ
+お年玉くれ`
+  },
+  {
+    title: "【MV】チーキブリーキ【オリジナル曲】",
+    year: 2022,
+    youtubeId: "Fnx5b7gnlmA",
+    thumbnail: "images/112.jpg",
+    credit: "Vocal & Lyrics: 高倉むき / Music: 福島拓也 / Illustration & Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
+    description: `⭐活動１０周年記念のオリジナルソングMV⭐
+みんな本当にいつもありがとう・・・！！
+タイトルの『チーキブリーキ』（cheeki breeki）はロシア語で”すべて大丈夫”という意味です！（たぶん）
+
+後日JOYSOUNDから配信予定！また開始したらお知らせします！
+━━━━━━━━━━━━━━━━━━━━★
+★映像・イラスト：あーきとれーぶ
+https://twitter.com/architrave123
+https://potofu.me/architrave123
+
+★作曲：福島拓也
+https://twitter.com/takuyalily
+http://takuyafukushima.com/
+
+★歌・作詞：高倉むき
+https://twitter.com/takamukikurage
+https://www.youtube.com/@takamukiASMR/featured
+━━━━━━━━━━━━━━━━━━━━★
+あー退屈だな
+何もやりたいことがないよ
+あー眠たいから
+今日も一日捨てちゃうか
+
+起きたら夜だろうな
+酒にでも酔いながら
+映画で感情移入して
+生きてる気になるか
+
+幸せってなんだろうな
+焼きそばは濃いめがいい
+息を吸って吐いてたら
+また夜が来ちゃった
+
+あー今日は気分がいい
+最高にハイな目覚め
+あー踊りながら
+好きな曲かけて歯を磨く
+
+おしゃれでお出かけして
+チルにお茶でもきめて
+ナイスなデイ過ごしても
+帰れば家でぽつり
+
+幸せってなんだろうな
+梅酒は濃いめがいい
+目をつむって開けてたら
+すぐ朝が来ちゃった
+
+生きるのムズすぎない？
+何かになろうとして
+意味とか考えちゃって
+もがいて終わりがくる
+
+幸せって多分さあ
+人生のパーティータイム
+Happy is Miracle
+It' a Wonderful Life
+チーキブリーキ!`
+  },
+  {
+    title: "ヤマモトガク「再見」 MV /Gaku Yamamoto-See You Again",
+    year: 2022,
+    youtubeId: "CZ6e_YGfNno",
+    thumbnail: "images/113.jpg",
+    credit: "Music: ヤマモトガク / Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
+    description: `水入らず
+
+サブスク・DL配信: https://linkco.re/C9HHYre3
+
+offvocal:https://drive.google.com/drive/folders/1KAxZJpDSFKFuEjJusDSobr42STzgtVKl?usp=sharing
+
+
+
+音楽：ヤマモトガク
+
+　Twitter:https://twitter.com/Peeeeg_444
+
+　Instagram:https://www.instagram.com/peeeeg555
+
+
+
+映像：あーきとれーぶ
+
+　　Twitter:https://twitter.com/architrave123`
+  },
+  {
+    title: "ダチュラ/初音ミク(MUSIC VIDEO)",
+    year: 2022,
+    youtubeId: "gVMOW0oFOO8",
+    thumbnail: "images/114.jpg",
+    credit: "Vocal: 初音ミク / Lyrics & Music: sinami / Movie: あーきとれーぶ",
+    roles: ["director", "animation", "editing", "illustration"],
+    description: `初めまして。sinamiです。
+この度、全4曲完結の音楽作品"ダチュラ"より、序章となる第1曲目を公開しました。
+
+夢を捨てた少女と、その夢を拾った少年の物語。
+
+各種サブスクで配信中→ https://linkco.re/1YUcBaQD
+
+作詞作曲/sinami
+
+(https://twitter.com/sinami86)
+
+映像/あーきとれーぶ
+
+(https://twitter.com/architrave123)
+
+MIX&Mastering/memento mori.
+
+(https://twitter.com/mib126_)
+
+歌/初音ミク
+
+off vocal
+→(https://piapro.jp/t/INf9)
+
+歌詞
+
+汚い部屋で今日も
+僕らは息をして、また日々を呑んだ
+いつかはばれるこの心の奥の魔物だ
+
+僕のことならきっと大丈夫だよ
+君が思うよりも強いからさ
+
+君のことならきっと大丈夫って言った
+愚かな答えだけど
+
+僕は黙ってたんだっけ
+いつかを待ってたんだっけ
+あの歌も、この歌も全て詭弁でしかないんだ
+
+僕は分かってたんだっけ
+君を思ってたんだって
+
+あの日々も、思い出も消えるから
+
+汚い部屋で今日も
+僕らは息をして、また日々を呑んだ
+夢見たあの子が泣いていた
+幻をみて
+
+将来のことばかりを考えていた
+あのときの景色も全部、運命が攫った
+忘れるわけがないだろ
+平凡が毒なら、夢は薬だと言うその顔が浮かんだ
+
+僕は黙ってたんだっけ
+いつかを待ってたんだっけ
+あの歌も、この歌も全て詭弁でしかないんだ
+
+僕は分かってたんだっけ
+君を思ってたんだって
+
+あの日々も
+
+嗚呼、僕は黙ってたんだって
+いつかを待ってたんだって
+あの夏も、この憂鬱も全て吹き飛ばしたいよ
+もうさ
+
+夢は間違ってないって
+僕は思ってたんだって
+
+君の夢の続きは僕が見るから
+
+どうでもいいことばっかりだ
+あの日の傷も今じゃ癒えた
+君さえ居てくれたらなんて、そう思ったよ
+どうでもいいことばっかりだ
+あの日の涙も嘘なんだ
+きっとこの世の全て、嘘ばっかりなんだ`
+  },
+  {
+    title: "「カッコウ」／可不",
+    year: 2021,
+    youtubeId: "9IwsqaQIslo",
+    thumbnail: "images/115.jpg",
+    credit: "Vocal: 可不 / Music: kake / MV: あーきとれーぶ",
+    roles: ["editing", "illustration"],
+    description: `「カッコウ」
+
+vocal 可不
+https://twitter.com/kaf_you
+music kake
+https://twitter.com/asuame_kake
+https://www.tiktok.com/@asuame
+MV あーきとれーぶ
+https://twitter.com/architrave123
+
+---------------------------------------------------------
+ off vocal 
+https://drive.google.com/file/d/1i5H8GiqwRkVIKdCvXVae-vdtw9x5Wgyb/view?usp=sharing
+
+---------------------------------------------------------
+
+カッコウ
+
+
+窓の外、通り雨が
+パラパラ降ってる
+感情も愛情も持たされてないの
+ねえ、満たして
+
+手が届く幸せには微塵も感じないわ
+届かないものをいつも眺めていたいの
+
+言葉や行動で示されても信用できないの
+だってあなたは私じゃないからさ
+嫌い嫌いは嫌いの嫌い
+
+上から見下ろすよりも
+今日だけは違う角度で
+そうよ
+得するものは嘘つく者
+涙も枯れるわ
+
+正直者は何処か
+この檻の中は敵よ
+だって
+カッコウカッコウ泣いていても
+ねえ、無駄なの
+---------------------------------------------------------
+
+＃可不 ＃カッコウ`
+  },
+  {
+    title: "『Tokyo French Cruller』初音ミク / Milo",
+    year: 2021,
+    youtubeId: "bC4GLLyW7lA",
+    thumbnail: "images/116.jpg",
+    credit: "Vocal: 初音ミク / Music: Milo / Lyrics & Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `オリジナルボーカロイド曲の7作目です。
+Twitter : (@watanabe_milo) https://twitter.com/watanabe_milo
+ニコニコ動画 : https://www.nicovideo.jp/watch/sm38873944
+ピアプロ : https://piapro.jp/t/eIqA
+
+ストリーミング配信：https://open.spotify.com/album/3QIVCoX5JCuoY4h5WhaPXC
+
+Vocal : 初音ミク
+Music : Milo 
+Lyrics & Movie : Architrave (@architrave123)
+
+[ Lyrics ]
+リアリズムは、わたしには無くて涙が出そう
+乱雑で、真っ黒で、嗚呼、もうお茶の水
+
+アタマの隅に、サッと寄せて
+嗚呼、決してわたしは刹那主義じゃないの
+
+コバルトブルウのシガレットを  
+「いま」は希態なこの一本を
+プラットフォオムに投げ捨てて
+私は朧気ながら分かっているの
+嗚呼、フレンチクルーラー
+
+ロマンチシズムは、わたしに在って
+ピアノが聴こえる…
+清潔で、爽快で、金色のシンデレラ城
+
+スカアトを右手で、ギュッと握って
+きっと私は自分を上手く愛せない
+
+あんまり静かでバカバカしい
+かっとなって、まるでナニカみたいに
+さようなら、フレンチクルーラー
+わたしは、恋をしているのかも知れないわ
+嗚呼、フレンチクルーラー
+
+キャラメルを一つ口に含んで
+「いま」は遠くに飛び去ってしまった
+おやすみ、シンデレラ姫
+わたしは東京のどこかにきっといるわ
+嗚呼、フレンチクルーラー
+さよなら、フレンチクルーラー
+
+[ Tags ]
+#初音ミク
+#Tokyo French Cruller
+#Milo
+
+Hatsune Miku NT © Crypton Future Media, INC. www.piapro.net`
+  },
+  {
+    title: "「まだ終わらないでよ」／。明日はきっと雨",
+    year: 2021,
+    youtubeId: "h3RPJj5BdJo",
+    thumbnail: "images/117.jpg",
+    credit: "Vocal: 日月とこ / Music: kake / MV: あーきとれーぶ",
+    roles: ["editing", "illustration"],
+    description: `「まだ終わらないでよ」
+
+。明日はきっと雨
+https://twitter.com/asuame_official
+vocal 日月とこ　
+https://twitter.com/tillykapi5
+music kake
+https://twitter.com/asuame_kake
+MV あーきとれーぶ
+https://twitter.com/architrave123
+
+---------------------------------------------------------
+ダウンロード・ストリーミング配信
+https://linkco.re/AYNNgtrX
+
+---------------------------------------------------------
+
+まだ終わらないでよ
+
+
+偽りの化粧をほどこし
+（1日が終わる）
+まだ夢をみていたかった
+
+ここは人が多すぎてさ
+嫌になるよ
+心塞ぐ
+
+避けられない
+事実なら
+もう怖くない
+感じることなく
+笑顔で
+慣れたことよ
+騙すなら正直に
+空気のように溶け込む
+未練
+
+偽りの化粧をほどこし
+退屈な日々はさよなら
+
+避けられない
+現実が
+もう迫ってくる
+じわりじわりと
+嫌がらせ
+あと5分だけ
+アラーム止めたままで
+また夢の中、飛び込む
+
+毎日が同じ繰り返し
+（偽れても偽れない）
+ため息しかつけないでしょ
+
+ここは人が多すぎてさ
+嫌になるよ
+もう、
+---------------------------------------------------------
+
+＃明日はきっと雨 ＃まだ終わらないでよ`
+  },
+  {
+    title: "セミヌード／flower",
+    year: 2021,
+    youtubeId: "0HOmDv_n7hA",
+    thumbnail: "images/118.jpg",
+    credit: "Music: hieta.C / Illustration & Movie: あーきとれーぶ",
+    roles: ["editing", "illustration"],
+    description: `ご視聴ありがとうございます。
+オリジナル曲５曲目です。
+
+音楽　hieta.C【Twitter　@hieta_chahan】
+
+イラスト／動画　あーきとれーぶ 様【Twitter　@architrave123】
+
+ニコニコ動画へも投稿しております。
+https://www.nicovideo.jp/watch/sm38625621
+
+=============================================================
+【ニコニコ動画マイリスト】
+https://www.nicovideo.jp/my/mylist/68648258
+
+【Twitter】
+https://twitter.com/hieta_chahan
+
+=============================================================
+【歌詞】
+
+余りにも空虚な箱の中で　閉じ込めて蓋をされた二人は
+無味乾燥なガラクタに他ならない　虚しいけれど
+互いに求め合うことばかりで　繰り返し繰り返し続けては
+全てを絞り尽くしてしまったのだろう　残骸を抱きしめる
+
+欠けた心が重なって　補わず広がった空白を
+知られたくない　知りたくもない　あなたがそれを覗こうとも
+
+灯りを消して　気が狂れた様な声で私の名前を呼んで
+何も与えられるものはないの　それで構わないなら
+呼吸を荒げ　蠢く舌の先で私を探らないで　
+上も下も全て剥ぎ取られたとしても　見せるのは半分だけ
+
+紙一枚のズレを積み重ねて　一冊の本の高さとなった
+白紙に何を記していけば　この差を許容し合えるのかな
+
+温いコーヒーと同じ様に　火傷しない想いなら丁度いい
+強い苦みを感じる前に　飲み込めるまで冷ましたくて
+
+扉を塞いで　乾ききった掌で私の顔を撫でて
+慈しみを覚えはしないけど　それで満足するなら
+身体を寄せて　小刻みな指先で私を嬲らないで
+前も後ろも全て汚されたとしても　見せるのは半分だけ
+
+灯りを消して　気が狂れた様な声で私の名前を呼んで
+何も与えられるものはないの　それで構わないなら
+呼吸を荒げ　蠢く舌の先で私を探らないで　
+上も下も全て剥ぎ取られたとしても　見せるのは半分だけ`
+  },
+  {
+    title: "Swing - Samuel Goldenberg",
+    year: 2021,
+    youtubeId: "dVPfENXUa5Y",
+    thumbnail: "images/119.jpg",
+    credit: "Song & Written by: Samuel Goldenberg / Movie: あーきとれーぶ",
+    roles: ["editing", "illustration"],
+    description: `Swing - Samuel Goldenberg
+
+僕らの1st singleがPVになりました。
+そしてついにサブスク解禁しました！
+(Please subscribe here!)
+https://big-up.style/Vyey9CaLEo
+
+Song & Written by Samuel Goldenberg
+    -Instagram: https://www.instagram.com/samuel_goldenberg/
+    -Twitter: https://twitter.com/samuelgbgb
+Movie by Architrave
+    -Twitter: https://twitter.com/architrave123
+
+#Rock #PV #邦楽
+#バンド #band #anime #アニメ
+#Jrock #samuelgoldenberg #サミュエルゴールデンベルグ #サミュエルゴールデンベルク
+#PV #ミュージックビデオ
+#swing #blues
+
+-
+Lyrics
+
+DTNの彼に 事の結末を聞いたよ
+当分先になりそう また君に会う それまでは
+
+どんな姿カタチで現れようとしてるの？
+再放送のドラマを見るわかりきった結末を
+ 
+畳み掛ける夢の続き
+タラレバの海に沈んでいく
+溢れそうで嫌になるよ
+君を呼ぶ声はかすれていく
+
+ここに答えがないなら Ah-Yes 窓をとじて
+何も持たずにいくよ このレールもその続きも
+
+畳み掛ける夢の続き
+タラレバの海を泳いでいく
+溢れそうで嫌になるよ
+君を呼ぶ声は僕の答え`
   },
   {
     title: "Pulplant『SHINKIROU』Lyric Video Full ver.",
