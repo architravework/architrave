@@ -531,7 +531,7 @@ Spotify：https://open.spotify.com/intl-ja/arti...
   },
   {
     title: "GREEEEN / TO ALL SPORTS LOVERS　アルバムショート動画",
-    year: 2024,
+    year: 2023,
     youtubeId: "q23YpekQmYQ",
     thumbnail: "images/06.jpg",
     credit: "Movie: あーきとれーぶ",
@@ -751,7 +751,7 @@ Instagram→  /   / nerrlu.zzz
   },
   {
     title: "FMV３クスッギフト　3月配信映像　【ディレクション】",
-    year: 2025,
+    year: 2024,
     youtubeId: "7v4eX-Q8k34",
     thumbnail: "images/07.jpg",
     credit: "Movie Editing: あーきとれーぶ / Animation: cacaotane",
@@ -2412,7 +2412,7 @@ https://honemaru-p.booth.pm
   },
   {
     title: "白神真志朗 ”ココデハナイドコカヘ” Music Video",
-    year: 2026,
+    year: 2025,
     youtubeId: "6sII8g2d7Ag",
     thumbnail: "images/86.jpg",
     credit: "Words & Music: Mashiro Shirakami / Music Video: あーきとれーぶ",
