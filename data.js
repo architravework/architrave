@@ -221,134 +221,29 @@ Official Website: https://kuwagatower.com/
 また会う日まで　さよなら`
   },
   {
-    title: "ねむ「当たり前の終止符」Music Video",
+    title: "仮音 - フレネミーハートブレイク feat.初音ミク",
     year: 2026,
-    youtubeId: "XFhPR9i27eQ",
-    thumbnail: "images/02.jpg",
-    credit: "Vocal, Lyrics & Music: ねむ / Arrangement: 河田一真 / Illustration: 中辻作太朗 / Movie & Animation: あーきとれーぶ",
-    roles: ["animation", "editing"],
-    description: `懐かしんで笑おう
+    youtubeId: "h2vbUtFx1wo",
+    thumbnail: "images/120.jpg",
+    credit: "Music: 仮音 / Vocal: 初音ミク / Vocal Tuning: びび / Illustration: はきゅ / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `はじめまして！
+現役音大生ボカロP、仮音(カノン)です！♬
+これから頑張るので、チャンネル登録して応援してもらえると嬉しいです！(T_T)
 
-ねむ『当たり前の終止符』Streaming & Download
-（下記リンクから楽曲の視聴・ダウンロードができます！）
-https://orcd.co/the-end-of-ordinary-days
+🎧️DL / Streaming
+https://linkco.re/pZVPYSNt
 
-（カラオケ音源はこちらからです！ぜひ歌って下さい！）
-https://www.dropbox.com/scl/fi/t0jbdz...
+🎤Vocal : 初音ミク
+🧎Vocal Tuning：びび(https://x.com/bibian0115)
+🖼️Illustration : はきゅ(https://x.com/krkr_9Nosee_) 
+🎬Movie : あーきとれーぶ'(https://x.com/architrave123) 
 
-作詞・作曲・歌：ねむ
-編曲：河田一真
-ジャケット・Music Videoイラスト：中辻作太朗さん
-映像編集・アニメーション：あーきとれーぶさん
+🌐SNS
+X：https://x.com/kanonsgz0
+TikTok：https://www.tiktok.com/@piano.kanon3
 
-▷河田一真さんのSNSはこちら
-Instagram：  / kk_yaarp
-X：https://x.com/KK_Yaarp
-
-▷中辻作太朗さんのSNSはこちら
-HP：https://www.visiontrack.jp/coordinate...
-Instagram：  / 39ar_39ca
-X：https://x.com/39ar_39ca
-
-▷あーきとれーぶさんのSNSはこちら
-X：https://x.com/architrave123
-TikTok：  / architrave123
-アトリエプロジェクト：https://atelierproject.net/
-
-ーーー
-
-『当たり前の終止符』歌詞
-
-あっという間だね
-そんな声が聞こえる2月
-寒い風と共に時は過ぎる
-「あんなこともあったね」
-「あんなこともしたね」
-思い出話を膨らませる
-
-退屈した授業
-奢りをかけたテスト
-何度もらってもビビる成績表
-大したことじゃない
-むしろちっぽけでくだらない
-積み重ねが全てでした。
-
-少しづつ終止符へと歩む
-当たり前を手放す時期へ
-受け入れてたはずなのに
-目頭に伝わる熱はなんだろう
-
-変わらないで離れたくない
-過去に成り下がるのがもどかしい
-別れ道は引き返せない
-もう一度も通用しない
-
-泣かないでいつものように
-かっぴらいた口で笑ってよ
-「それでもやっぱ泣いたよね」なんて
-未来で懐かしんで話そう
-
-たった一度の
-青い春がもう二度と
-参加出来ない時に近づいて
-「あんなこともしなきゃ」
-「あんなこともあるね」
-思い描く先を膨らませる
-
-空っぽのロッカー
-壁から剥がすプリント
-教室が無機質に変わりゆく
-子供のままでいたいな
-汚れを知らず純粋に
-そんな訳にもいかないね。
-
-喜びを分かち合える友が
-私の傷を癒してくれた
-長くて短く早くて遅い
-日々が私を作り上げたの
-
-変わりたくない終わりたくない
-あと少しだけでいいから待って
-寂しくなって恋しくなった
-もう二度と戻れないあの日
-
-泣いていいよいつものように
-しないで今だけは素直に
-「それだけやっぱ楽しかったね」と
-互いに懐かしんで笑おう
-
-心は踊れば
-痛むこともある
-大人になる君の滑走路
-未完成のまま提出する
-未熟な私を熟すために
-無謀に飛び出して
-
-変わらないよいついつまでも
-心の中に残るメモリー
-忘れずに抱えて歩こう
-酸いも甘いも生きた証よ
-
-泣いちゃって涙の粒が
-春風に吹かれて消えていく
-次のステージに挑み歩む
-互いの未来に幸あれと笑おう
-
-ーーー
-
-TikTok→  /   / nerrlu_zzz
-Instagram→  /   / nerrlu.zzz
-𝕏(旧Twitter)→ / https://x.com/nerrlu_Zzz
-
-ーーー
-
-唯一無二で貴重で何気ない青春を
-懐かしむか、謳歌するか、思い描くか
-どんな立場でも温かい気持ちになって欲しい
-そんな気持ちで作りました
-
-#おすすめ #オリジナル曲 #高二 #伸びろ
-#ねむ #当たり前の終止符 #オリジナル曲`
+#vocaloid #vocaloPost #vocanew #初音ミク`
   },
   {
     title: "GRe4N BOYZ ショート動画「ピポ」",
@@ -636,7 +531,7 @@ Spotify：https://open.spotify.com/intl-ja/arti...
   },
   {
     title: "GREEEEN / TO ALL SPORTS LOVERS　アルバムショート動画",
-    year: 2024,
+    year: 2023,
     youtubeId: "q23YpekQmYQ",
     thumbnail: "images/06.jpg",
     credit: "Movie: あーきとれーぶ",
@@ -645,8 +540,218 @@ Spotify：https://open.spotify.com/intl-ja/arti...
 Movie あーきとれーぶ   / architrave123`
   },
   {
+    title: "ねむ「スターチス」Music Video",
+    year: 2024,
+    youtubeId: "wbTt7oJsKpc",
+    thumbnail: "images/25.jpg",
+    credit: "Vocal, Lyrics & Music: ねむ / Illustration & Storyboard: ゆのさん / Editing: あーきとれーぶ",
+    roles: ["editing"],
+    description: `今は亡き貴方へ
+
+ねむ『スターチス』Streaming & Download
+（下記リンクから楽曲の視聴・ダウンロードができます！）
+https://orcd.co/statice
+
+（カラオケ音源はこちらからです！ぜひ歌って下さい！）
+
+https://www.dropbox.com/scl/fi/ym2let...
+
+作詞・作曲・歌：ねむ
+イラスト・絵コンテ：ゆのさん
+編集：あーきとれーぶさん
+
+ーーー
+
+『スターチス』
+
+変わらぬ朝を迎えるだろうと思っていたんだ
+焦りと混沌が混じった声を耳にするまでは
+昨夜の会話が最期だと誰も思ってなかった
+確証のない「大丈夫」を過信しすぎたからだ
+
+意見合わなくて喧嘩したり
+「ごめん」を意地張って言わなかった
+ウザイ大嫌いなんて事も思っちゃったりしていたよ
+だけど
+自分の思いとは真逆の愛情だったと
+知った時には貴方は居なかった
+
+消えてから気づく大切さ
+溢れ出る「ああしたら良かった」
+どれだけ涙こぼそうが時計は進む無情さ
+貴方と取り替えられたこの虚無感を遺し
+空へ舞っていく
+霞んで戻らぬその背中に
+「ありがとう」と言わせて
+
+
+変わらぬ心であり続けると思っていたんだ
+自信と誇りを無くしたと
+目に見えてわかるまでは
+いつもそばにあった温もりが感じれなくなって
+メッキに覆われた心は知らぬ間に朽ちていった
+
+「本心をさらけ出してくれ」と
+誰から言われてもしなかった
+平気なフリをしていることが正解だと思っていたの
+だけど
+自分の思いとは真逆の不正解だったと
+知った時には私はいなかった
+
+消えてから気づく脆さと
+溢れ出る「嗚呼しなきゃ良かった」
+どれだけ弱音こぼそうが時計は進む無情さ
+私と取り替えられたこの限界に
+気づく事を待っていた
+勘づかせてくれた貴方に「ありがとう」と言わせて
+今はもう届かない想いをこの唄に乗せて
+
+ーーー
+
+TikTok→  / nerrlu_zzz  
+Instagram→  / nerrlu.zzz  
+𝕏(旧Twitter)→https://x.com/nerrlu_Zzz
+
+ーーー
+
+3年前の今日。空へ舞って逝った貴女が聴いていてくれますように。
+
+#おすすめ #オリジナル曲 #高一 #伸びろ
+#ねむ #スターチス #オリジナル曲`
+  },
+  {
+    title: "ねむ「当たり前の終止符」Music Video",
+    year: 2026,
+    youtubeId: "XFhPR9i27eQ",
+    thumbnail: "images/02.jpg",
+    credit: "Vocal, Lyrics & Music: ねむ / Arrangement: 河田一真 / Illustration: 中辻作太朗 / Movie & Animation: あーきとれーぶ",
+    roles: ["animation", "editing"],
+    description: `懐かしんで笑おう
+
+ねむ『当たり前の終止符』Streaming & Download
+（下記リンクから楽曲の視聴・ダウンロードができます！）
+https://orcd.co/the-end-of-ordinary-days
+
+（カラオケ音源はこちらからです！ぜひ歌って下さい！）
+https://www.dropbox.com/scl/fi/t0jbdz...
+
+作詞・作曲・歌：ねむ
+編曲：河田一真
+ジャケット・Music Videoイラスト：中辻作太朗さん
+映像編集・アニメーション：あーきとれーぶさん
+
+▷河田一真さんのSNSはこちら
+Instagram：  / kk_yaarp
+X：https://x.com/KK_Yaarp
+
+▷中辻作太朗さんのSNSはこちら
+HP：https://www.visiontrack.jp/coordinate...
+Instagram：  / 39ar_39ca
+X：https://x.com/39ar_39ca
+
+▷あーきとれーぶさんのSNSはこちら
+X：https://x.com/architrave123
+TikTok：  / architrave123
+アトリエプロジェクト：https://atelierproject.net/
+
+ーーー
+
+『当たり前の終止符』歌詞
+
+あっという間だね
+そんな声が聞こえる2月
+寒い風と共に時は過ぎる
+「あんなこともあったね」
+「あんなこともしたね」
+思い出話を膨らませる
+
+退屈した授業
+奢りをかけたテスト
+何度もらってもビビる成績表
+大したことじゃない
+むしろちっぽけでくだらない
+積み重ねが全てでした。
+
+少しづつ終止符へと歩む
+当たり前を手放す時期へ
+受け入れてたはずなのに
+目頭に伝わる熱はなんだろう
+
+変わらないで離れたくない
+過去に成り下がるのがもどかしい
+別れ道は引き返せない
+もう一度も通用しない
+
+泣かないでいつものように
+かっぴらいた口で笑ってよ
+「それでもやっぱ泣いたよね」なんて
+未来で懐かしんで話そう
+
+たった一度の
+青い春がもう二度と
+参加出来ない時に近づいて
+「あんなこともしなきゃ」
+「あんなこともあるね」
+思い描く先を膨らませる
+
+空っぽのロッカー
+壁から剥がすプリント
+教室が無機質に変わりゆく
+子供のままでいたいな
+汚れを知らず純粋に
+そんな訳にもいかないね。
+
+喜びを分かち合える友が
+私の傷を癒してくれた
+長くて短く早くて遅い
+日々が私を作り上げたの
+
+変わりたくない終わりたくない
+あと少しだけでいいから待って
+寂しくなって恋しくなった
+もう二度と戻れないあの日
+
+泣いていいよいつものように
+しないで今だけは素直に
+「それだけやっぱ楽しかったね」と
+互いに懐かしんで笑おう
+
+心は踊れば
+痛むこともある
+大人になる君の滑走路
+未完成のまま提出する
+未熟な私を熟すために
+無謀に飛び出して
+
+変わらないよいついつまでも
+心の中に残るメモリー
+忘れずに抱えて歩こう
+酸いも甘いも生きた証よ
+
+泣いちゃって涙の粒が
+春風に吹かれて消えていく
+次のステージに挑み歩む
+互いの未来に幸あれと笑おう
+
+ーーー
+
+TikTok→  /   / nerrlu_zzz
+Instagram→  /   / nerrlu.zzz
+𝕏(旧Twitter)→ / https://x.com/nerrlu_Zzz
+
+ーーー
+
+唯一無二で貴重で何気ない青春を
+懐かしむか、謳歌するか、思い描くか
+どんな立場でも温かい気持ちになって欲しい
+そんな気持ちで作りました
+
+#おすすめ #オリジナル曲 #高二 #伸びろ
+#ねむ #当たり前の終止符 #オリジナル曲`
+  },
+  {
     title: "FMV３クスッギフト　3月配信映像　【ディレクション】",
-    year: 2025,
+    year: 2024,
     youtubeId: "7v4eX-Q8k34",
     thumbnail: "images/07.jpg",
     credit: "Movie Editing: あーきとれーぶ / Animation: cacaotane",
@@ -1863,86 +1968,6 @@ Mashoe / マシュー
 #anime`
   },
   {
-    title: "ねむ「スターチス」Music Video",
-    year: 2024,
-    youtubeId: "wbTt7oJsKpc",
-    thumbnail: "images/25.jpg",
-    credit: "Vocal, Lyrics & Music: ねむ / Illustration & Storyboard: ゆのさん / Editing: あーきとれーぶ",
-    roles: ["editing"],
-    description: `今は亡き貴方へ
-
-ねむ『スターチス』Streaming & Download
-（下記リンクから楽曲の視聴・ダウンロードができます！）
-https://orcd.co/statice
-
-（カラオケ音源はこちらからです！ぜひ歌って下さい！）
-
-https://www.dropbox.com/scl/fi/ym2let...
-
-作詞・作曲・歌：ねむ
-イラスト・絵コンテ：ゆのさん
-編集：あーきとれーぶさん
-
-ーーー
-
-『スターチス』
-
-変わらぬ朝を迎えるだろうと思っていたんだ
-焦りと混沌が混じった声を耳にするまでは
-昨夜の会話が最期だと誰も思ってなかった
-確証のない「大丈夫」を過信しすぎたからだ
-
-意見合わなくて喧嘩したり
-「ごめん」を意地張って言わなかった
-ウザイ大嫌いなんて事も思っちゃったりしていたよ
-だけど
-自分の思いとは真逆の愛情だったと
-知った時には貴方は居なかった
-
-消えてから気づく大切さ
-溢れ出る「ああしたら良かった」
-どれだけ涙こぼそうが時計は進む無情さ
-貴方と取り替えられたこの虚無感を遺し
-空へ舞っていく
-霞んで戻らぬその背中に
-「ありがとう」と言わせて
-
-
-変わらぬ心であり続けると思っていたんだ
-自信と誇りを無くしたと
-目に見えてわかるまでは
-いつもそばにあった温もりが感じれなくなって
-メッキに覆われた心は知らぬ間に朽ちていった
-
-「本心をさらけ出してくれ」と
-誰から言われてもしなかった
-平気なフリをしていることが正解だと思っていたの
-だけど
-自分の思いとは真逆の不正解だったと
-知った時には私はいなかった
-
-消えてから気づく脆さと
-溢れ出る「嗚呼しなきゃ良かった」
-どれだけ弱音こぼそうが時計は進む無情さ
-私と取り替えられたこの限界に
-気づく事を待っていた
-勘づかせてくれた貴方に「ありがとう」と言わせて
-今はもう届かない想いをこの唄に乗せて
-
-ーーー
-
-TikTok→  / nerrlu_zzz  
-Instagram→  / nerrlu.zzz  
-𝕏(旧Twitter)→https://x.com/nerrlu_Zzz
-
-ーーー
-
-3年前の今日。空へ舞って逝った貴女が聴いていてくれますように。
-
-#おすすめ #オリジナル曲 #高一 #伸びろ
-#ねむ #スターチス #オリジナル曲`
-  },
-  {
     title: "KIBAKO - 心が 【Official Music Video】",
     year: 2023,
     youtubeId: "Yu7YXJbm9TQ",
@@ -2387,7 +2412,7 @@ https://honemaru-p.booth.pm
   },
   {
     title: "白神真志朗 ”ココデハナイドコカヘ” Music Video",
-    year: 2026,
+    year: 2025,
     youtubeId: "6sII8g2d7Ag",
     thumbnail: "images/86.jpg",
     credit: "Words & Music: Mashiro Shirakami / Music Video: あーきとれーぶ",
