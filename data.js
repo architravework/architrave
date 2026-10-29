@@ -53,6 +53,114 @@ M10. ウタウタイ（MIGOPPER!）
 　X:https://x.com/hirohu69_vgs`
   },
   {
+    title: "宇宙パイロット「ANEMONE」Official Music Video",
+    year: 2026,
+    youtubeId: "5ZCztRxaHss",
+    thumbnail: "images/121.jpg",
+    credit: "Music & Lyric: Chinozo / Vocal: Yoru / Illust: 月ゐ / Movie: あーきとれーぶ",
+    roles: ["editing"],
+    description: `Streaming & Download：https://orcd.co/uchu-pilot_anemone
+Uchu Pilot / ANEMONE
+
+Produce：宇宙パイロット
+Vocal：Yoru
+Gutar：Chinozo
+Bass：kakeyan
+Music & Lyric：Chinozo
+
+Vocal MIx：やっすん
+
+Illust：月ゐ
+Movie：あーきとれーぶ
+
+Inst
+https://drive.google.com/drive/folders/1FE7e5mLyVPnZLddZCjbkNcfLmOQeYk5q?usp=sharing
+
+=====
+午前0時愛歌幽霊
+それは僕のことかもしれない
+明日は何の話をしようか
+そんなことを反芻してる
+
+キミの隣に風
+お気にの服で合わせ
+将来の夢とか捨てて
+メッセージを見つめてる
+なのに急にキミは泣いた
+何も言わずに去ってった
+こんなに尽くしてるのに
+こんなに尽くしてるのに
+
+通りすがりの人がね
+僕を見て笑ってるのに
+
+好きになればなるほどに
+その花に触れたくなるのに
+キミの言葉が毒のように
+僕を蝕んだANEMONE
+
+LaLaLa
+勘違いじゃないと笑いたい
+LaLaLa
+だから僕を蝕んでANEMONE
+
+戻れないよきっと
+向かい風だったキミを
+綺麗だと感じた日を
+尊いと思ってたいよ
+踏んじまったキミの傷を
+撫でてあげるだから
+ちょっとは僕のことを見てほしいんだよ
+戻れないよきっと
+向かい風だったキミを
+綺麗だと感じた日を
+尊いと思ってたいよ
+踏んじまったキミの傷を
+撫でてあげるだから
+ちょっとは僕のことを見てほしいんだよ
+
+ガラスの恋人たちが
+僕を見て笑ってるのに
+
+好きになればなるほどに
+その花に触れたくなるのに
+キミの言葉が泡のように
+無数に踊っている
+揺蕩った野の花はただ
+僕を無意識に惑わせて
+キミの言葉が毒のように
+僕を蝕んだ愛しいANEMONE
+=====
+
+▼宇宙パイロット
+YouTube：https://www.youtube.com/@uchupilot
+X：https://x.com/uchupilot
+TikTok：https://www.tiktok.com/@uchupilot
+Instagram：https://www.instagram.com/uchupilot/
+
+▼Chinozo
+YouTube：https://www.youtube.com/@chinozo_
+ニコニコ動画：https://www.nicovideo.jp/mylist/63011659
+X：https://twitter.com/chinozo_
+TikTok：https://www.tiktok.com/@chinozo_
+Instagram：https://www.instagram.com/chinozoo0/
+Spotify：https://open.spotify.com/intl-ja/artist/205dGSmCjnFA0Mjptshdsx
+
+▼Yoru
+YouTube：https://www.youtube.com/@YounagiYoru
+X：https://x.com/yoru_younagi
+TikTok：https://www.tiktok.com/@yoru_younagi
+Instagram：https://www.instagram.com/yoru_younagi/
+Spotify：https://open.spotify.com/intl-ja/artist/1a0pqNzx6ILvOkTcu8PJnF
+
+#宇宙パイロット
+#uchupilot
+#Yoru 
+#chinozo 
+@chinozo_  
+@yoru_younagi`
+  },
+  {
     title: "kiyu「ジュリエット」Official Music Video",
     year: 2026,
     youtubeId: "vo3qug1HFXs",
